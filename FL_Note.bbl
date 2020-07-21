@@ -1,0 +1,146 @@
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aono et~al.(2017)Aono, Hayashi, Wang, Moriai, et~al.]{aono2017privacy}
+Yoshinori Aono, Takuya Hayashi, Lihua Wang, Shiho Moriai, et~al.
+\newblock Privacy-preserving deep learning via additively homomorphic
+  encryption.
+\newblock \emph{IEEE Transactions on Information Forensics and Security},
+  13\penalty0 (5):\penalty0 1333--1345, 2017.
+
+\bibitem[Bonawitz et~al.(2017)Bonawitz, Ivanov, Kreuter, Marcedone, McMahan,
+  Patel, Ramage, Segal, and Seth]{bonawitz2017practical}
+Keith Bonawitz, Vladimir Ivanov, Ben Kreuter, Antonio Marcedone, H~Brendan
+  McMahan, Sarvar Patel, Daniel Ramage, Aaron Segal, and Karn Seth.
+\newblock Practical secure aggregation for privacy-preserving machine learning.
+\newblock In \emph{Proceedings of the 2017 ACM SIGSAC Conference on Computer
+  and Communications Security}, pages 1175--1191, 2017.
+
+\bibitem[Brendan~McMahan et~al.(2016)Brendan~McMahan, Moore, Ramage, Hampson,
+  and Ag{\"u}era~y Arcas]{brendan2016communication}
+H~Brendan~McMahan, Eider Moore, Daniel Ramage, Seth Hampson, and Blaise
+  Ag{\"u}era~y Arcas.
+\newblock Communication-efficient learning of deep networks from decentralized
+  data.
+\newblock \emph{arXiv preprint arXiv:1602.05629}, 2016.
+
+\bibitem[Dean et~al.(2012)Dean, Corrado, Monga, Chen, Devin, Mao, Ranzato,
+  Senior, Tucker, Yang, et~al.]{dean2012large}
+Jeffrey Dean, Greg Corrado, Rajat Monga, Kai Chen, Matthieu Devin, Mark Mao,
+  Marc'aurelio Ranzato, Andrew Senior, Paul Tucker, Ke~Yang, et~al.
+\newblock Large scale distributed deep networks.
+\newblock In \emph{Advances in neural information processing systems}, pages
+  1223--1231, 2012.
+
+\bibitem[Dwork(2008)]{DPDwork2008}
+Cynthia Dwork.
+\newblock Differential privacy: A survey of results.
+\newblock In \emph{Proceedings of the 5th International Conference on Theory
+  and Applications of Models of Computation}, TAMC’08, page 1–19, Berlin,
+  Heidelberg, 2008. Springer-Verlag.
+\newblock ISBN 3540792279.
+
+\bibitem[Elman(1990)]{elman1990finding}
+Jeffrey~L Elman.
+\newblock Finding structure in time.
+\newblock \emph{Cognitive science}, 14\penalty0 (2):\penalty0 179--211, 1990.
+
+\bibitem[Fletcher and Islam(2017)]{FLETCHER201716}
+Sam Fletcher and Md~Zahidul Islam.
+\newblock Differentially private random decision forests using smooth
+  sensitivity.
+\newblock \emph{Expert Systems with Applications}, 78:\penalty0 16 -- 31, 2017.
+\newblock ISSN 0957-4174.
+\newblock \doi{https://doi.org/10.1016/j.eswa.2017.01.034}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0957417417300428}.
+
+\bibitem[Hochreiter and Schmidhuber(1997)]{HochreiterLong}
+Sepp Hochreiter and Jürgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock \emph{Neural computation}, 9:\penalty0 1735--80, 12 1997.
+
+\bibitem[Hsieh et~al.(2019)Hsieh, Phanishayee, Mutlu, and
+  Gibbons]{hsieh2019non}
+Kevin Hsieh, Amar Phanishayee, Onur Mutlu, and Phillip~B Gibbons.
+\newblock The non-iid data quagmire of decentralized machine learning.
+\newblock \emph{arXiv preprint arXiv:1910.00189}, 2019.
+
+\bibitem[Kairouz et~al.(2019)Kairouz, Mcmahan, Bonawitz, Charles, Oliveira,
+  Garrett, Gibbons, Ozg, Song, Stich, and Yu]{arxiv-Kairouz-Mcmahan-etc2019}
+Peter Kairouz, H~Brendan Mcmahan, Keith Bonawitz, Zachary Charles, Rafael G L~D
+  Oliveira, Zachary Garrett, Phillip~B Gibbons, Ayfer Ozg, Weikang Song,
+  Sebastian~U Stich, and Felix~X Yu.
+\newblock {Advances and open problems in federated learning}.
+\newblock Technical report, 2019.
+
+\bibitem[Kingma and Ba(2014)]{Kingma2014Adam}
+Diederik Kingma and Jimmy Ba.
+\newblock Adam: A method for stochastic optimization.
+\newblock \emph{Computer Science}, 2014.
+
+\bibitem[Li et~al.(2019)Li, Sahu, Talwalkar, and Smith]{li2019federated}
+Tian Li, Anit~Kumar Sahu, Ameet Talwalkar, and Virginia Smith.
+\newblock Federated learning: Challenges, methods, and future directions.
+\newblock \emph{arXiv preprint arXiv:1908.07873}, 2019.
+
+\bibitem[Mancuso(2018)]{ppmlmancuso}
+J~Mancuso.
+\newblock Privacy-preserving machine learning 2018: a year in review.
+\newblock 2018.
+
+\bibitem[McMahan et~al.(2016)McMahan, Moore, Ramage, Hampson,
+  et~al.]{mcmahan2016communication}
+H~Brendan McMahan, Eider Moore, Daniel Ramage, Seth Hampson, et~al.
+\newblock Communication-efficient learning of deep networks from decentralized
+  data.
+\newblock \emph{arXiv preprint arXiv:1602.05629}, 2016.
+
+\bibitem[Pan and Yang(2009)]{pan2009survey}
+Sinno~Jialin Pan and Qiang Yang.
+\newblock A survey on transfer learning.
+\newblock \emph{IEEE Transactions on knowledge and data engineering},
+  22\penalty0 (10):\penalty0 1345--1359, 2009.
+
+\bibitem[Shokri and Shmatikov(2015)]{shokri2015privacy}
+Reza Shokri and Vitaly Shmatikov.
+\newblock Privacy-preserving deep learning.
+\newblock In \emph{Proceedings of the 22nd ACM SIGSAC conference on computer
+  and communications security}, pages 1310--1321, 2015.
+
+\bibitem[Xiao and Zhu(2020)]{xiao2020}
+Tong Xiao and Jingbo Zhu.
+\newblock \emph{Machine Translation Statistical Modeling and Deep Learning
+  Methods}.
+\newblock 2020.
+\newblock URL \url{https://opensource.niutrans.com/mtbook/index.html}.
+
+\bibitem[Yang et~al.(2019)Yang, Liu, Chen, and Tong]{yang2019federated}
+Qiang Yang, Yang Liu, Tianjian Chen, and Yongxin Tong.
+\newblock Federated machine learning: Concept and applications.
+\newblock \emph{ACM Transactions on Intelligent Systems and Technology (TIST)},
+  10\penalty0 (2):\penalty0 1--19, 2019.
+
+\bibitem[{Yao}(1986)]{GenExchsecretyao1986}
+A.~C. {Yao}.
+\newblock How to generate and exchange secrets.
+\newblock In \emph{27th Annual Symposium on Foundations of Computer Science
+  (sfcs 1986)}, pages 162--167, 1986.
+
+\bibitem[Yao(1982)]{scyao1982}
+Andrew~C Yao.
+\newblock Protocols for secure computations.
+\newblock \emph{23rd annual symposium on foundations of computer science},
+  pages 160--164, 1982.
+
+\bibitem[苏剑林(Oct 14,2017)]{training_validation_test_Su}
+苏剑林.
+\newblock 训练集、验证集和测试集的意义.
+\newblock [Blog post], Oct 14,2017.
+\newblock Retrieved from \url{https://kexue.fm/archives/4638}.
+
+\end{thebibliography}

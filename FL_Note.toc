@@ -1,0 +1,128 @@
+\contentsline {section}{\numberline {1}背景介绍}{4}{section.1}% 
+\contentsline {section}{\numberline {2}研究现状}{5}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}相关概念}{5}{subsection.2.1}% 
+\contentsline {subsubsection}{\numberline {2.1.1}定义}{5}{subsubsection.2.1.1}% 
+\contentsline {subsubsection}{\numberline {2.1.2}联邦学习的分类}{5}{subsubsection.2.1.2}% 
+\contentsline {paragraph}{横向联邦学习}{5}{section*.3}% 
+\contentsline {paragraph}{纵向联邦学习}{6}{section*.4}% 
+\contentsline {paragraph}{联邦迁移学习}{7}{section*.5}% 
+\contentsline {subsubsection}{\numberline {2.1.3}联邦学习中模型的生命周期}{8}{subsubsection.2.1.3}% 
+\contentsline {subsubsection}{\numberline {2.1.4}典型的联邦训练过程}{9}{subsubsection.2.1.4}% 
+\contentsline {subsection}{\numberline {2.2}联邦学习研究}{9}{subsection.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Cross-soli联邦学习}{9}{subsubsection.2.2.1}% 
+\contentsline {subsubsection}{\numberline {2.2.2}算法挑战}{10}{subsubsection.2.2.2}% 
+\contentsline {paragraph}{}{11}{section*.6}% 
+\contentsline {subsubsection}{\numberline {2.2.3}实际挑战}{11}{subsubsection.2.2.3}% 
+\contentsline {paragraph}{推理攻击}{11}{section*.7}% 
+\contentsline {paragraph}{模型中毒Model Poisoning}{11}{section*.8}% 
+\contentsline {section}{\numberline {3}提高效率和效果}{11}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}挑战一--联邦学习中的非独立同分布数据}{12}{subsection.3.1}% 
+\contentsline {paragraph}{非同质的客户端分布}{13}{section*.9}% 
+\contentsline {paragraph}{违反独立性}{13}{section*.10}% 
+\contentsline {paragraph}{数据集偏移}{13}{section*.11}% 
+\contentsline {subsubsection}{\numberline {3.1.1}解决non-IID Data 问题的策略}{13}{subsubsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.2}联邦学习的优化算法}{13}{subsection.3.2}% 
+\contentsline {subsubsection}{\numberline {3.2.1} IID数据集的优化算法和收敛速度}{14}{subsubsection.3.2.1}% 
+\contentsline {section}{\numberline {4}保护用户数据的隐私}{14}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}隐私保护技术}{15}{subsection.4.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}安全多方计算}{15}{subsubsection.4.1.1}% 
+\contentsline {paragraph}{数学描述}{15}{section*.12}% 
+\contentsline {paragraph}{不经意传输:}{15}{section*.13}% 
+\contentsline {paragraph}{n取1 的不经意传输:}{15}{section*.14}% 
+\contentsline {subsubsection}{\numberline {4.1.2}同态加密}{15}{subsubsection.4.1.2}% 
+\contentsline {paragraph}{加法同态}{16}{section*.15}% 
+\contentsline {paragraph}{乘法同态}{16}{section*.16}% 
+\contentsline {subsubsection}{\numberline {4.1.3}差分隐私}{16}{subsubsection.4.1.3}% 
+\contentsline {paragraph}{劣势:}{16}{section*.17}% 
+\contentsline {paragraph}{应用}{16}{section*.18}% 
+\contentsline {section}{\numberline {5}预备知识}{16}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}梯度下降}{16}{subsection.5.1}% 
+\contentsline {subsubsection}{\numberline {5.1.1}随机梯度下降Stochastic gradient descent}{16}{subsubsection.5.1.1}% 
+\contentsline {subsubsection}{\numberline {5.1.2}ADMM 交替向量乘子法}{17}{subsubsection.5.1.2}% 
+\contentsline {subsubsection}{\numberline {5.1.3}decentralized SGD去中心化 SGD}{17}{subsubsection.5.1.3}% 
+\contentsline {subsection}{\numberline {5.2}张量分解}{17}{subsection.5.2}% 
+\contentsline {subsubsection}{\numberline {5.2.1}CP分解}{17}{subsubsection.5.2.1}% 
+\contentsline {subsubsection}{\numberline {5.2.2}Tucker 分解 }{17}{subsubsection.5.2.2}% 
+\contentsline {subsection}{\numberline {5.3}Dataset shift 数据集偏移}{17}{subsection.5.3}% 
+\contentsline {subsubsection}{\numberline {5.3.1}有状态和无状态}{17}{subsubsection.5.3.1}% 
+\contentsline {subsection}{\numberline {5.4}激活函数}{18}{subsection.5.4}% 
+\contentsline {subsubsection}{\numberline {5.4.1}Sigmoid型函数}{18}{subsubsection.5.4.1}% 
+\contentsline {paragraph}{Logistic函数}{18}{section*.19}% 
+\contentsline {paragraph}{求导}{18}{section*.20}% 
+\contentsline {paragraph}{Tanh函数}{18}{section*.21}% 
+\contentsline {subsubsection}{\numberline {5.4.2}整流线性单位函数(Rectified Linear Unit, ReLU)}{19}{subsubsection.5.4.2}% 
+\contentsline {paragraph}{求导}{19}{section*.22}% 
+\contentsline {paragraph}{Leakly ReLU函数}{20}{section*.23}% 
+\contentsline {paragraph}{ELU函数（指数线性函数）}{20}{section*.24}% 
+\contentsline {subsubsection}{\numberline {5.4.3}Entropy熵}{20}{subsubsection.5.4.3}% 
+\contentsline {subsubsection}{\numberline {5.4.4}Cross Entropy交叉熵}{21}{subsubsection.5.4.4}% 
+\contentsline {subsection}{\numberline {5.5}神经网络}{21}{subsection.5.5}% 
+\contentsline {subsubsection}{\numberline {5.5.1}感知器}{21}{subsubsection.5.5.1}% 
+\contentsline {paragraph}{感知机学习算法}{22}{section*.25}% 
+\contentsline {paragraph}{感知器的收敛性}{22}{section*.26}% 
+\contentsline {paragraph}{几种常见的线性模型对比}{22}{section*.27}% 
+\contentsline {paragraph}{不同损失函数的比较}{24}{figure.12}% 
+\contentsline {subsubsection}{\numberline {5.5.2}分类问题总结}{24}{subsubsection.5.5.2}% 
+\contentsline {subsubsection}{\numberline {5.5.3}数据集}{24}{subsubsection.5.5.3}% 
+\contentsline {subsection}{\numberline {5.6}前馈神经网络}{24}{subsection.5.6}% 
+\contentsline {paragraph}{参数学习}{26}{section*.29}% 
+\contentsline {subsubsection}{\numberline {5.6.1}反向传播算法}{26}{subsubsection.5.6.1}% 
+\contentsline {subsubsection}{\numberline {5.6.2}优化问题}{26}{subsubsection.5.6.2}% 
+\contentsline {paragraph}{非凸优化问题}{26}{section*.30}% 
+\contentsline {paragraph}{梯度消失问题}{26}{section*.31}% 
+\contentsline {subsubsection}{\numberline {5.6.3}通用近似定理}{27}{subsubsection.5.6.3}% 
+\contentsline {subsection}{\numberline {5.7}循环神经网络}{27}{subsection.5.7}% 
+\contentsline {subsubsection}{\numberline {5.7.1}简单循环网络}{28}{subsubsection.5.7.1}% 
+\contentsline {subsubsection}{\numberline {5.7.2}循环神经网络的计算能力}{28}{subsubsection.5.7.2}% 
+\contentsline {paragraph}{长期依赖（Long-Term Dependencies）问题}{29}{section*.32}% 
+\contentsline {paragraph}{序列到类别模式}{29}{section*.33}% 
+\contentsline {paragraph}{同步的序列到序列模式}{29}{figure.17}% 
+\contentsline {paragraph}{异步的序列到序列模式}{30}{section*.35}% 
+\contentsline {subsubsection}{\numberline {5.7.3}简介实现}{32}{subsubsection.5.7.3}% 
+\contentsline {subsection}{\numberline {5.8}通过时间反向传播}{32}{subsection.5.8}% 
+\contentsline {subsection}{\numberline {5.9}语言模型}{33}{subsection.5.9}% 
+\contentsline {paragraph}{n元语法}{33}{section*.36}% 
+\contentsline {subsection}{\numberline {5.10}深度循环神经网络}{33}{subsection.5.10}% 
+\contentsline {subsubsection}{\numberline {5.10.1}LSTM}{34}{subsubsection.5.10.1}% 
+\contentsline {paragraph}{遗忘}{35}{section*.37}% 
+\contentsline {paragraph}{记忆更新}{35}{section*.38}% 
+\contentsline {paragraph}{输出}{35}{section*.39}% 
+\contentsline {paragraph}{循环神经网络和递归神经网络}{35}{section*.40}% 
+\contentsline {subsubsection}{\numberline {5.10.2}LSTM实现}{35}{subsubsection.5.10.2}% 
+\contentsline {subsubsection}{\numberline {5.10.3}GRU}{35}{subsubsection.5.10.3}% 
+\contentsline {subsubsection}{\numberline {5.10.4}改进}{36}{subsubsection.5.10.4}% 
+\contentsline {paragraph}{双向模型}{36}{figure.22}% 
+\contentsline {subsection}{\numberline {5.11}Attention}{36}{subsection.5.11}% 
+\contentsline {paragraph}{上下文向量}{36}{section*.42}% 
+\contentsline {subsection}{\numberline {5.12}Transformer}{38}{subsection.5.12}% 
+\contentsline {subsubsection}{\numberline {5.12.1}残差连接}{40}{subsubsection.5.12.1}% 
+\contentsline {subsubsection}{\numberline {5.12.2}机器翻译系统简介}{40}{subsubsection.5.12.2}% 
+\contentsline {subsection}{\numberline {5.13}基于梯度的方法的改进}{41}{subsection.5.13}% 
+\contentsline {subsubsection}{\numberline {5.13.1}动量法Momentum}{41}{subsubsection.5.13.1}% 
+\contentsline {paragraph}{指数加权移动平均exponentially weighted moving average}{41}{section*.43}% 
+\contentsline {subsubsection}{\numberline {5.13.2}AdaGrad}{41}{subsubsection.5.13.2}% 
+\contentsline {subsubsection}{\numberline {5.13.3}RMSProp}{42}{subsubsection.5.13.3}% 
+\contentsline {subsubsection}{\numberline {5.13.4}AdaDelta}{42}{subsubsection.5.13.4}% 
+\contentsline {paragraph}{问题:}{42}{section*.44}% 
+\contentsline {subsubsection}{\numberline {5.13.5}Adam}{43}{subsubsection.5.13.5}% 
+\contentsline {subsection}{\numberline {5.14}建模}{43}{subsection.5.14}% 
+\contentsline {subsubsection}{\numberline {5.14.1}RNN训练}{45}{subsubsection.5.14.1}% 
+\contentsline {section}{\numberline {6}图像处理实践---ALexNet网络}{46}{section.6}% 
+\contentsline {subsection}{\numberline {6.1}架构}{46}{subsection.6.1}% 
+\contentsline {subsubsection}{\numberline {6.1.1}ReLu}{46}{subsubsection.6.1.1}% 
+\contentsline {subsubsection}{\numberline {6.1.2}局部响应归一化}{46}{subsubsection.6.1.2}% 
+\contentsline {subsubsection}{\numberline {6.1.3}重叠池化}{46}{subsubsection.6.1.3}% 
+\contentsline {subsubsection}{\numberline {6.1.4}降低过拟合}{46}{subsubsection.6.1.4}% 
+\contentsline {paragraph}{数据增强}{46}{section*.45}% 
+\contentsline {subsubsection}{\numberline {6.1.5}逐层归一化（Layer-wise Normalization)}{46}{subsubsection.6.1.5}% 
+\contentsline {subsubsection}{\numberline {6.1.6}Dropout}{47}{subsubsection.6.1.6}% 
+\contentsline {subsection}{\numberline {6.2}实现}{48}{subsection.6.2}% 
+\contentsline {subsubsection}{\numberline {6.2.1}学习率的选择}{48}{subsubsection.6.2.1}% 
+\contentsline {section}{\numberline {7}联邦学习实践--FATE}{49}{section.7}% 
+\contentsline {subsection}{\numberline {7.1}FATE架构及安装}{50}{subsection.7.1}% 
+\contentsline {subsection}{\numberline {7.2}实验-利用MINST数据集进行联邦学习训练-待做}{50}{subsection.7.2}% 
+\contentsline {paragraph}{初步计划}{50}{section*.46}% 
+\contentsline {section}{\numberline {8}个人思考}{51}{section.8}% 
+\contentsline {subsection}{\numberline {8.1}并行模型}{51}{subsection.8.1}% 
+\contentsline {subsubsection}{\numberline {8.1.1}AlexNet模型并行}{51}{subsubsection.8.1.1}% 
+\contentsline {subsection}{\numberline {8.2}待解决}{52}{subsection.8.2}% 
