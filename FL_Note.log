@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.19)  21 JUL 2020 00:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.19)  24 JUL 2020 09:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**g:/FL/FL_Notes_0713/FL_Note
-(g:/FL/FL_Notes_0713/FL_Note.tex
+**g:/FL/FL_Notes/FL_Note
+(g:/FL/FL_Notes/FL_Note.tex
 LaTeX2e <2018-12-01>
 (f:/Erik/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -1014,88 +1014,88 @@ File: UTF8.chr 2015/04/18 4.8.4
 ) (./FL_Note.aux)
 \openout1 = `FL_Note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1134,7 +1134,7 @@ LaTeX Font Info:    ... okay on input line 79.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 79.
+LaTeX Info: Redefining \selectfont on input line 78.
  (f:/Erik/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count329
@@ -1150,7 +1150,7 @@ LaTeX Info: Redefining \selectfont on input line 79.
 \everyMPtoPDFconversion=\toks51
 )
 \AtBeginShipoutBox=\box73
-Package hyperref Info: Link coloring ON on input line 79.
+Package hyperref Info: Link coloring ON on input line 78.
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (f:/Erik/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1158,24 +1158,24 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count335
 )
-LaTeX Info: Redefining \ref on input line 79.
-LaTeX Info: Redefining \pageref on input line 79.
-LaTeX Info: Redefining \nameref on input line 79.
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
+LaTeX Info: Redefining \nameref on input line 78.
  (./FL_Note.out) (./FL_Note.out)
 \@outlinefile=\write4
 \openout4 = `FL_Note.out'.
 
  ABD: EveryShipout initializing macros
 \c@lstlisting=\count336
-LaTeX Font Info:    Try loading font information for C70+rm on input line 84.
+LaTeX Font Info:    Try loading font information for C70+rm on input line 83.
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2019/04/07 v2.4.15 Chinese font definition (CTEX)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 84.
+LaTeX Font Info:    Try loading font information for U+msa on input line 83.
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 84.
+LaTeX Font Info:    Try loading font information for U+msb on input line 83.
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./FL_Note.toc (f:/Erik/texlive/2019/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
@@ -1196,140 +1196,140 @@ Missing character: There is no ® in font cmr7!
 <figures/Categorization_of_FL.jpg, id=686, 614.295pt x 139.27031pt>
 File: figures/Categorization_of_FL.jpg Graphic file (type jpg)
 <use figures/Categorization_of_FL.jpg>
-Package pdftex.def Info: figures/Categorization_of_FL.jpg  used on input line 179.
+Package pdftex.def Info: figures/Categorization_of_FL.jpg  used on input line 178.
 (pdftex.def)             Requested size: 483.69684pt x 109.66318pt.
 <figures/Architecture_for_horizontal_FL_system.jpg, id=687, 488.57532pt x 277.035pt>
 File: figures/Architecture_for_horizontal_FL_system.jpg Graphic file (type jpg)
 <use figures/Architecture_for_horizontal_FL_system.jpg>
-Package pdftex.def Info: figures/Architecture_for_horizontal_FL_system.jpg  used on input line 187.
+Package pdftex.def Info: figures/Architecture_for_horizontal_FL_system.jpg  used on input line 186.
 (pdftex.def)             Requested size: 435.32419pt x 246.84358pt.
  [5] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.204     \item Â
+l.203     \item Â
                  ØπÈΩêÊ†∑Êú¨ËøõË°åÊ®°ÂûãÂä†ÂØÜËÆ≠ÁªÉpdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.204     \item Â
+l.203     \item Â
                  ØπÈΩêÊ†∑Êú¨ËøõË°åÊ®°ÂûãÂä†ÂØÜËÆ≠ÁªÉ <./figures/Categorization_of_FL.jpg> <./figures/Architecture_for_horizontal_FL_system.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 206.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 205.
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.53937> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 206.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 205.
  [7pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.243 \newpage
+l.242 \newpage
               ]
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
 []|\OT1/cmr/bx/n/9.03374 Cross-
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 270--271
+Underfull \hbox (badness 1383) in paragraph at lines 269--270
 \C70/rm/m/n/9.03374/62 7 \C70/rm/m/n/9.03374/67 : \C70/rm/m/n/9.03374/90 ˝ \C70/rm/m/n/9.03374/53 Ô \C70/rm/m/n/9.03374/4e Â \C70/rm/m/n/9.03374/8b ˚ \C70/rm/m/n/9.03374/53 ÷ \C70/rm/m/n/9.03374/65 p \C70/rm/m/n/9.03374/63 n \C70/rm/m/n/9.03374/96 ∆ \C70/rm/m/n/9.03374/76 Ñ \C70/rm/m/n/9.03374/4e ˚
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 278--279
+Underfull \hbox (badness 4899) in paragraph at lines 277--278
 []|\C70/rm/m/n/9.03374/6c ° \C70/rm/m/n/9.03374/67 	\OT1/cmr/m/n/9.03374 (\C70/rm/m/n/9.03374/4e ^^@ * \C70/rm/m/n/9.03374/65 p \C70/rm/m/n/9.03374/63 n \C70/rm/m/n/9.03374/4e - \C70/rm/m/n/9.03374/5f √\OT1/cmr/m/n/9.03374 /\C70/rm/m/n/9.03374/96 ∆ \C70/rm/m/n/9.03374/7f § \C70/rm/m/n/9.03374/4e -
  []
 
 
-Underfull \hbox (badness 7133) in paragraph at lines 279--279
+Underfull \hbox (badness 7133) in paragraph at lines 278--278
 []|\C70/rm/m/n/9.03374/66 ^^_ \C70/rm/m/n/9.03374/57 ã \C70/rm/m/n/9.03374/62 ” Q\OT1/cmr/m/n/9.03374 , \C70/rm/m/n/9.03374/51 v \C70/rm/m/n/9.03374/4e -\OT1/cmr/m/n/9.03374 hub\C70/rm/m/n/9.03374/4e - \C70/rm/m/n/9.03374/5f √ \C70/rm/m/n/9.03374/82 Ç \C70/rm/m/n/9.03374/70 π \C70/rm/m/n/9.03374/88 h \C70/rm/m/n/9.03374/79 : \C70/rm/m/n/9.03374/53 O \C70/rm/m/n/9.03374/8c ^^C \C70/rm/m/n/9.03374/67 ^^M \C70/rm/m/n/9.03374/52 ° \C70/rm/m/n/9.03374/63 – \C70/rm/m/n/9.03374/4f õ \C70/rm/m/n/9.03374/80 ^^E \OT1/cmr/m/n/9.03374 (\C70/rm/m/n/9.03374/90 ^^Z \C70/rm/m/n/9.03374/5e 8 \C70/rm/m/n/9.03374/6c ° \C70/rm/m/n/9.03374/67 	 \C70/rm/m/n/9.03374/65 p \C70/rm/m/n/9.03374/63 n\OT1/cmr/m/n/9.03374 ),
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 291--292
+Underfull \hbox (badness 1383) in paragraph at lines 290--291
 []|\C70/rm/m/n/9.03374/54 å \C70/rm/m/n/9.03374/8b ° \C70/rm/m/n/9.03374/7b ó \C70/rm/m/n/9.03374/90 ^^Z \C70/rm/m/n/9.03374/5e 8 \C70/rm/m/n/9.03374/66 / \C70/rm/m/n/9.03374/65 p \C70/rm/m/n/9.03374/63 n \C70/rm/m/n/9.03374/4e - \C70/rm/m/n/9.03374/5f √ \C70/rm/m/n/9.03374/76 Ñ \C70/rm/m/n/9.03374/74 ˆ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 []|\C70/rm/m/n/9.03374/5b ¢ \C70/rm/m/n/9.03374/62 7
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 314--315
+Underfull \hbox (badness 1383) in paragraph at lines 313--314
 []|\C70/rm/m/n/9.03374/65 p \C70/rm/m/n/9.03374/63 n \C70/rm/m/n/9.03374/53 Ô \C70/rm/m/n/9.03374/4e Â \C70/rm/m/n/9.03374/57 ( \C70/rm/m/n/9.03374/5b ¢ \C70/rm/m/n/9.03374/62 7 \C70/rm/m/n/9.03374/7a Ô \C70/rm/m/n/9.03374/4e K \C70/rm/m/n/9.03374/95 Ù \C70/rm/m/n/9.03374/4e ˚ \C70/rm/m/n/9.03374/61 ^^O
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 []|\C70/rm/m/n/9.03374/52 ^^F \C70/rm/m/n/9.03374/53 : \C70/rm/m/n/9.03374/66 / \C70/rm/m/n/9.03374/56 ˙ \C70/rm/m/n/9.03374/5b ö \C70/rm/m/n/9.03374/76 Ñ\OT1/cmr/m/n/9.03374 .\C70/rm/m/n/9.03374/53 Ô \C70/rm/m/n/9.03374/4e Â \C70/rm/m/n/9.03374/66 / \C70/rm/m/n/9.03374/52 ^^F \C70/rm/m/n/9.03374/53 : \C70/rm/m/n/9.03374/79 :
  []
 
 
-Overfull \hbox (16.05923pt too wide) in paragraph at lines 260--321
+Overfull \hbox (16.05923pt too wide) in paragraph at lines 259--320
  [][] 
  []
 
 <figures/life_circle.jpg, id=753, 1127.71312pt x 547.2947pt>
 File: figures/life_circle.jpg Graphic file (type jpg)
 <use figures/life_circle.jpg>
-Package pdftex.def Info: figures/life_circle.jpg  used on input line 330.
+Package pdftex.def Info: figures/life_circle.jpg  used on input line 329.
 (pdftex.def)             Requested size: 290.22105pt x 140.84853pt.
 [8pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.341 \end{enumerate}
+l.340 \end{enumerate}
                      ]
 <figures/split_learning.jpg, id=780, 363.60844pt x 179.16937pt>
 File: figures/split_learning.jpg Graphic file (type jpg)
 <use figures/split_learning.jpg>
-Package pdftex.def Info: figures/split_learning.jpg  used on input line 393.
+Package pdftex.def Info: figures/split_learning.jpg  used on input line 392.
 (pdftex.def)             Requested size: 290.22105pt x 143.01035pt.
  [9pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.396 
+l.395 
        <./figures/life_circle.jpg>]
 
-Package natbib Warning: Citation `alg:fedavg' on page 10 undefined on input line 407.
+Package natbib Warning: Citation `alg:fedavg' on page 10 undefined on input line 406.
 
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 431.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 430.
 [10pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.451 \end{itemize}
+l.450 \end{itemize}
                    pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.451 \end{itemize}
+l.450 \end{itemize}
                     <./figures/split_learning.jpg>]
 <figures/poisoninginSGD.png, id=802, 621.32124pt x 552.0625pt>
 File: figures/poisoninginSGD.png Graphic file (type png)
 <use figures/poisoninginSGD.png>
-Package pdftex.def Info: figures/poisoninginSGD.png  used on input line 470.
+Package pdftex.def Info: figures/poisoninginSGD.png  used on input line 469.
 (pdftex.def)             Requested size: 290.22105pt x 257.86888pt.
  [11] [12pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.502 \item
+l.501 \item
            [ÁâπÂæÅÂàÜÂ∏ÉÂÄæÊñú] Âç≥‰Ωø$P(y, j, x)$Áõ∏Âêå,  $P_i(x)$ÁöÑËæπÈôÖ... <./figures/poisoninginSGD.png>]
 <figures/Federated_Averging.jpg, id=828, 621.82312pt x 293.59688pt>
 File: figures/Federated_Averging.jpg Graphic file (type jpg)
 <use figures/Federated_Averging.jpg>
-Package pdftex.def Info: figures/Federated_Averging.jpg  used on input line 535.
+Package pdftex.def Info: figures/Federated_Averging.jpg  used on input line 534.
 (pdftex.def)             Requested size: 435.32419pt x 205.54327pt.
  [13] [14pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.558  \end{itemize}
+l.557  \end{itemize}
                      <./figures/Federated_Averging.jpg>]
-Overfull \hbox (45.62315pt too wide) in paragraph at lines 597--600
+Overfull \hbox (45.62315pt too wide) in paragraph at lines 596--599
 \C70/rm/m/n/10.53937/5f ^^O \C70/rm/m/n/10.53937/67 e \C70/rm/m/n/10.53937/88 h \C70/rm/m/n/10.53937/8f æ\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/53 s$\OML/cmm/m/it/10.53937 Dec\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 ; En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 ; []; En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 ))) = \OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]; m[]; []; m[]\OT1/cmr/m/n/10.53937 )$, \C70/rm/m/n/10.53937/62 ^^V \C70/rm/m/n/10.53937/51 ô \C70/rm/m/n/10.53937/62 ^^P|\C70/rm/m/n/10.53937/ff ^^Z| $\OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 ; En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 ; []; En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )) =
  []
 
@@ -1337,26 +1337,26 @@ Overfull \hbox (45.62315pt too wide) in paragraph at lines 597--600
 <figures/sigmoid_function.png, id=883, 673.51625pt x 574.145pt>
 File: figures/sigmoid_function.png Graphic file (type png)
 <use figures/sigmoid_function.png>
-Package pdftex.def Info: figures/sigmoid_function.png  used on input line 725.
+Package pdftex.def Info: figures/sigmoid_function.png  used on input line 724.
 (pdftex.def)             Requested size: 193.47577pt x 164.92961pt.
  [18]
 <figures/ReLU.jpg, id=904, 1047.16219pt x 292.09125pt>
 File: figures/ReLU.jpg Graphic file (type jpg)
 <use figures/ReLU.jpg>
-Package pdftex.def Info: figures/ReLU.jpg  used on input line 742.
+Package pdftex.def Info: figures/ReLU.jpg  used on input line 741.
 (pdftex.def)             Requested size: 483.69684pt x 134.92072pt.
  [19pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.760 \item  D
+l.759 \item  D
               ead ReLU ProblemÔºàÁ•ûÁªèÂÖÉÂùèÊ≠ªÁé∞Ë±°Ôºâ:Êüê‰∫õÁ•ûÁªèÂÖÉÂèØ...pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.760 \item  D
+l.759 \item  D
               ead ReLU ProblemÔºàÁ•ûÁªèÂÖÉÂùèÊ≠ªÁé∞Ë±°Ôºâ:Êüê‰∫õÁ•ûÁªèÂÖÉÂèØ... <./figures/sigmoid_function.png> <./figures/ReLu.jpg>]
-Overfull \hbox (0.16628pt too wide) in paragraph at lines 808--810
+Overfull \hbox (0.16628pt too wide) in paragraph at lines 807--809
 []\C70/rm/m/n/10.53937/57 ( \C70/rm/m/n/10.53937/81 Í \C70/rm/m/n/10.53937/4f · \C70/rm/m/n/10.53937/60 o \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/5b ö \C70/rm/m/n/10.53937/4e I -\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/5b ˘ \C70/rm/m/n/10.53937/65 p \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/5e ï \C70/rm/m/n/10.53937/53 Ô \C70/rm/m/n/10.53937/4e Â \C70/rm/m/n/10.53937/4f ^^? \C70/rm/m/n/10.53937/75 (\OT1/cmr/m/n/10.53937 2|\C70/rm/m/n/10.53937/30 ^^A| \C70/rm/m/n/10.53937/81 Í \C70/rm/m/n/10.53937/71 6 \C70/rm/m/n/10.53937/5e 8 \C70/rm/m/n/10.53937/65 p$\OML/cmm/m/it/10.53937 e$\C70/rm/m/n/10.53937/62 ^^V \C70/rm/m/n/10.53937/66 /\OT1/cmr/m/n/10.53937 10.\C70/rm/m/n/10.53937/5f S \C70/rm/m/n/10.53937/5e ï \C70/rm/m/n/10.53937/4e :\OT1/cmr/m/n/10.53937 2\C70/rm/m/n/10.53937/65 ˆ\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/81 Í \C70/rm/m/n/10.53937/4f · \C70/rm/m/n/10.53937/60 o \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/53 U \C70/rm/m/n/10.53937/4f M \C70/rm/m/n/10.53937/4e :\OT1/cmr/m/n/10.53937 bit;\C70/rm/m/n/10.53937/5f S \C70/rm/m/n/10.53937/5e ï \C70/rm/m/n/10.53937/4e :\OT1/cmr/m/n/10.53937 e\C70/rm/m/n/10.53937/65 ˆ\OT1/cmr/m/n/10.53937 ,
  []
 
@@ -1364,253 +1364,253 @@ Overfull \hbox (0.16628pt too wide) in paragraph at lines 808--810
 <figures/MP_Modle.png, id=929, 558.085pt x 257.96375pt>
 File: figures/MP_Modle.png Graphic file (type png)
 <use figures/MP_Modle.png>
-Package pdftex.def Info: figures/MP_Modle.png  used on input line 842.
+Package pdftex.def Info: figures/MP_Modle.png  used on input line 841.
 (pdftex.def)             Requested size: 435.32419pt x 201.22664pt.
 <figures/simple_perceptron.png, id=930, 487.8225pt x 364.36125pt>
 File: figures/simple_perceptron.png Graphic file (type png)
 <use figures/simple_perceptron.png>
-Package pdftex.def Info: figures/simple_perceptron.png  used on input line 854.
+Package pdftex.def Info: figures/simple_perceptron.png  used on input line 853.
 (pdftex.def)             Requested size: 241.84842pt x 180.64014pt.
  [21pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.857 \newpage
+l.856 \newpage
                <./figures/MP_Modle.png>]
 <figures/algorithm_perceptron.png, id=938, 497.86pt x 364.36125pt>
 File: figures/algorithm_perceptron.png Graphic file (type png)
 <use figures/algorithm_perceptron.png>
-Package pdftex.def Info: figures/algorithm_perceptron.png  used on input line 865.
+Package pdftex.def Info: figures/algorithm_perceptron.png  used on input line 864.
 (pdftex.def)             Requested size: 435.32419pt x 318.59846pt.
 <figures/linear_model.png, id=939, 470.75874pt x 193.72375pt>
 File: figures/linear_model.png Graphic file (type png)
 <use figures/linear_model.png>
-Package pdftex.def Info: figures/linear_model.png  used on input line 878.
+Package pdftex.def Info: figures/linear_model.png  used on input line 877.
 (pdftex.def)             Requested size: 338.5863pt x 139.33318pt.
  [22pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.881 \newpage
+l.880 \newpage
                <./figures/simple_perceptron.png>] [23pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.881 \newpage
+l.880 \newpage
                <./figures/algorithm_perceptron.png> <./figures/linear_model.png>]
 <figures/loss_function.png, id=957, 352.31625pt x 263.98625pt>
 File: figures/loss_function.png Graphic file (type png)
 <use figures/loss_function.png>
-Package pdftex.def Info: figures/loss_function.png  used on input line 885.
+Package pdftex.def Info: figures/loss_function.png  used on input line 884.
 (pdftex.def)             Requested size: 338.5863pt x 253.69781pt.
 <figures/FNN.png, id=959, 688.5725pt x 409.53pt>
 File: figures/FNN.png Graphic file (type png)
 <use figures/FNN.png>
-Package pdftex.def Info: figures/FNN.png  used on input line 911.
+Package pdftex.def Info: figures/FNN.png  used on input line 910.
 (pdftex.def)             Requested size: 290.22105pt x 172.60756pt.
  [24pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.936 
+l.935 
        <./figures/loss_function.png>] [25pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.950 \paragraph
+l.949 \paragraph
                 {ÂèÇÊï∞Â≠¶‰π†}pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.950 \paragraph
+l.949 \paragraph
                 {ÂèÇÊï∞Â≠¶‰π†} <./figures/FNN.png>]
 <figures/algorithm_bp.png, id=977, 502.87875pt x 430.60875pt>
 File: figures/algorithm_bp.png Graphic file (type png)
 <use figures/algorithm_bp.png>
-Package pdftex.def Info: figures/algorithm_bp.png  used on input line 978.
+Package pdftex.def Info: figures/algorithm_bp.png  used on input line 977.
 (pdftex.def)             Requested size: 338.5863pt x 289.92558pt.
  [26] [27 <./figures/algorithm_bp.png>]
 <figures/RNN_sample.png, id=994, 256.96pt x 161.60374pt>
 File: figures/RNN_sample.png Graphic file (type png)
 <use figures/RNN_sample.png>
-Package pdftex.def Info: figures/RNN_sample.png  used on input line 1023.
+Package pdftex.def Info: figures/RNN_sample.png  used on input line 1022.
 (pdftex.def)             Requested size: 435.32419pt x 273.80049pt.
 <figures/simple_RNN.png, id=996, 475.7775pt x 118.4425pt>
 File: figures/simple_RNN.png Graphic file (type png)
 <use figures/simple_RNN.png>
-Package pdftex.def Info: figures/simple_RNN.png  used on input line 1035.
+Package pdftex.def Info: figures/simple_RNN.png  used on input line 1034.
 (pdftex.def)             Requested size: 338.5863pt x 84.29355pt.
  [28pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1049 \end{equation*}
+l.1048 \end{equation*}
                        <./figures/RNN_sample.png>]
 <figures/RNN_univesal.png, id=1004, 504.88625pt x 841.1425pt>
 File: figures/RNN_univesal.png Graphic file (type png)
 <use figures/RNN_univesal.png>
-Package pdftex.def Info: figures/RNN_univesal.png  used on input line 1055.
+Package pdftex.def Info: figures/RNN_univesal.png  used on input line 1054.
 (pdftex.def)             Requested size: 386.95894pt x 644.6784pt.
 <figures/RNN_model1.png, id=1005, 888.31876pt x 284.06125pt>
 File: figures/RNN_model1.png Graphic file (type png)
 <use figures/RNN_model1.png>
-Package pdftex.def Info: figures/RNN_model1.png  used on input line 1085.
+Package pdftex.def Info: figures/RNN_model1.png  used on input line 1084.
 (pdftex.def)             Requested size: 386.95894pt x 123.73901pt.
 <figures/RNN_model2.png, id=1006, 509.905pt x 223.83624pt>
 File: figures/RNN_model2.png Graphic file (type png)
 <use figures/RNN_model2.png>
-Package pdftex.def Info: figures/RNN_model2.png  used on input line 1094.
+Package pdftex.def Info: figures/RNN_model2.png  used on input line 1093.
 (pdftex.def)             Requested size: 386.95894pt x 169.8748pt.
  [29pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1106 
+l.1105 
         <./figures/simple_RNN.png>] [30 <./figures/RNN_univesal.png>]
 <figures/RNN_model3.png, id=1022, 926.46124pt x 317.185pt>
 File: figures/RNN_model3.png Graphic file (type png)
 <use figures/RNN_model3.png>
-Package pdftex.def Info: figures/RNN_model3.png  used on input line 1120.
+Package pdftex.def Info: figures/RNN_model3.png  used on input line 1119.
 (pdftex.def)             Requested size: 386.95894pt x 132.48112pt.
  [31pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1137 \subsubsection
+l.1136 \subsubsection
                      {ÁÆÄ‰ªãÂÆûÁé∞}pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1137 \subsubsection
+l.1136 \subsubsection
                      {ÁÆÄ‰ªãÂÆûÁé∞}pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1137 \subsubsection
+l.1136 \subsubsection
                      {ÁÆÄ‰ªãÂÆûÁé∞} <./figures/RNN_model1.png> <./figures/RNN_model2.png> <./figures/RNN_model3.png>] [32]
 <figures/deep_rnn.png, id=1046, 353.32pt x 208.78pt>
 File: figures/deep_rnn.png Graphic file (type png)
 <use figures/deep_rnn.png>
-Package pdftex.def Info: figures/deep_rnn.png  used on input line 1240.
+Package pdftex.def Info: figures/deep_rnn.png  used on input line 1239.
 (pdftex.def)             Requested size: 290.22105pt x 171.49695pt.
  [33]
 <figures/LSTM.png, id=1055, 804.00375pt x 491.8375pt>
 File: figures/LSTM.png Graphic file (type png)
 <use figures/LSTM.png>
-Package pdftex.def Info: figures/LSTM.png  used on input line 1262.
+Package pdftex.def Info: figures/LSTM.png  used on input line 1261.
 (pdftex.def)             Requested size: 435.32419pt x 266.30124pt.
  [34pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1266 \paragraph
+l.1265 \paragraph
                  {ÈÅóÂøò} ÈÄöËøáÈÅóÂøòÈó®ÂÆûÁé∞.pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1266 \paragraph
+l.1265 \paragraph
                  {ÈÅóÂøò} ÈÄöËøáÈÅóÂøòÈó®ÂÆûÁé∞. <./figures/deep_rnn.png> <./figures/LSTM.png>]
-Overfull \hbox (0.32379pt too wide) in paragraph at lines 1289--1291
+Overfull \hbox (0.32379pt too wide) in paragraph at lines 1288--1290
 []\C70/rm/m/n/10.53937/90 ^^R \C70/rm/m/n/10.53937/5f R \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/7f Q \C70/rm/m/n/10.53937/7e ‹\OT1/cmr/m/n/10.53937 (Recursive NN)\C70/rm/m/n/10.53937/66 / \C70/rm/m/n/10.53937/7a z \C70/rm/m/n/10.53937/95 Ù \C70/rm/m/n/10.53937/7e Ù \C70/rm/m/n/10.53937/5e ¶ \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/5c U \C70/rm/m/n/10.53937/5f ^^@\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/66 / \C70/rm/m/n/10.53937/4e ^^@ * \C70/rm/m/n/10.53937/68 ^^Q \C70/rm/m/n/10.53937/7e ” \C70/rm/m/n/10.53937/67 Ñ\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/65 ‡ \C70/rm/m/n/10.53937/73 Ø \C70/rm/m/n/10.53937/7e ” \C70/rm/m/n/10.53937/67 Ñ\OT1/cmr/m/n/10.53937 . \C70/rm/m/n/10.53937/75 ( \C70/rm/m/n/10.53937/5f ™ \C70/rm/m/n/10.53937/73 Ø \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/7f Q \C70/rm/m/n/10.53937/7e ‹\OT1/cmr/m/n/10.53937 (Recurrent
  []
 
 <figures/lyrics.png, id=1067, 738.76pt x 160.6pt>
 File: figures/lyrics.png Graphic file (type png)
 <use figures/lyrics.png>
-Package pdftex.def Info: figures/lyrics.png  used on input line 1296.
+Package pdftex.def Info: figures/lyrics.png  used on input line 1295.
 (pdftex.def)             Requested size: 386.95894pt x 84.12021pt.
 <figures/GRU.png, id=1068, 757.83125pt x 289.08pt>
 File: figures/GRU.png Graphic file (type png)
 <use figures/GRU.png>
-Package pdftex.def Info: figures/GRU.png  used on input line 1304.
+Package pdftex.def Info: figures/GRU.png  used on input line 1303.
 (pdftex.def)             Requested size: 435.32419pt x 166.0609pt.
 [35 <./figures/lyrics.png>]
 <figures/dual_direction_ML.png, id=1079, 539.01375pt x 340.27126pt>
 File: figures/dual_direction_ML.png Graphic file (type png)
 <use figures/dual_direction_ML.png>
-Package pdftex.def Info: figures/dual_direction_ML.png  used on input line 1335.
+Package pdftex.def Info: figures/dual_direction_ML.png  used on input line 1334.
 (pdftex.def)             Requested size: 435.32419pt x 274.81862pt.
 <figures/multiNet_NML.png, id=1080, 539.01375pt x 366.36874pt>
 File: figures/multiNet_NML.png Graphic file (type png)
 <use figures/multiNet_NML.png>
-Package pdftex.def Info: figures/multiNet_NML.png  used on input line 1342.
+Package pdftex.def Info: figures/multiNet_NML.png  used on input line 1341.
 (pdftex.def)             Requested size: 435.32419pt x 295.89613pt.
 <figures/attention1.png, id=1081, 538.01pt x 165.61874pt>
 File: figures/attention1.png Graphic file (type png)
 <use figures/attention1.png>
-Package pdftex.def Info: figures/attention1.png  used on input line 1362.
+Package pdftex.def Info: figures/attention1.png  used on input line 1361.
 (pdftex.def)             Requested size: 435.32419pt x 134.00891pt.
-LaTeX Font Info:    Try loading font information for C70+zhhei on input line 1370.
+LaTeX Font Info:    Try loading font information for C70+zhhei on input line 1369.
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/zhmetrics/c70zhhei.fd
 File: c70zhhei.fd 2009/09/23 4.8.2
 ) [36pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1371 
+l.1370 
         <./figures/GRU.png>] [37pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1371 
+l.1370 
        pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1371 
+l.1370 
         <./figures/dual_direction_ML.png> <./figures/multiNet_NML.png>]
 <figures/context_vector_cacl.png, id=1101, 700.6175pt x 341.275pt>
 File: figures/context_vector_cacl.png Graphic file (type png)
 <use figures/context_vector_cacl.png>
-Package pdftex.def Info: figures/context_vector_cacl.png  used on input line 1374.
+Package pdftex.def Info: figures/context_vector_cacl.png  used on input line 1373.
 (pdftex.def)             Requested size: 435.32419pt x 212.05176pt.
 <figures/self-attention1.png, id=1102, 452.69125pt x 61.22874pt>
 File: figures/self-attention1.png Graphic file (type png)
 <use figures/self-attention1.png>
-Package pdftex.def Info: figures/self-attention1.png  used on input line 1382.
+Package pdftex.def Info: figures/self-attention1.png  used on input line 1381.
 (pdftex.def)             Requested size: 435.32419pt x 58.8798pt.
 <figures/self_attention2.png, id=1103, 682.55pt x 124.465pt>
 File: figures/self_attention2.png Graphic file (type png)
 <use figures/self_attention2.png>
-Package pdftex.def Info: figures/self_attention2.png  used on input line 1388.
+Package pdftex.def Info: figures/self_attention2.png  used on input line 1387.
 (pdftex.def)             Requested size: 435.32419pt x 79.38383pt.
 <figures/Transformer1.png, id=1104, 632.3625pt x 554.07pt>
 File: figures/Transformer1.png Graphic file (type png)
 <use figures/Transformer1.png>
-Package pdftex.def Info: figures/Transformer1.png  used on input line 1399.
+Package pdftex.def Info: figures/Transformer1.png  used on input line 1398.
 (pdftex.def)             Requested size: 435.32419pt x 381.42946pt.
  [38pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1405         \vspace
+l.1404         \vspace
                       {0.5em}pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1405         \vspace
+l.1404         \vspace
                       {0.5em}pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1405         \vspace
+l.1404         \vspace
                       {0.5em} <./figures/attention1.png> <./figures/context_vector_cacl.png> <./figures/self-attention1.png>] [39pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1410         \item {
+l.1409         \item {
                       \small\sffamily\bfseries{ÊÆãÂ∑ÆËøûÊé•}}\index{ÊÆãÂ∑ÆËø...pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1410         \item {
+l.1409         \item {
                       \small\sffamily\bfseries{ÊÆãÂ∑ÆËøûÊé•}}\index{ÊÆãÂ∑ÆËø... <./figures/self_attention2.png> <./figures/Transformer1.png>] [40pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1464  $$
+l.1463  $$
           ]
-Underfull \hbox (badness 10000) in paragraph at lines 1502--1503
+Underfull \hbox (badness 10000) in paragraph at lines 1501--1502
 
  []
 
@@ -1618,36 +1618,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 1502--1503
 <figures/adam.png, id=1145, 799.98875pt x 655.44875pt>
 File: figures/adam.png Graphic file (type png)
 <use figures/adam.png>
-Package pdftex.def Info: figures/adam.png  used on input line 1553.
+Package pdftex.def Info: figures/adam.png  used on input line 1552.
 (pdftex.def)             Requested size: 386.95894pt x 317.04214pt.
  [43 <./figures/adam.png>]
 <figures/RNNprobquestion.png, id=1158, 598.235pt x 256.96pt>
 File: figures/RNNprobquestion.png Graphic file (type png)
 <use figures/RNNprobquestion.png>
-Package pdftex.def Info: figures/RNNprobquestion.png  used on input line 1592.
+Package pdftex.def Info: figures/RNNprobquestion.png  used on input line 1591.
 (pdftex.def)             Requested size: 386.95894pt x 166.21431pt.
 
 
-LaTeX Warning: Reference `fig:6-12' on page 44 undefined on input line 1597.
+LaTeX Warning: Reference `fig:6-12' on page 44 undefined on input line 1596.
 
 <figures/NMLEmbed.png, id=1159, 589.20125pt x 272.01625pt>
 File: figures/NMLEmbed.png Graphic file (type png)
 <use figures/NMLEmbed.png>
-Package pdftex.def Info: figures/NMLEmbed.png  used on input line 1616.
+Package pdftex.def Info: figures/NMLEmbed.png  used on input line 1615.
 (pdftex.def)             Requested size: 386.95894pt x 178.64719pt.
 [44pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1624 $$
+l.1623 $$
          p_i= Softmax(i) = \frac{{e^{\hat{s}_i}}}{{\sum_j e^{\hat{s}_j}}}$$ <./figures/RNNprobquestion.png>]
 <figures/outputpredict.png, id=1172, 514.92375pt x 255.95625pt>
 File: figures/outputpredict.png Graphic file (type png)
 <use figures/outputpredict.png>
-Package pdftex.def Info: figures/outputpredict.png  used on input line 1630.
+Package pdftex.def Info: figures/outputpredict.png  used on input line 1629.
 (pdftex.def)             Requested size: 386.95894pt x 192.35335pt.
 
-Overfull \hbox (15.9081pt too wide) in paragraph at lines 1645--1646
+Overfull \hbox (15.9081pt too wide) in paragraph at lines 1644--1645
 \OML/cmm/m/it/10.53937 e[]\OT1/cmr/m/n/10.53937 )$.\C70/rm/m/n/10.53937/80 ^^C \C70/rm/m/n/10.53937/86 Q \C70/rm/m/n/10.53937/52 0 \C70/rm/m/n/10.53937/68 Ø \C70/rm/m/n/10.53937/5e ¶ \C70/rm/m/n/10.53937/4e  \C70/rm/m/n/10.53937/96 M \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/8b ≠ \C70/rm/m/n/10.53937/7e √ \C70/rm/m/n/10.53937/65 ˆ \C70/rm/m/n/10.53937/95 Ù\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/8f Ÿ \C70/rm/m/n/10.53937/4e õ \C70/rm/m/n/10.53937/99 q \C70/rm/m/n/10.53937/54 å \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/97 ^ \C70/rm/m/n/10.53937/7e ø \C70/rm/m/n/10.53937/60 ' \C70/rm/m/n/10.53937/51 ˝ \C70/rm/m/n/10.53937/65 p \C70/rm/m/n/10.53937/6b ‘ \C70/rm/m/n/10.53937/97 ^ \C70/rm/m/n/10.53937/99 q \C70/rm/m/n/10.53937/54 å \C70/rm/m/n/10.53937/97 ^ \C70/rm/m/n/10.53937/7e ø \C70/rm/m/n/10.53937/60 '$\OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 x\OT1/cmr/m/n/10.53937 ) = [](0\OML/cmm/m/it/10.53937 ; x\OT1/cmr/m/n/10.53937 )$\C70/rm/m/n/10.53937/66 Ù \C70/rm/m/n/10.53937/61 b\OT1/cmr/m/n/10.53937 .\C70/rm/bx/n/10.53937/91 « \C70/rm/bx/n/10.53937/75 (\OT1/cmr/bx/n/10.53937 ReLU\C70/rm/bx/n/10.53937/76 Ñ
  []
 
@@ -1655,110 +1655,110 @@ Overfull \hbox (15.9081pt too wide) in paragraph at lines 1645--1646
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1646 
+l.1645 
        pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1646 
+l.1645 
         <./figures/NMLEmbed.png> <./figures/outputpredict.png>] [46]
-Overfull \hbox (13.23427pt too wide) in paragraph at lines 1682--1683
+Overfull \hbox (13.23427pt too wide) in paragraph at lines 1681--1682
 [] |\C70/rm/m/n/10.53937/ff ^^H|\OT1/cmr/m/n/10.53937 2|\C70/rm/m/n/10.53937/ff 	| \C70/rm/m/n/10.53937/51 œ \C70/rm/m/n/10.53937/5c ^^Q \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/51 C \C70/rm/m/n/10.53937/4e K \C70/rm/m/n/10.53937/95 Ù \C70/rm/m/n/10.53937/59 ^^M \C70/rm/m/n/10.53937/67 B \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/51 q \C70/rm/m/n/10.53937/90 ^^B \C70/rm/m/n/10.53937/5e î \C70/rm/m/n/10.53937/51 s \C70/rm/m/n/10.53937/7c ˚|\C70/rm/m/n/10.53937/ff ^^Z| \C70/rm/m/n/10.53937/4e :\OT1/cmr/m/n/10.53937 dropout\C70/rm/m/n/10.53937/7a  \C70/rm/m/n/10.53937/5e è \C70/rm/m/n/10.53937/5b ¸ \C70/rm/m/n/10.53937/81 Ù \C70/rm/m/n/10.53937/4e $ * \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/51 C \C70/rm/m/n/10.53937/4e ^^M ^^@ \C70/rm/m/n/10.53937/5b ö \C70/rm/m/n/10.53937/6b œ ! \C70/rm/m/n/10.53937/90 ˝ \C70/rm/m/n/10.53937/57 ( \C70/rm/m/n/10.53937/4e ^^@ *\OT1/cmr/m/n/10.53937 dropout\C70/rm/m/n/10.53937/7f Q
  []
 
 
-Overfull \hbox (5.72305pt too wide) in paragraph at lines 1686--1689
+Overfull \hbox (5.72305pt too wide) in paragraph at lines 1685--1688
 \C70/rm/m/n/10.53937/7f n \C70/rm/m/n/10.53937/4e :\OT1/cmr/m/n/10.53937 1, \C70/rm/m/n/10.53937/8f Ÿ \C70/rm/m/n/10.53937/68 7 \C70/rm/m/n/10.53937/4f ^^Z › \C70/rm/m/n/10.53937/75 Y \C70/rm/m/n/10.53937/8b Â \C70/rm/m/n/10.53937/5c B \C70/rm/m/n/10.53937/62 @ \C70/rm/m/n/10.53937/67 	 \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/51 C\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/80 ^^L \C70/rm/m/n/10.53937/90 £ \C70/rm/m/n/10.53937/4e õ \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/51 C \C70/rm/m/n/10.53937/6b ‘ \C70/rm/m/n/10.53937/8f É \C70/rm/m/n/10.53937/59 ^^Z \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/5c B\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/53 Ô \C70/rm/m/n/10.53937/4e Â \C70/rm/m/n/10.53937/5c ^^F$\OML/cmm/m/it/10.53937 keep[]rob$\C70/rm/m/n/10.53937/8b æ \C70/rm/m/n/10.53937/7f n \C70/rm/m/n/10.53937/4e : \C70/rm/m/n/10.53937/8f É \C70/rm/m/n/10.53937/5c ^^O \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/50 <|\C70/rm/m/n/10.53937/30 ^^B|  \OT1/cmr/m/n/10.53937 dropout\C70/rm/m/n/10.53937/6b c
  []
 
 <figures/dropout.png, id=1191, 385.44pt x 177.66376pt>
 File: figures/dropout.png Graphic file (type png)
 <use figures/dropout.png>
-Package pdftex.def Info: figures/dropout.png  used on input line 1695.
+Package pdftex.def Info: figures/dropout.png  used on input line 1694.
 (pdftex.def)             Requested size: 386.95894pt x 178.36273pt.
 (f:/Erik/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <7.52812> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1699.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1698.
  [47 <./figures/dropout.png>]
 <figures/alex_output.png, id=1205, 618.31pt x 329.23pt>
 File: figures/alex_output.png Graphic file (type png)
 <use figures/alex_output.png>
-Package pdftex.def Info: figures/alex_output.png  used on input line 1732.
+Package pdftex.def Info: figures/alex_output.png  used on input line 1731.
 (pdftex.def)             Requested size: 386.95894pt x 206.04956pt.
 <figures/alex_output3.png, id=1207, 586.19pt x 438.63875pt>
 File: figures/alex_output3.png Graphic file (type png)
 <use figures/alex_output3.png>
-Package pdftex.def Info: figures/alex_output3.png  used on input line 1742.
+Package pdftex.def Info: figures/alex_output3.png  used on input line 1741.
 (pdftex.def)             Requested size: 386.95894pt x 289.556pt.
 <figures/alex_output4.png, id=1209, 755.82375pt x 139.52126pt>
 File: figures/alex_output4.png Graphic file (type png)
 <use figures/alex_output4.png>
-Package pdftex.def Info: figures/alex_output4.png  used on input line 1751.
+Package pdftex.def Info: figures/alex_output4.png  used on input line 1750.
 (pdftex.def)             Requested size: 386.95894pt x 71.42952pt.
 <figures/lrselect.png, id=1211, 437.635pt x 310.15875pt>
 File: figures/lrselect.png Graphic file (type png)
 <use figures/lrselect.png>
-Package pdftex.def Info: figures/lrselect.png  used on input line 1765.
+Package pdftex.def Info: figures/lrselect.png  used on input line 1764.
 (pdftex.def)             Requested size: 193.47577pt x 137.11864pt.
 <figures/cyclelr.png, id=1213, 747.79375pt x 528.97626pt>
 File: figures/cyclelr.png Graphic file (type png)
 <use figures/cyclelr.png>
-Package pdftex.def Info: figures/cyclelr.png  used on input line 1775.
+Package pdftex.def Info: figures/cyclelr.png  used on input line 1774.
 (pdftex.def)             Requested size: 193.47577pt x 136.86064pt.
  [48pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1785 F
+l.1784 F
         ATEÊû∂ÊûÑÂ¶Ç\ref{fate_architecture}ÊâÄÁ§∫„ÄÇ <./figures/alex_output.png>]
 <figures/fate1.jpg, id=1242, 1396.4672pt x 651.93562pt>
 File: figures/fate1.jpg Graphic file (type jpg)
 <use figures/fate1.jpg>
-Package pdftex.def Info: figures/fate1.jpg  used on input line 1789.
+Package pdftex.def Info: figures/fate1.jpg  used on input line 1788.
 (pdftex.def)             Requested size: 386.95894pt x 180.65065pt.
  [49pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1792 \end{figure}
+l.1791 \end{figure}
                    pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1792 \end{figure}
+l.1791 \end{figure}
                    pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1792 \end{figure}
+l.1791 \end{figure}
                     <./figures/alex_output3.png> <./figures/alex_output4.png> <./figures/lrselect.png>]
 <figures/fate_success.jpg, id=1252, 1115.66812pt x 85.06781pt>
 File: figures/fate_success.jpg Graphic file (type jpg)
 <use figures/fate_success.jpg>
-Package pdftex.def Info: figures/fate_success.jpg  used on input line 1805.
+Package pdftex.def Info: figures/fate_success.jpg  used on input line 1804.
 (pdftex.def)             Requested size: 386.95894pt x 29.50418pt.
  [50pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1818 ËÅî
+l.1817 ËÅî
           ÈÇ¶Â≠¶‰π†ÂíåÂàÜÂ∏ÉÂºèÊú∫Âô®Â≠¶‰π†ÁöÑÂÖ≥Á≥ª„ÄÇpdfTeX warning (ext4): destination with the same identifier (name{figure.37}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1818 ËÅî
+l.1817 ËÅî
           ÈÇ¶Â≠¶‰π†ÂíåÂàÜÂ∏ÉÂºèÊú∫Âô®Â≠¶‰π†ÁöÑÂÖ≥Á≥ª„ÄÇpdfTeX warning (ext4): destination with the same identifier (name{figure.38}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1818 ËÅî
+l.1817 ËÅî
           ÈÇ¶Â≠¶‰π†ÂíåÂàÜÂ∏ÉÂºèÊú∫Âô®Â≠¶‰π†ÁöÑÂÖ≥Á≥ª„ÄÇ <./figures/cyclelr.png> <./figures/fate1.jpg> <./figures/fate_success.jpg>]
 <figures/paralle.png, id=1266, 707.64375pt x 361.35pt>
 File: figures/paralle.png Graphic file (type png)
 <use figures/paralle.png>
-Package pdftex.def Info: figures/paralle.png  used on input line 1828.
+Package pdftex.def Info: figures/paralle.png  used on input line 1827.
 (pdftex.def)             Requested size: 193.47577pt x 98.79536pt.
  (./FL_Note.bbl [51pdfTeX warning (ext4): destination with the same identifier (name{figure.39}) has been already used, duplicate ignored
 
@@ -1770,27 +1770,27 @@ l.1 \begin{thebibliography}{21}
 Package natbib Warning: There were undefined citations.
 
 [53]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1863.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1863.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1862.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1862.
  (./FL_Note.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1863.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1863.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1862.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1862.
 Package rerunfilecheck Info: File `FL_Note.out' has not changed.
 (rerunfilecheck)             Checksum: 11134B82097A96A0B1F2AB64856CB678;10095.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1863.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1862.
  ) 
 Here is how much of TeX's memory you used:
  41960 strings out of 492623
- 755474 string characters out of 6130939
- 1008558 words of memory out of 5000000
+ 755459 string characters out of 6130939
+ 1008560 words of memory out of 5000000
  44087 multiletter control sequences out of 15000+600000
  676067 words of font info for 558 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,16n,82p,1002b,2345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,16n,82p,997b,2345s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong2e: wrong mapping: character 159 --> 0x2E9F --> .notdef
@@ -1819,7 +1819,7 @@ pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong20: wrong mapping: character 11 --> 0x200B --> .notdef
 ><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on FL_Note.pdf (53 pages, 2742739 bytes).
+Output written on FL_Note.pdf (53 pages, 2742769 bytes).
 PDF statistics:
  2007 PDF objects out of 2073 (max. 8388607)
  1560 compressed objects within 16 object streams
