@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.19)  24 JUL 2020 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.19)  26 JUL 2020 10:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -794,7 +794,12 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip78
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count300
-) (f:/Erik/texlive/2019/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
+)
+\c@definition=\count301
+\c@assumption=\count302
+\c@corollary=\count303
+\c@theorem=\count304
+ (f:/Erik/texlive/2019/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
 Package: tikz-cd 2018/11/19 v0.9f Commutative diagrams with TikZ
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (f:/Erik/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (f:/Erik/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks37
@@ -826,14 +831,14 @@ Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
 \pgf@yc=\dimen198
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count301
-\c@pgf@countb=\count302
-\c@pgf@countc=\count303
-\c@pgf@countd=\count304
+\c@pgf@counta=\count305
+\c@pgf@countb=\count306
+\c@pgf@countc=\count307
+\c@pgf@countd=\count308
 \t@pgf@toka=\toks41
 \t@pgf@tokb=\toks42
 \t@pgf@tokc=\toks43
-\pgf@sys@id@count=\count305
+\pgf@sys@id@count=\count309
  (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
 )
@@ -844,21 +849,21 @@ File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
 File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
 ))) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfsyssoftpath@smallbuffer@items=\count306
-\pgfsyssoftpath@bigbuffer@items=\count307
+\pgfsyssoftpath@smallbuffer@items=\count310
+\pgfsyssoftpath@bigbuffer@items=\count311
 ) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
  (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen199
-\pgfmath@count=\count308
+\pgfmath@count=\count312
 \pgfmath@box=\box60
 \pgfmath@toks=\toks44
 \pgfmath@stack@operand=\toks45
 \pgfmath@stack@operation=\toks46
 ) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count309
+\c@pgfmathroundto@lastzeros=\count313
 )) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@picminx=\dimen256
@@ -888,7 +893,7 @@ File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfpic=\box61
 \pgf@hbox=\box62
 \pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count310
+\pgf@picture@serial@count=\count314
 ) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgflinewidth=\dimen274
@@ -909,7 +914,7 @@ File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@max=\dimen279
-\pgf@sys@shading@range@num=\count311
+\pgf@sys@shading@range@num=\count315
 ) (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
  (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -945,7 +950,7 @@ Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
 Package: tikz 2019/02/02 v3.1.1 (3.1.1)
  (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@plot@mark@count=\count312
+\pgf@plot@mark@count=\count316
 \pgfplotmarksize=\dimen284
 )
 \tikz@lastx=\dimen285
@@ -958,17 +963,17 @@ File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \tikz@figbox@bg=\box67
 \tikz@tempbox=\box68
 \tikz@tempbox@bg=\box69
-\tikztreelevel=\count313
-\tikznumberofchildren=\count314
-\tikznumberofcurrentchild=\count315
-\tikz@fig@count=\count316
+\tikztreelevel=\count317
+\tikznumberofchildren=\count318
+\tikznumberofcurrentchild=\count319
+\tikz@fig@count=\count320
  (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfmatrixcurrentrow=\count317
-\pgfmatrixcurrentcolumn=\count318
-\pgf@matrix@numberofcolumns=\count319
+\pgfmatrixcurrentrow=\count321
+\pgfmatrixcurrentcolumn=\count322
+\pgf@matrix@numberofcolumns=\count323
 )
-\tikz@expandcount=\count320
+\tikz@expandcount=\count324
  (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ))) (f:/Erik/texlive/2019/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex (f:/Erik/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
@@ -984,22 +989,22 @@ File: pgflibraryarrows.meta.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ))) (f:/Erik/texlive/2019/texmf-dist/tex/latex/pythonhighlight/pythonhighlight.sty
 Package: pythonhighlight 2017/02/09 python code highlighting; provided by Olivier Verdier <olivier.verdier@gmail.com>
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count321
+\lst@mode=\count325
 \lst@gtempboxa=\box70
 \lst@token=\toks49
-\lst@length=\count322
+\lst@length=\count326
 \lst@currlwidth=\dimen295
-\lst@column=\count323
-\lst@pos=\count324
+\lst@column=\count327
+\lst@pos=\count328
 \lst@lostspace=\dimen296
 \lst@width=\dimen297
-\lst@newlines=\count325
-\lst@lineno=\count326
+\lst@newlines=\count329
+\lst@lineno=\count330
 \lst@maxwidth=\dimen298
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
-\c@lstnumber=\count327
-\lst@skipnumbers=\count328
+\c@lstnumber=\count331
+\lst@skipnumbers=\count332
 \lst@framebox=\box71
 ) (f:/Erik/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2019/02/27 1.8b listings configuration
@@ -1014,88 +1019,88 @@ File: UTF8.chr 2015/04/18 4.8.4
 ) (./FL_Note.aux)
 \openout1 = `FL_Note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1134,48 +1139,48 @@ LaTeX Font Info:    ... okay on input line 78.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 78.
+LaTeX Info: Redefining \selectfont on input line 87.
  (f:/Erik/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count329
+\scratchcounter=\count333
 \scratchdimen=\dimen299
 \scratchbox=\box72
-\nofMPsegments=\count330
-\nofMParguments=\count331
+\nofMPsegments=\count334
+\nofMParguments=\count335
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count332
+\MPscratchCnt=\count336
 \MPscratchDim=\dimen300
-\MPnumerator=\count333
-\makeMPintoPDFobject=\count334
+\MPnumerator=\count337
+\makeMPintoPDFobject=\count338
 \everyMPtoPDFconversion=\toks51
 )
 \AtBeginShipoutBox=\box73
-Package hyperref Info: Link coloring ON on input line 78.
+Package hyperref Info: Link coloring ON on input line 87.
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (f:/Erik/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count335
+\c@section@level=\count339
 )
-LaTeX Info: Redefining \ref on input line 78.
-LaTeX Info: Redefining \pageref on input line 78.
-LaTeX Info: Redefining \nameref on input line 78.
+LaTeX Info: Redefining \ref on input line 87.
+LaTeX Info: Redefining \pageref on input line 87.
+LaTeX Info: Redefining \nameref on input line 87.
  (./FL_Note.out) (./FL_Note.out)
 \@outlinefile=\write4
 \openout4 = `FL_Note.out'.
 
  ABD: EveryShipout initializing macros
-\c@lstlisting=\count336
-LaTeX Font Info:    Try loading font information for C70+rm on input line 83.
+\c@lstlisting=\count340
+LaTeX Font Info:    Try loading font information for C70+rm on input line 92.
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2019/04/07 v2.4.15 Chinese font definition (CTEX)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 83.
+LaTeX Font Info:    Try loading font information for U+msa on input line 92.
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 83.
+LaTeX Font Info:    Try loading font information for U+msb on input line 92.
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./FL_Note.toc (f:/Erik/texlive/2019/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
@@ -1183,9 +1188,9 @@ File: zhwindowsfonts.tex 2019/04/07 v2.4.15 Windows font map loader for pdfTeX a
 ) [1
 
 ]
-Package CJKpunct Info: use punctuation spaces for family 'zhkai' with punctstyle (quanjiao) on input line 114.
+Package CJKpunct Info: use punctuation spaces for family 'zhkai' with punctstyle (quanjiao) on input line 134.
  [2]
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 117.
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 159.
 )
 \tf@toc=\write5
 \openout5 = `FL_Note.toc'.
@@ -1193,604 +1198,669 @@ Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (q
  [3] [4]
 Missing character: There is no é in font cmr7!
 Missing character: There is no ® in font cmr7!
-<figures/Categorization_of_FL.jpg, id=686, 614.295pt x 139.27031pt>
+<figures/Categorization_of_FL.jpg, id=775, 614.295pt x 139.27031pt>
 File: figures/Categorization_of_FL.jpg Graphic file (type jpg)
 <use figures/Categorization_of_FL.jpg>
-Package pdftex.def Info: figures/Categorization_of_FL.jpg  used on input line 178.
+Package pdftex.def Info: figures/Categorization_of_FL.jpg  used on input line 187.
 (pdftex.def)             Requested size: 483.69684pt x 109.66318pt.
-<figures/Architecture_for_horizontal_FL_system.jpg, id=687, 488.57532pt x 277.035pt>
+<figures/Architecture_for_horizontal_FL_system.jpg, id=776, 488.57532pt x 277.035pt>
 File: figures/Architecture_for_horizontal_FL_system.jpg Graphic file (type jpg)
 <use figures/Architecture_for_horizontal_FL_system.jpg>
-Package pdftex.def Info: figures/Architecture_for_horizontal_FL_system.jpg  used on input line 186.
+Package pdftex.def Info: figures/Architecture_for_horizontal_FL_system.jpg  used on input line 195.
 (pdftex.def)             Requested size: 435.32419pt x 246.84358pt.
- [5] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+ [5] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.203     \item Â
-                 ØπÈΩêÊ†∑Êú¨ËøõË°åÊ®°ÂûãÂä†ÂØÜËÆ≠ÁªÉpdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+l.212     \item Â
+                 ØπÈΩêÊ†∑Êú¨ËøõË°åÊ®°ÂûãÂä†ÂØÜËÆ≠ÁªÉpdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.203     \item Â
+l.212     \item Â
                  ØπÈΩêÊ†∑Êú¨ËøõË°åÊ®°ÂûãÂä†ÂØÜËÆ≠ÁªÉ <./figures/Categorization_of_FL.jpg> <./figures/Architecture_for_horizontal_FL_system.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 205.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 214.
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.53937> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 205.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 214.
  [7pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.242 \newpage
+l.251 \newpage
               ]
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 []|\OT1/cmr/bx/n/9.03374 Cross-
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 269--270
+Underfull \hbox (badness 1383) in paragraph at lines 278--279
 \C70/rm/m/n/9.03374/62 7 \C70/rm/m/n/9.03374/67 : \C70/rm/m/n/9.03374/90 ˝ \C70/rm/m/n/9.03374/53 Ô \C70/rm/m/n/9.03374/4e Â \C70/rm/m/n/9.03374/8b ˚ \C70/rm/m/n/9.03374/53 ÷ \C70/rm/m/n/9.03374/65 p \C70/rm/m/n/9.03374/63 n \C70/rm/m/n/9.03374/96 ∆ \C70/rm/m/n/9.03374/76 Ñ \C70/rm/m/n/9.03374/4e ˚
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 277--278
+Underfull \hbox (badness 4899) in paragraph at lines 286--287
 []|\C70/rm/m/n/9.03374/6c ° \C70/rm/m/n/9.03374/67 	\OT1/cmr/m/n/9.03374 (\C70/rm/m/n/9.03374/4e ^^@ * \C70/rm/m/n/9.03374/65 p \C70/rm/m/n/9.03374/63 n \C70/rm/m/n/9.03374/4e - \C70/rm/m/n/9.03374/5f √\OT1/cmr/m/n/9.03374 /\C70/rm/m/n/9.03374/96 ∆ \C70/rm/m/n/9.03374/7f § \C70/rm/m/n/9.03374/4e -
  []
 
 
-Underfull \hbox (badness 7133) in paragraph at lines 278--278
+Underfull \hbox (badness 7133) in paragraph at lines 287--287
 []|\C70/rm/m/n/9.03374/66 ^^_ \C70/rm/m/n/9.03374/57 ã \C70/rm/m/n/9.03374/62 ” Q\OT1/cmr/m/n/9.03374 , \C70/rm/m/n/9.03374/51 v \C70/rm/m/n/9.03374/4e -\OT1/cmr/m/n/9.03374 hub\C70/rm/m/n/9.03374/4e - \C70/rm/m/n/9.03374/5f √ \C70/rm/m/n/9.03374/82 Ç \C70/rm/m/n/9.03374/70 π \C70/rm/m/n/9.03374/88 h \C70/rm/m/n/9.03374/79 : \C70/rm/m/n/9.03374/53 O \C70/rm/m/n/9.03374/8c ^^C \C70/rm/m/n/9.03374/67 ^^M \C70/rm/m/n/9.03374/52 ° \C70/rm/m/n/9.03374/63 – \C70/rm/m/n/9.03374/4f õ \C70/rm/m/n/9.03374/80 ^^E \OT1/cmr/m/n/9.03374 (\C70/rm/m/n/9.03374/90 ^^Z \C70/rm/m/n/9.03374/5e 8 \C70/rm/m/n/9.03374/6c ° \C70/rm/m/n/9.03374/67 	 \C70/rm/m/n/9.03374/65 p \C70/rm/m/n/9.03374/63 n\OT1/cmr/m/n/9.03374 ),
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 290--291
+Underfull \hbox (badness 1383) in paragraph at lines 299--300
 []|\C70/rm/m/n/9.03374/54 å \C70/rm/m/n/9.03374/8b ° \C70/rm/m/n/9.03374/7b ó \C70/rm/m/n/9.03374/90 ^^Z \C70/rm/m/n/9.03374/5e 8 \C70/rm/m/n/9.03374/66 / \C70/rm/m/n/9.03374/65 p \C70/rm/m/n/9.03374/63 n \C70/rm/m/n/9.03374/4e - \C70/rm/m/n/9.03374/5f √ \C70/rm/m/n/9.03374/76 Ñ \C70/rm/m/n/9.03374/74 ˆ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
 []|\C70/rm/m/n/9.03374/5b ¢ \C70/rm/m/n/9.03374/62 7
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 313--314
+Underfull \hbox (badness 1383) in paragraph at lines 322--323
 []|\C70/rm/m/n/9.03374/65 p \C70/rm/m/n/9.03374/63 n \C70/rm/m/n/9.03374/53 Ô \C70/rm/m/n/9.03374/4e Â \C70/rm/m/n/9.03374/57 ( \C70/rm/m/n/9.03374/5b ¢ \C70/rm/m/n/9.03374/62 7 \C70/rm/m/n/9.03374/7a Ô \C70/rm/m/n/9.03374/4e K \C70/rm/m/n/9.03374/95 Ù \C70/rm/m/n/9.03374/4e ˚ \C70/rm/m/n/9.03374/61 ^^O
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
 []|\C70/rm/m/n/9.03374/52 ^^F \C70/rm/m/n/9.03374/53 : \C70/rm/m/n/9.03374/66 / \C70/rm/m/n/9.03374/56 ˙ \C70/rm/m/n/9.03374/5b ö \C70/rm/m/n/9.03374/76 Ñ\OT1/cmr/m/n/9.03374 .\C70/rm/m/n/9.03374/53 Ô \C70/rm/m/n/9.03374/4e Â \C70/rm/m/n/9.03374/66 / \C70/rm/m/n/9.03374/52 ^^F \C70/rm/m/n/9.03374/53 : \C70/rm/m/n/9.03374/79 :
  []
 
 
-Overfull \hbox (16.05923pt too wide) in paragraph at lines 259--320
+Overfull \hbox (16.05923pt too wide) in paragraph at lines 268--329
  [][] 
  []
 
-<figures/life_circle.jpg, id=753, 1127.71312pt x 547.2947pt>
+<figures/life_circle.jpg, id=841, 1127.71312pt x 547.2947pt>
 File: figures/life_circle.jpg Graphic file (type jpg)
 <use figures/life_circle.jpg>
-Package pdftex.def Info: figures/life_circle.jpg  used on input line 329.
+Package pdftex.def Info: figures/life_circle.jpg  used on input line 338.
 (pdftex.def)             Requested size: 290.22105pt x 140.84853pt.
 [8pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.340 \end{enumerate}
+l.349 \end{enumerate}
                      ]
-<figures/split_learning.jpg, id=780, 363.60844pt x 179.16937pt>
+<figures/split_learning.jpg, id=868, 363.60844pt x 179.16937pt>
 File: figures/split_learning.jpg Graphic file (type jpg)
 <use figures/split_learning.jpg>
-Package pdftex.def Info: figures/split_learning.jpg  used on input line 392.
+Package pdftex.def Info: figures/split_learning.jpg  used on input line 401.
 (pdftex.def)             Requested size: 290.22105pt x 143.01035pt.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.395 
+l.404 
        <./figures/life_circle.jpg>]
 
-Package natbib Warning: Citation `alg:fedavg' on page 10 undefined on input line 406.
+Package natbib Warning: Citation `alg:fedavg' on page 10 undefined on input line 415.
 
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 430.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 439.
 [10pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.450 \end{itemize}
-                   pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+l.459 \end{itemize}
+                   pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.450 \end{itemize}
+l.459 \end{itemize}
                     <./figures/split_learning.jpg>]
-<figures/poisoninginSGD.png, id=802, 621.32124pt x 552.0625pt>
+<figures/poisoninginSGD.png, id=890, 621.32124pt x 552.0625pt>
 File: figures/poisoninginSGD.png Graphic file (type png)
 <use figures/poisoninginSGD.png>
-Package pdftex.def Info: figures/poisoninginSGD.png  used on input line 469.
+Package pdftex.def Info: figures/poisoninginSGD.png  used on input line 478.
 (pdftex.def)             Requested size: 290.22105pt x 257.86888pt.
- [11] [12pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+ [11] [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.501 \item
+l.510 \item
            [ÁâπÂæÅÂàÜÂ∏ÉÂÄæÊñú] Âç≥‰Ωø$P(y, j, x)$Áõ∏Âêå,  $P_i(x)$ÁöÑËæπÈôÖ... <./figures/poisoninginSGD.png>]
-<figures/Federated_Averging.jpg, id=828, 621.82312pt x 293.59688pt>
+<figures/Federated_Averging.jpg, id=917, 621.82312pt x 293.59688pt>
 File: figures/Federated_Averging.jpg Graphic file (type jpg)
 <use figures/Federated_Averging.jpg>
-Package pdftex.def Info: figures/Federated_Averging.jpg  used on input line 534.
+Package pdftex.def Info: figures/Federated_Averging.jpg  used on input line 543.
 (pdftex.def)             Requested size: 435.32419pt x 205.54327pt.
- [13] [14pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+ [13] [14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.557  \end{itemize}
+l.566  \end{itemize}
                      <./figures/Federated_Averging.jpg>]
-Overfull \hbox (45.62315pt too wide) in paragraph at lines 596--599
-\C70/rm/m/n/10.53937/5f ^^O \C70/rm/m/n/10.53937/67 e \C70/rm/m/n/10.53937/88 h \C70/rm/m/n/10.53937/8f æ\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/53 s$\OML/cmm/m/it/10.53937 Dec\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 ; En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 ; []; En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 ))) = \OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]; m[]; []; m[]\OT1/cmr/m/n/10.53937 )$, \C70/rm/m/n/10.53937/62 ^^V \C70/rm/m/n/10.53937/51 ô \C70/rm/m/n/10.53937/62 ^^P|\C70/rm/m/n/10.53937/ff ^^Z| $\OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 ; En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 ; []; En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )) =
+Overfull \hbox (35.08379pt too wide) in paragraph at lines 605--608
+\C70/rm/m/n/10.53937/67 e \C70/rm/m/n/10.53937/88 h \C70/rm/m/n/10.53937/8f æ\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/53 s$\OML/cmm/m/it/10.53937 Dec\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 ; En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 ; []; En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 ))) = \OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]; m[]; []; m[]\OT1/cmr/m/n/10.53937 )$, \C70/rm/m/n/10.53937/62 ^^V \C70/rm/m/n/10.53937/51 ô \C70/rm/m/n/10.53937/62 ^^P|\C70/rm/m/n/10.53937/ff ^^Z| $\OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 ; En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )\OML/cmm/m/it/10.53937 ; []; En\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 m[]\OT1/cmr/m/n/10.53937 )) =
  []
 
-[15] [16] [17]
-<figures/sigmoid_function.png, id=883, 673.51625pt x 574.145pt>
+[15]
+Overfull \hbox (27.53374pt too wide) in paragraph at lines 632--632
+[]\C70/rm/bx/n/15.05624/8b ∫ \C70/rm/bx/n/15.05624/65 á \C70/rm/bx/n/15.05624/96 ^^E \C70/rm/bx/n/15.05624/8b ˚\OT1/cmr/bx/n/15.05624 -CPFed: Communication-Efficient and Privacy-Preserving
+ []
+
+[16]
+<figures/CPFed/zCDPLemma.jpg, id=969, 523.20468pt x 217.5628pt>
+File: figures/CPFed/zCDPLemma.jpg Graphic file (type jpg)
+<use figures/CPFed/zCDPLemma.jpg>
+Package pdftex.def Info: figures/CPFed/zCDPLemma.jpg  used on input line 692.
+(pdftex.def)             Requested size: 338.5863pt x 140.79668pt.
+ [17] [18pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.730 \end{equation}
+                     <./figures/CPFed/zCDPLemma.jpg>]
+<figures/CPFed/communication-reduction.jpg, id=1009, 447.92343pt x 212.29312pt>
+File: figures/CPFed/communication-reduction.jpg Graphic file (type jpg)
+<use figures/CPFed/communication-reduction.jpg>
+Package pdftex.def Info: figures/CPFed/communication-reduction.jpg  used on input line 743.
+(pdftex.def)             Requested size: 338.5863pt x 160.4763pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.780 \end{enumerate}
+                      <./figures/CPFed/communication-reduction.jpg>]
+<figures/CPFed/secure-aggregation.jpg, id=1029, 550.30594pt x 396.7322pt>
+File: figures/CPFed/secure-aggregation.jpg Graphic file (type jpg)
+<use figures/CPFed/secure-aggregation.jpg>
+Package pdftex.def Info: figures/CPFed/secure-aggregation.jpg  used on input line 793.
+(pdftex.def)             Requested size: 338.5863pt x 244.10689pt.
+<figures/CPFed/CPFed_Algorithm.jpg, id=1030, 629.35126pt x 587.19376pt>
+File: figures/CPFed/CPFed_Algorithm.jpg Graphic file (type jpg)
+<use figures/CPFed/CPFed_Algorithm.jpg>
+Package pdftex.def Info: figures/CPFed/CPFed_Algorithm.jpg  used on input line 819.
+(pdftex.def)             Requested size: 338.5863pt x 315.90616pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.829 \paragraph
+                {Lemma 4 } <./figures/CPFed/secure-aggregation.jpg>]
+<figures/CPFed/Assumption123.jpg, id=1045, 385.44pt x 194.22563pt>
+File: figures/CPFed/Assumption123.jpg Graphic file (type jpg)
+<use figures/CPFed/Assumption123.jpg>
+Package pdftex.def Info: figures/CPFed/Assumption123.jpg  used on input line 848.
+(pdftex.def)             Requested size: 338.5863pt x 170.61382pt.
+<figures/CPFed/Lemma5.png, id=1046, 523.9575pt x 169.63374pt>
+File: figures/CPFed/Lemma5.png Graphic file (type png)
+<use figures/CPFed/Lemma5.png>
+Package pdftex.def Info: figures/CPFed/Lemma5.png  used on input line 856.
+(pdftex.def)             Requested size: 338.5863pt x 109.62128pt.
+<figures/CPFed/Lemma6.jpg, id=1047, 599.23875pt x 370.38374pt>
+File: figures/CPFed/Lemma6.jpg Graphic file (type jpg)
+<use figures/CPFed/Lemma6.jpg>
+Package pdftex.def Info: figures/CPFed/Lemma6.jpg  used on input line 862.
+(pdftex.def)             Requested size: 338.5863pt x 209.2785pt.
+ [21 <./figures/CPFed/CPFed_Algorithm.jpg>] [22 <./figures/CPFed/Assumption123.jpg> <./figures/CPFed/Lemma5.png>] [23 <./figures/CPFed/Lemma6.jpg>] [24]
+<figures/sigmoid_function.png, id=1086, 673.51625pt x 574.145pt>
 File: figures/sigmoid_function.png Graphic file (type png)
 <use figures/sigmoid_function.png>
-Package pdftex.def Info: figures/sigmoid_function.png  used on input line 724.
+Package pdftex.def Info: figures/sigmoid_function.png  used on input line 1001.
 (pdftex.def)             Requested size: 193.47577pt x 164.92961pt.
- [18]
-<figures/ReLU.jpg, id=904, 1047.16219pt x 292.09125pt>
+<figures/ReLU.jpg, id=1087, 1047.16219pt x 292.09125pt>
 File: figures/ReLU.jpg Graphic file (type jpg)
 <use figures/ReLU.jpg>
-Package pdftex.def Info: figures/ReLU.jpg  used on input line 741.
+Package pdftex.def Info: figures/ReLU.jpg  used on input line 1018.
 (pdftex.def)             Requested size: 483.69684pt x 134.92072pt.
- [19pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.759 \item  D
-              ead ReLU ProblemÔºàÁ•ûÁªèÂÖÉÂùèÊ≠ªÁé∞Ë±°Ôºâ:Êüê‰∫õÁ•ûÁªèÂÖÉÂèØ...pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+l.1030 \end{enumerate}
+                       <./figures/sigmoid_function.png>] [26pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.759 \item  D
-              ead ReLU ProblemÔºàÁ•ûÁªèÂÖÉÂùèÊ≠ªÁé∞Ë±°Ôºâ:Êüê‰∫õÁ•ûÁªèÂÖÉÂèØ... <./figures/sigmoid_function.png> <./figures/ReLu.jpg>]
-Overfull \hbox (0.16628pt too wide) in paragraph at lines 807--809
+l.1080  \begin{equation}
+                         <./figures/ReLu.jpg>]
+Overfull \hbox (0.16628pt too wide) in paragraph at lines 1084--1086
 []\C70/rm/m/n/10.53937/57 ( \C70/rm/m/n/10.53937/81 Í \C70/rm/m/n/10.53937/4f · \C70/rm/m/n/10.53937/60 o \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/5b ö \C70/rm/m/n/10.53937/4e I -\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/5b ˘ \C70/rm/m/n/10.53937/65 p \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/5e ï \C70/rm/m/n/10.53937/53 Ô \C70/rm/m/n/10.53937/4e Â \C70/rm/m/n/10.53937/4f ^^? \C70/rm/m/n/10.53937/75 (\OT1/cmr/m/n/10.53937 2|\C70/rm/m/n/10.53937/30 ^^A| \C70/rm/m/n/10.53937/81 Í \C70/rm/m/n/10.53937/71 6 \C70/rm/m/n/10.53937/5e 8 \C70/rm/m/n/10.53937/65 p$\OML/cmm/m/it/10.53937 e$\C70/rm/m/n/10.53937/62 ^^V \C70/rm/m/n/10.53937/66 /\OT1/cmr/m/n/10.53937 10.\C70/rm/m/n/10.53937/5f S \C70/rm/m/n/10.53937/5e ï \C70/rm/m/n/10.53937/4e :\OT1/cmr/m/n/10.53937 2\C70/rm/m/n/10.53937/65 ˆ\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/81 Í \C70/rm/m/n/10.53937/4f · \C70/rm/m/n/10.53937/60 o \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/53 U \C70/rm/m/n/10.53937/4f M \C70/rm/m/n/10.53937/4e :\OT1/cmr/m/n/10.53937 bit;\C70/rm/m/n/10.53937/5f S \C70/rm/m/n/10.53937/5e ï \C70/rm/m/n/10.53937/4e :\OT1/cmr/m/n/10.53937 e\C70/rm/m/n/10.53937/65 ˆ\OT1/cmr/m/n/10.53937 ,
  []
 
-[20]
-<figures/MP_Modle.png, id=929, 558.085pt x 257.96375pt>
+<figures/MP_Modle.png, id=1114, 558.085pt x 257.96375pt>
 File: figures/MP_Modle.png Graphic file (type png)
 <use figures/MP_Modle.png>
-Package pdftex.def Info: figures/MP_Modle.png  used on input line 841.
+Package pdftex.def Info: figures/MP_Modle.png  used on input line 1118.
 (pdftex.def)             Requested size: 435.32419pt x 201.22664pt.
-<figures/simple_perceptron.png, id=930, 487.8225pt x 364.36125pt>
+<figures/simple_perceptron.png, id=1115, 487.8225pt x 364.36125pt>
 File: figures/simple_perceptron.png Graphic file (type png)
 <use figures/simple_perceptron.png>
-Package pdftex.def Info: figures/simple_perceptron.png  used on input line 853.
+Package pdftex.def Info: figures/simple_perceptron.png  used on input line 1130.
 (pdftex.def)             Requested size: 241.84842pt x 180.64014pt.
- [21pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+[27] [28pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.856 \newpage
-               <./figures/MP_Modle.png>]
-<figures/algorithm_perceptron.png, id=938, 497.86pt x 364.36125pt>
+l.1133 \newpage
+               pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1133 \newpage
+                <./figures/MP_Modle.png> <./figures/simple_perceptron.png>]
+<figures/algorithm_perceptron.png, id=1131, 497.86pt x 364.36125pt>
 File: figures/algorithm_perceptron.png Graphic file (type png)
 <use figures/algorithm_perceptron.png>
-Package pdftex.def Info: figures/algorithm_perceptron.png  used on input line 864.
+Package pdftex.def Info: figures/algorithm_perceptron.png  used on input line 1141.
 (pdftex.def)             Requested size: 435.32419pt x 318.59846pt.
-<figures/linear_model.png, id=939, 470.75874pt x 193.72375pt>
+<figures/linear_model.png, id=1132, 470.75874pt x 193.72375pt>
 File: figures/linear_model.png Graphic file (type png)
 <use figures/linear_model.png>
-Package pdftex.def Info: figures/linear_model.png  used on input line 877.
+Package pdftex.def Info: figures/linear_model.png  used on input line 1154.
 (pdftex.def)             Requested size: 338.5863pt x 139.33318pt.
- [22pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.880 \newpage
-               <./figures/simple_perceptron.png>] [23pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.880 \newpage
-               <./figures/algorithm_perceptron.png> <./figures/linear_model.png>]
-<figures/loss_function.png, id=957, 352.31625pt x 263.98625pt>
+l.1157 \newpage
+                <./figures/algorithm_perceptron.png>]
+<figures/loss_function.png, id=1143, 352.31625pt x 263.98625pt>
 File: figures/loss_function.png Graphic file (type png)
 <use figures/loss_function.png>
-Package pdftex.def Info: figures/loss_function.png  used on input line 884.
+Package pdftex.def Info: figures/loss_function.png  used on input line 1161.
 (pdftex.def)             Requested size: 338.5863pt x 253.69781pt.
-<figures/FNN.png, id=959, 688.5725pt x 409.53pt>
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.6.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1180 
+        <./figures/linear_model.png> <./figures/loss_function.png>]
+<figures/FNN.png, id=1154, 688.5725pt x 409.53pt>
 File: figures/FNN.png Graphic file (type png)
 <use figures/FNN.png>
-Package pdftex.def Info: figures/FNN.png  used on input line 910.
+Package pdftex.def Info: figures/FNN.png  used on input line 1187.
 (pdftex.def)             Requested size: 290.22105pt x 172.60756pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.935 
-       <./figures/loss_function.png>] [25pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
+l.1221 ...l)} = f_l(W^{(l)} a^{(l-1)} + b^{(l)})$$
+                                                  pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.949 \paragraph
-                {ÂèÇÊï∞Â≠¶‰π†}pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.949 \paragraph
-                {ÂèÇÊï∞Â≠¶‰π†} <./figures/FNN.png>]
-<figures/algorithm_bp.png, id=977, 502.87875pt x 430.60875pt>
+l.1221 ...l)} = f_l(W^{(l)} a^{(l-1)} + b^{(l)})$$
+                                                   <./figures/FNN.png>]
+<figures/algorithm_bp.png, id=1164, 502.87875pt x 430.60875pt>
 File: figures/algorithm_bp.png Graphic file (type png)
 <use figures/algorithm_bp.png>
-Package pdftex.def Info: figures/algorithm_bp.png  used on input line 977.
+Package pdftex.def Info: figures/algorithm_bp.png  used on input line 1254.
 (pdftex.def)             Requested size: 338.5863pt x 289.92558pt.
- [26] [27 <./figures/algorithm_bp.png>]
-<figures/RNN_sample.png, id=994, 256.96pt x 161.60374pt>
+ [32] [33 <./figures/algorithm_bp.png>]
+<figures/RNN_sample.png, id=1180, 256.96pt x 161.60374pt>
 File: figures/RNN_sample.png Graphic file (type png)
 <use figures/RNN_sample.png>
-Package pdftex.def Info: figures/RNN_sample.png  used on input line 1022.
+Package pdftex.def Info: figures/RNN_sample.png  used on input line 1299.
 (pdftex.def)             Requested size: 435.32419pt x 273.80049pt.
-<figures/simple_RNN.png, id=996, 475.7775pt x 118.4425pt>
+<figures/simple_RNN.png, id=1182, 475.7775pt x 118.4425pt>
 File: figures/simple_RNN.png Graphic file (type png)
 <use figures/simple_RNN.png>
-Package pdftex.def Info: figures/simple_RNN.png  used on input line 1034.
+Package pdftex.def Info: figures/simple_RNN.png  used on input line 1311.
 (pdftex.def)             Requested size: 338.5863pt x 84.29355pt.
- [28pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.6.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1048 \end{equation*}
-                       <./figures/RNN_sample.png>]
-<figures/RNN_univesal.png, id=1004, 504.88625pt x 841.1425pt>
+l.1319 
+        <./figures/RNN_sample.png>]
+<figures/RNN_univesal.png, id=1190, 504.88625pt x 841.1425pt>
 File: figures/RNN_univesal.png Graphic file (type png)
 <use figures/RNN_univesal.png>
-Package pdftex.def Info: figures/RNN_univesal.png  used on input line 1054.
+Package pdftex.def Info: figures/RNN_univesal.png  used on input line 1331.
 (pdftex.def)             Requested size: 386.95894pt x 644.6784pt.
-<figures/RNN_model1.png, id=1005, 888.31876pt x 284.06125pt>
+<figures/RNN_model1.png, id=1191, 888.31876pt x 284.06125pt>
 File: figures/RNN_model1.png Graphic file (type png)
 <use figures/RNN_model1.png>
-Package pdftex.def Info: figures/RNN_model1.png  used on input line 1084.
+Package pdftex.def Info: figures/RNN_model1.png  used on input line 1361.
 (pdftex.def)             Requested size: 386.95894pt x 123.73901pt.
-<figures/RNN_model2.png, id=1006, 509.905pt x 223.83624pt>
+<figures/RNN_model2.png, id=1192, 509.905pt x 223.83624pt>
 File: figures/RNN_model2.png Graphic file (type png)
 <use figures/RNN_model2.png>
-Package pdftex.def Info: figures/RNN_model2.png  used on input line 1093.
+Package pdftex.def Info: figures/RNN_model2.png  used on input line 1370.
 (pdftex.def)             Requested size: 386.95894pt x 169.8748pt.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
+ [35pdfTeX warning (ext4): destination with the same identifier (name{figure.6.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1105 
-        <./figures/simple_RNN.png>] [30 <./figures/RNN_univesal.png>]
-<figures/RNN_model3.png, id=1022, 926.46124pt x 317.185pt>
+l.1376 $$
+         \hat{y}= g(h_t),  \  \forall t \in [1, T]$$ <./figures/simple_RNN.png>] [36 <./figures/RNN_univesal.png>]
+<figures/RNN_model3.png, id=1207, 926.46124pt x 317.185pt>
 File: figures/RNN_model3.png Graphic file (type png)
 <use figures/RNN_model3.png>
-Package pdftex.def Info: figures/RNN_model3.png  used on input line 1119.
+Package pdftex.def Info: figures/RNN_model3.png  used on input line 1396.
 (pdftex.def)             Requested size: 386.95894pt x 132.48112pt.
- [31pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
+ [37pdfTeX warning (ext4): destination with the same identifier (name{figure.6.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1136 \subsubsection
-                     {ÁÆÄ‰ªãÂÆûÁé∞}pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
+l.1419 \end{enumerate}
+                      pdfTeX warning (ext4): destination with the same identifier (name{figure.6.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1136 \subsubsection
-                     {ÁÆÄ‰ªãÂÆûÁé∞}pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
+l.1419 \end{enumerate}
+                       <./figures/RNN_model1.png> <./figures/RNN_model2.png>] [38pdfTeX warning (ext4): destination with the same identifier (name{figure.6.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1136 \subsubsection
-                     {ÁÆÄ‰ªãÂÆûÁé∞} <./figures/RNN_model1.png> <./figures/RNN_model2.png> <./figures/RNN_model3.png>] [32]
-<figures/deep_rnn.png, id=1046, 353.32pt x 208.78pt>
+l.1465 $$
+          <./figures/RNN_model3.png>]
+<figures/deep_rnn.png, id=1232, 353.32pt x 208.78pt>
 File: figures/deep_rnn.png Graphic file (type png)
 <use figures/deep_rnn.png>
-Package pdftex.def Info: figures/deep_rnn.png  used on input line 1239.
+Package pdftex.def Info: figures/deep_rnn.png  used on input line 1516.
 (pdftex.def)             Requested size: 290.22105pt x 171.49695pt.
- [33]
-<figures/LSTM.png, id=1055, 804.00375pt x 491.8375pt>
+ [39]
+<figures/LSTM.png, id=1241, 804.00375pt x 491.8375pt>
 File: figures/LSTM.png Graphic file (type png)
 <use figures/LSTM.png>
-Package pdftex.def Info: figures/LSTM.png  used on input line 1261.
+Package pdftex.def Info: figures/LSTM.png  used on input line 1538.
 (pdftex.def)             Requested size: 435.32419pt x 266.30124pt.
- [34pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) has been already used, duplicate ignored
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.6.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1265 \paragraph
-                 {ÈÅóÂøò} ÈÄöËøáÈÅóÂøòÈó®ÂÆûÁé∞.pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1265 \paragraph
-                 {ÈÅóÂøò} ÈÄöËøáÈÅóÂøòÈó®ÂÆûÁé∞. <./figures/deep_rnn.png> <./figures/LSTM.png>]
-Overfull \hbox (0.32379pt too wide) in paragraph at lines 1288--1290
+l.1558 \end{align*}
+                    <./figures/deep_rnn.png>]
+Overfull \hbox (0.32379pt too wide) in paragraph at lines 1565--1567
 []\C70/rm/m/n/10.53937/90 ^^R \C70/rm/m/n/10.53937/5f R \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/7f Q \C70/rm/m/n/10.53937/7e ‹\OT1/cmr/m/n/10.53937 (Recursive NN)\C70/rm/m/n/10.53937/66 / \C70/rm/m/n/10.53937/7a z \C70/rm/m/n/10.53937/95 Ù \C70/rm/m/n/10.53937/7e Ù \C70/rm/m/n/10.53937/5e ¶ \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/5c U \C70/rm/m/n/10.53937/5f ^^@\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/66 / \C70/rm/m/n/10.53937/4e ^^@ * \C70/rm/m/n/10.53937/68 ^^Q \C70/rm/m/n/10.53937/7e ” \C70/rm/m/n/10.53937/67 Ñ\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/65 ‡ \C70/rm/m/n/10.53937/73 Ø \C70/rm/m/n/10.53937/7e ” \C70/rm/m/n/10.53937/67 Ñ\OT1/cmr/m/n/10.53937 . \C70/rm/m/n/10.53937/75 ( \C70/rm/m/n/10.53937/5f ™ \C70/rm/m/n/10.53937/73 Ø \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/7f Q \C70/rm/m/n/10.53937/7e ‹\OT1/cmr/m/n/10.53937 (Recurrent
  []
 
-<figures/lyrics.png, id=1067, 738.76pt x 160.6pt>
+<figures/lyrics.png, id=1254, 738.76pt x 160.6pt>
 File: figures/lyrics.png Graphic file (type png)
 <use figures/lyrics.png>
-Package pdftex.def Info: figures/lyrics.png  used on input line 1295.
+Package pdftex.def Info: figures/lyrics.png  used on input line 1572.
 (pdftex.def)             Requested size: 386.95894pt x 84.12021pt.
-<figures/GRU.png, id=1068, 757.83125pt x 289.08pt>
+<figures/GRU.png, id=1255, 757.83125pt x 289.08pt>
 File: figures/GRU.png Graphic file (type png)
 <use figures/GRU.png>
-Package pdftex.def Info: figures/GRU.png  used on input line 1303.
+Package pdftex.def Info: figures/GRU.png  used on input line 1580.
 (pdftex.def)             Requested size: 435.32419pt x 166.0609pt.
-[35 <./figures/lyrics.png>]
-<figures/dual_direction_ML.png, id=1079, 539.01375pt x 340.27126pt>
+[41pdfTeX warning (ext4): destination with the same identifier (name{figure.6.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1582 \end{figure}
+                    <./figures/LSTM.png> <./figures/lyrics.png>]
+<figures/dual_direction_ML.png, id=1266, 539.01375pt x 340.27126pt>
 File: figures/dual_direction_ML.png Graphic file (type png)
 <use figures/dual_direction_ML.png>
-Package pdftex.def Info: figures/dual_direction_ML.png  used on input line 1334.
+Package pdftex.def Info: figures/dual_direction_ML.png  used on input line 1611.
 (pdftex.def)             Requested size: 435.32419pt x 274.81862pt.
-<figures/multiNet_NML.png, id=1080, 539.01375pt x 366.36874pt>
+<figures/multiNet_NML.png, id=1267, 539.01375pt x 366.36874pt>
 File: figures/multiNet_NML.png Graphic file (type png)
 <use figures/multiNet_NML.png>
-Package pdftex.def Info: figures/multiNet_NML.png  used on input line 1341.
+Package pdftex.def Info: figures/multiNet_NML.png  used on input line 1618.
 (pdftex.def)             Requested size: 435.32419pt x 295.89613pt.
-<figures/attention1.png, id=1081, 538.01pt x 165.61874pt>
+<figures/attention1.png, id=1268, 538.01pt x 165.61874pt>
 File: figures/attention1.png Graphic file (type png)
 <use figures/attention1.png>
-Package pdftex.def Info: figures/attention1.png  used on input line 1361.
+Package pdftex.def Info: figures/attention1.png  used on input line 1638.
 (pdftex.def)             Requested size: 435.32419pt x 134.00891pt.
-LaTeX Font Info:    Try loading font information for C70+zhhei on input line 1369.
+ [42pdfTeX warning (ext4): destination with the same identifier (name{figure.6.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1641     \paragraph
+                     {‰∏ä‰∏ãÊñáÂêëÈáè} <./figures/GRU.png>] [43pdfTeX warning (ext4): destination with the same identifier (name{figure.6.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1641     \paragraph
+                     {‰∏ä‰∏ãÊñáÂêëÈáè}pdfTeX warning (ext4): destination with the same identifier (name{figure.6.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1641     \paragraph
+                     {‰∏ä‰∏ãÊñáÂêëÈáè} <./figures/dual_direction_ML.png> <./figures/multiNet_NML.png>]
+LaTeX Font Info:    Try loading font information for C70+zhhei on input line 1646.
  (f:/Erik/texlive/2019/texmf-dist/tex/latex/zhmetrics/c70zhhei.fd
 File: c70zhhei.fd 2009/09/23 4.8.2
-) [36pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1370 
-        <./figures/GRU.png>] [37pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1370 
-       pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1370 
-        <./figures/dual_direction_ML.png> <./figures/multiNet_NML.png>]
-<figures/context_vector_cacl.png, id=1101, 700.6175pt x 341.275pt>
+)
+<figures/context_vector_cacl.png, id=1285, 700.6175pt x 341.275pt>
 File: figures/context_vector_cacl.png Graphic file (type png)
 <use figures/context_vector_cacl.png>
-Package pdftex.def Info: figures/context_vector_cacl.png  used on input line 1373.
+Package pdftex.def Info: figures/context_vector_cacl.png  used on input line 1650.
 (pdftex.def)             Requested size: 435.32419pt x 212.05176pt.
-<figures/self-attention1.png, id=1102, 452.69125pt x 61.22874pt>
+<figures/self-attention1.png, id=1286, 452.69125pt x 61.22874pt>
 File: figures/self-attention1.png Graphic file (type png)
 <use figures/self-attention1.png>
-Package pdftex.def Info: figures/self-attention1.png  used on input line 1381.
+Package pdftex.def Info: figures/self-attention1.png  used on input line 1658.
 (pdftex.def)             Requested size: 435.32419pt x 58.8798pt.
-<figures/self_attention2.png, id=1103, 682.55pt x 124.465pt>
+<figures/self_attention2.png, id=1287, 682.55pt x 124.465pt>
 File: figures/self_attention2.png Graphic file (type png)
 <use figures/self_attention2.png>
-Package pdftex.def Info: figures/self_attention2.png  used on input line 1387.
+Package pdftex.def Info: figures/self_attention2.png  used on input line 1664.
 (pdftex.def)             Requested size: 435.32419pt x 79.38383pt.
-<figures/Transformer1.png, id=1104, 632.3625pt x 554.07pt>
+<figures/Transformer1.png, id=1288, 632.3625pt x 554.07pt>
 File: figures/Transformer1.png Graphic file (type png)
 <use figures/Transformer1.png>
-Package pdftex.def Info: figures/Transformer1.png  used on input line 1398.
+Package pdftex.def Info: figures/Transformer1.png  used on input line 1675.
 (pdftex.def)             Requested size: 435.32419pt x 381.42946pt.
- [38pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) has been already used, duplicate ignored
+ [44pdfTeX warning (ext4): destination with the same identifier (name{figure.6.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1404         \vspace
-                      {0.5em}pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) has been already used, duplicate ignored
+l.1681         \vspace
+                      {0.5em}pdfTeX warning (ext4): destination with the same identifier (name{figure.6.19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1404         \vspace
-                      {0.5em}pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) has been already used, duplicate ignored
+l.1681         \vspace
+                      {0.5em} <./figures/attention1.png> <./figures/context_vector_cacl.png>] [45pdfTeX warning (ext4): destination with the same identifier (name{figure.6.20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1404         \vspace
-                      {0.5em} <./figures/attention1.png> <./figures/context_vector_cacl.png> <./figures/self-attention1.png>] [39pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) has been already used, duplicate ignored
+l.1707 Âü∫
+          ‰∫éËßÑÂàô„ÄÅÂü∫‰∫éÁªüËÆ°„ÄÅÂü∫‰∫éÂÆû‰æã„ÄÅ Á•ûÁªèÁΩëÁªúÊñπÊ≥ïpdfTeX warning (ext4): destination with the same identifier (name{figure.6.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1409         \item {
-                      \small\sffamily\bfseries{ÊÆãÂ∑ÆËøûÊé•}}\index{ÊÆãÂ∑ÆËø...pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) has been already used, duplicate ignored
+l.1707 Âü∫
+          ‰∫éËßÑÂàô„ÄÅÂü∫‰∫éÁªüËÆ°„ÄÅÂü∫‰∫éÂÆû‰æã„ÄÅ Á•ûÁªèÁΩëÁªúÊñπÊ≥ï <./figures/self-attention1.png> <./figures/self_attention2.png>] [46pdfTeX warning (ext4): destination with the same identifier (name{figure.6.22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1409         \item {
-                      \small\sffamily\bfseries{ÊÆãÂ∑ÆËøûÊé•}}\index{ÊÆãÂ∑ÆËø... <./figures/self_attention2.png> <./figures/Transformer1.png>] [40pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
+l.1707 Âü∫
+          ‰∫éËßÑÂàô„ÄÅÂü∫‰∫éÁªüËÆ°„ÄÅÂü∫‰∫éÂÆû‰æã„ÄÅ Á•ûÁªèÁΩëÁªúÊñπÊ≥ï <./figures/Transformer1.png>] [47pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1463  $$
+l.1761  $$
           ]
-Underfull \hbox (badness 10000) in paragraph at lines 1501--1502
+Underfull \hbox (badness 10000) in paragraph at lines 1778--1779
 
  []
 
-[41] [42]
-<figures/adam.png, id=1145, 799.98875pt x 655.44875pt>
+[48]
+<figures/adam.png, id=1330, 799.98875pt x 655.44875pt>
 File: figures/adam.png Graphic file (type png)
 <use figures/adam.png>
-Package pdftex.def Info: figures/adam.png  used on input line 1552.
+Package pdftex.def Info: figures/adam.png  used on input line 1829.
 (pdftex.def)             Requested size: 386.95894pt x 317.04214pt.
- [43 <./figures/adam.png>]
-<figures/RNNprobquestion.png, id=1158, 598.235pt x 256.96pt>
+ [49]
+Overfull \hbox (7.31833pt too wide) in paragraph at lines 1851--1852
+[]\C70/rm/m/n/10.53937/57 ( \C70/rm/m/n/10.53937/8b Õ \C70/rm/m/n/10.53937/5d L \C70/rm/m/n/10.53937/51 e \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/57 ˙ \C70/rm/m/n/10.53937/78 @ \C70/rm/m/n/10.53937/4e 
+ \C70/rm/m/n/10.53937/83 ∑ \C70/rm/m/n/10.53937/53 ÷ \C70/rm/m/n/10.53937/65 t \C70/rm/m/n/10.53937/4e * \C70/rm/m/n/10.53937/5e è \C70/rm/m/n/10.53937/52 ^^W \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/88 h \C70/rm/m/n/10.53937/79 :\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/53 s Â \C70/rm/m/n/10.53937/5b P \C70/rm/m/n/10.53937/76 Ñ \C70/zhhei/bx/n/9.03374/88 h[][] \C70/zhhei/bx/n/9.03374/79 :[][] \C70/zhhei/bx/n/9.03374/5b f[][] \C70/zhhei/bx/n/9.03374/4e `[][] |\C70/rm/m/n/10.53937/ff ^^H|\OT1/cmr/m/n/10.53937 Representation Learn-ing|\C70/rm/m/n/10.53937/ff 	| \OT1/cmr/m/n/10.53937 . \C70/rm/m/n/10.53937/59 Ç \C70/rm/m/n/10.53937/56 ˛[][]\OT1/cmr/m/n/10.53937 6.23[][]\C70/rm/m/n/10.53937/4e -\OT1/cmr/m/n/10.53937 ,
+ []
+
+<figures/RNNprobquestion.png, id=1343, 598.235pt x 256.96pt>
 File: figures/RNNprobquestion.png Graphic file (type png)
 <use figures/RNNprobquestion.png>
-Package pdftex.def Info: figures/RNNprobquestion.png  used on input line 1591.
+Package pdftex.def Info: figures/RNNprobquestion.png  used on input line 1868.
 (pdftex.def)             Requested size: 386.95894pt x 166.21431pt.
 
+LaTeX Warning: Reference `fig:6-12' on page 50 undefined on input line 1873.
 
-LaTeX Warning: Reference `fig:6-12' on page 44 undefined on input line 1596.
-
-<figures/NMLEmbed.png, id=1159, 589.20125pt x 272.01625pt>
+[50 <./figures/adam.png>]
+<figures/NMLEmbed.png, id=1353, 589.20125pt x 272.01625pt>
 File: figures/NMLEmbed.png Graphic file (type png)
 <use figures/NMLEmbed.png>
-Package pdftex.def Info: figures/NMLEmbed.png  used on input line 1615.
+Package pdftex.def Info: figures/NMLEmbed.png  used on input line 1892.
 (pdftex.def)             Requested size: 386.95894pt x 178.64719pt.
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) has been already used, duplicate ignored
+<figures/outputpredict.png, id=1354, 514.92375pt x 255.95625pt>
+File: figures/outputpredict.png Graphic file (type png)
+<use figures/outputpredict.png>
+Package pdftex.def Info: figures/outputpredict.png  used on input line 1906.
+(pdftex.def)             Requested size: 386.95894pt x 192.35335pt.
+ [51pdfTeX warning (ext4): destination with the same identifier (name{figure.6.23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1623 $$
-         p_i= Softmax(i) = \frac{{e^{\hat{s}_i}}}{{\sum_j e^{\hat{s}_j}}}$$ <./figures/RNNprobquestion.png>]
-<figures/outputpredict.png, id=1172, 514.92375pt x 255.95625pt>
-File: figures/outputpredict.png Graphic file (type png)
-<use figures/outputpredict.png>
-Package pdftex.def Info: figures/outputpredict.png  used on input line 1629.
-(pdftex.def)             Requested size: 386.95894pt x 192.35335pt.
+l.1915 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.6.24}) has been already used, duplicate ignored
 
-Overfull \hbox (15.9081pt too wide) in paragraph at lines 1644--1645
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1915 
+        <./figures/RNNprobquestion.png> <./figures/NMLEmbed.png>]
+Overfull \hbox (15.9081pt too wide) in paragraph at lines 1921--1922
 \OML/cmm/m/it/10.53937 e[]\OT1/cmr/m/n/10.53937 )$.\C70/rm/m/n/10.53937/80 ^^C \C70/rm/m/n/10.53937/86 Q \C70/rm/m/n/10.53937/52 0 \C70/rm/m/n/10.53937/68 Ø \C70/rm/m/n/10.53937/5e ¶ \C70/rm/m/n/10.53937/4e  \C70/rm/m/n/10.53937/96 M \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/8b ≠ \C70/rm/m/n/10.53937/7e √ \C70/rm/m/n/10.53937/65 ˆ \C70/rm/m/n/10.53937/95 Ù\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/8f Ÿ \C70/rm/m/n/10.53937/4e õ \C70/rm/m/n/10.53937/99 q \C70/rm/m/n/10.53937/54 å \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/97 ^ \C70/rm/m/n/10.53937/7e ø \C70/rm/m/n/10.53937/60 ' \C70/rm/m/n/10.53937/51 ˝ \C70/rm/m/n/10.53937/65 p \C70/rm/m/n/10.53937/6b ‘ \C70/rm/m/n/10.53937/97 ^ \C70/rm/m/n/10.53937/99 q \C70/rm/m/n/10.53937/54 å \C70/rm/m/n/10.53937/97 ^ \C70/rm/m/n/10.53937/7e ø \C70/rm/m/n/10.53937/60 '$\OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 x\OT1/cmr/m/n/10.53937 ) = [](0\OML/cmm/m/it/10.53937 ; x\OT1/cmr/m/n/10.53937 )$\C70/rm/m/n/10.53937/66 Ù \C70/rm/m/n/10.53937/61 b\OT1/cmr/m/n/10.53937 .\C70/rm/bx/n/10.53937/91 « \C70/rm/bx/n/10.53937/75 (\OT1/cmr/bx/n/10.53937 ReLU\C70/rm/bx/n/10.53937/76 Ñ
  []
 
-[45pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) has been already used, duplicate ignored
+[52pdfTeX warning (ext4): destination with the same identifier (name{figure.6.25}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1645 
-       pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1645 
-        <./figures/NMLEmbed.png> <./figures/outputpredict.png>] [46]
-Overfull \hbox (13.23427pt too wide) in paragraph at lines 1681--1682
+l.1937     \item È
+                  öèÊú∫Ââ™Âàá $256 \times 256 \times 3  \to 224 \times 224 \... <./figures/outputpredict.png>]
+Overfull \hbox (13.23427pt too wide) in paragraph at lines 1958--1959
 [] |\C70/rm/m/n/10.53937/ff ^^H|\OT1/cmr/m/n/10.53937 2|\C70/rm/m/n/10.53937/ff 	| \C70/rm/m/n/10.53937/51 œ \C70/rm/m/n/10.53937/5c ^^Q \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/51 C \C70/rm/m/n/10.53937/4e K \C70/rm/m/n/10.53937/95 Ù \C70/rm/m/n/10.53937/59 ^^M \C70/rm/m/n/10.53937/67 B \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/51 q \C70/rm/m/n/10.53937/90 ^^B \C70/rm/m/n/10.53937/5e î \C70/rm/m/n/10.53937/51 s \C70/rm/m/n/10.53937/7c ˚|\C70/rm/m/n/10.53937/ff ^^Z| \C70/rm/m/n/10.53937/4e :\OT1/cmr/m/n/10.53937 dropout\C70/rm/m/n/10.53937/7a  \C70/rm/m/n/10.53937/5e è \C70/rm/m/n/10.53937/5b ¸ \C70/rm/m/n/10.53937/81 Ù \C70/rm/m/n/10.53937/4e $ * \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/51 C \C70/rm/m/n/10.53937/4e ^^M ^^@ \C70/rm/m/n/10.53937/5b ö \C70/rm/m/n/10.53937/6b œ ! \C70/rm/m/n/10.53937/90 ˝ \C70/rm/m/n/10.53937/57 ( \C70/rm/m/n/10.53937/4e ^^@ *\OT1/cmr/m/n/10.53937 dropout\C70/rm/m/n/10.53937/7f Q
  []
 
 
-Overfull \hbox (5.72305pt too wide) in paragraph at lines 1685--1688
-\C70/rm/m/n/10.53937/7f n \C70/rm/m/n/10.53937/4e :\OT1/cmr/m/n/10.53937 1, \C70/rm/m/n/10.53937/8f Ÿ \C70/rm/m/n/10.53937/68 7 \C70/rm/m/n/10.53937/4f ^^Z › \C70/rm/m/n/10.53937/75 Y \C70/rm/m/n/10.53937/8b Â \C70/rm/m/n/10.53937/5c B \C70/rm/m/n/10.53937/62 @ \C70/rm/m/n/10.53937/67 	 \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/51 C\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/80 ^^L \C70/rm/m/n/10.53937/90 £ \C70/rm/m/n/10.53937/4e õ \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/51 C \C70/rm/m/n/10.53937/6b ‘ \C70/rm/m/n/10.53937/8f É \C70/rm/m/n/10.53937/59 ^^Z \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/5c B\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/53 Ô \C70/rm/m/n/10.53937/4e Â \C70/rm/m/n/10.53937/5c ^^F$\OML/cmm/m/it/10.53937 keep[]rob$\C70/rm/m/n/10.53937/8b æ \C70/rm/m/n/10.53937/7f n \C70/rm/m/n/10.53937/4e : \C70/rm/m/n/10.53937/8f É \C70/rm/m/n/10.53937/5c ^^O \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/50 <|\C70/rm/m/n/10.53937/30 ^^B|  \OT1/cmr/m/n/10.53937 dropout\C70/rm/m/n/10.53937/6b c
+Overfull \hbox (1.11702pt too wide) in paragraph at lines 1962--1965
+\C70/rm/m/n/10.53937/7f n \C70/rm/m/n/10.53937/4e :\OT1/cmr/m/n/10.53937 1, \C70/rm/m/n/10.53937/8f Ÿ \C70/rm/m/n/10.53937/68 7 \C70/rm/m/n/10.53937/4f ^^Z › \C70/rm/m/n/10.53937/75 Y \C70/rm/m/n/10.53937/8b Â \C70/rm/m/n/10.53937/5c B \C70/rm/m/n/10.53937/62 @ \C70/rm/m/n/10.53937/67 	 \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/51 C\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/80 ^^L \C70/rm/m/n/10.53937/90 £ \C70/rm/m/n/10.53937/4e õ \C70/rm/m/n/10.53937/79 ^ \C70/rm/m/n/10.53937/7e œ \C70/rm/m/n/10.53937/51 C \C70/rm/m/n/10.53937/6b ‘ \C70/rm/m/n/10.53937/8f É \C70/rm/m/n/10.53937/59 ^^Z \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/5c B\OT1/cmr/m/n/10.53937 , \C70/rm/m/n/10.53937/53 Ô \C70/rm/m/n/10.53937/4e Â \C70/rm/m/n/10.53937/5c ^^F$\OML/cmm/m/it/10.53937 keep[]rob$\C70/rm/m/n/10.53937/8b æ \C70/rm/m/n/10.53937/7f n \C70/rm/m/n/10.53937/4e : \C70/rm/m/n/10.53937/8f É \C70/rm/m/n/10.53937/5c ^^O \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/50 <\OT1/cmr/m/n/10.53937 . dropout\C70/rm/m/n/10.53937/6b c
  []
 
-<figures/dropout.png, id=1191, 385.44pt x 177.66376pt>
+<figures/dropout.png, id=1372, 385.44pt x 177.66376pt>
 File: figures/dropout.png Graphic file (type png)
 <use figures/dropout.png>
-Package pdftex.def Info: figures/dropout.png  used on input line 1694.
+Package pdftex.def Info: figures/dropout.png  used on input line 1971.
 (pdftex.def)             Requested size: 386.95894pt x 178.36273pt.
-(f:/Erik/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+[53] (f:/Erik/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <7.52812> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1698.
- [47 <./figures/dropout.png>]
-<figures/alex_output.png, id=1205, 618.31pt x 329.23pt>
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1975.
+<figures/alex_output.png, id=1385, 618.31pt x 329.23pt>
 File: figures/alex_output.png Graphic file (type png)
 <use figures/alex_output.png>
-Package pdftex.def Info: figures/alex_output.png  used on input line 1731.
+Package pdftex.def Info: figures/alex_output.png  used on input line 2008.
 (pdftex.def)             Requested size: 386.95894pt x 206.04956pt.
-<figures/alex_output3.png, id=1207, 586.19pt x 438.63875pt>
+<figures/alex_output3.png, id=1387, 586.19pt x 438.63875pt>
 File: figures/alex_output3.png Graphic file (type png)
 <use figures/alex_output3.png>
-Package pdftex.def Info: figures/alex_output3.png  used on input line 1741.
+Package pdftex.def Info: figures/alex_output3.png  used on input line 2018.
 (pdftex.def)             Requested size: 386.95894pt x 289.556pt.
-<figures/alex_output4.png, id=1209, 755.82375pt x 139.52126pt>
+<figures/alex_output4.png, id=1389, 755.82375pt x 139.52126pt>
 File: figures/alex_output4.png Graphic file (type png)
 <use figures/alex_output4.png>
-Package pdftex.def Info: figures/alex_output4.png  used on input line 1750.
+Package pdftex.def Info: figures/alex_output4.png  used on input line 2027.
 (pdftex.def)             Requested size: 386.95894pt x 71.42952pt.
-<figures/lrselect.png, id=1211, 437.635pt x 310.15875pt>
+<figures/lrselect.png, id=1391, 437.635pt x 310.15875pt>
 File: figures/lrselect.png Graphic file (type png)
 <use figures/lrselect.png>
-Package pdftex.def Info: figures/lrselect.png  used on input line 1764.
+Package pdftex.def Info: figures/lrselect.png  used on input line 2041.
 (pdftex.def)             Requested size: 193.47577pt x 137.11864pt.
-<figures/cyclelr.png, id=1213, 747.79375pt x 528.97626pt>
+<figures/cyclelr.png, id=1393, 747.79375pt x 528.97626pt>
 File: figures/cyclelr.png Graphic file (type png)
 <use figures/cyclelr.png>
-Package pdftex.def Info: figures/cyclelr.png  used on input line 1774.
+Package pdftex.def Info: figures/cyclelr.png  used on input line 2051.
 (pdftex.def)             Requested size: 193.47577pt x 136.86064pt.
- [48pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) has been already used, duplicate ignored
+ [54 <./figures/dropout.png>]
+
+LaTeX Warning: Text page 55 contains only floats.
+
+[55pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1784 F
-        ATEÊû∂ÊûÑÂ¶Ç\ref{fate_architecture}ÊâÄÁ§∫„ÄÇ <./figures/alex_output.png>]
-<figures/fate1.jpg, id=1242, 1396.4672pt x 651.93562pt>
+l.2056 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.7.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2056 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.7.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2056 
+        <./figures/alex_output.png> <./figures/alex_output3.png> <./figures/alex_output4.png>]
+<figures/fate1.jpg, id=1435, 1396.4672pt x 651.93562pt>
 File: figures/fate1.jpg Graphic file (type jpg)
 <use figures/fate1.jpg>
-Package pdftex.def Info: figures/fate1.jpg  used on input line 1788.
+Package pdftex.def Info: figures/fate1.jpg  used on input line 2065.
 (pdftex.def)             Requested size: 386.95894pt x 180.65065pt.
- [49pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1791 \end{figure}
-                   pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1791 \end{figure}
-                   pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1791 \end{figure}
-                    <./figures/alex_output3.png> <./figures/alex_output4.png> <./figures/lrselect.png>]
-<figures/fate_success.jpg, id=1252, 1115.66812pt x 85.06781pt>
+<figures/fate_success.jpg, id=1436, 1115.66812pt x 85.06781pt>
 File: figures/fate_success.jpg Graphic file (type jpg)
 <use figures/fate_success.jpg>
-Package pdftex.def Info: figures/fate_success.jpg  used on input line 1804.
+Package pdftex.def Info: figures/fate_success.jpg  used on input line 2081.
 (pdftex.def)             Requested size: 386.95894pt x 29.50418pt.
- [50pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) has been already used, duplicate ignored
+ [56pdfTeX warning (ext4): destination with the same identifier (name{figure.7.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1817 ËÅî
-          ÈÇ¶Â≠¶‰π†ÂíåÂàÜÂ∏ÉÂºèÊú∫Âô®Â≠¶‰π†ÁöÑÂÖ≥Á≥ª„ÄÇpdfTeX warning (ext4): destination with the same identifier (name{figure.37}) has been already used, duplicate ignored
+l.2094 ËÅî
+          ÈÇ¶Â≠¶‰π†ÂíåÂàÜÂ∏ÉÂºèÊú∫Âô®Â≠¶‰π†ÁöÑÂÖ≥Á≥ª.pdfTeX warning (ext4): destination with the same identifier (name{figure.7.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1817 ËÅî
-          ÈÇ¶Â≠¶‰π†ÂíåÂàÜÂ∏ÉÂºèÊú∫Âô®Â≠¶‰π†ÁöÑÂÖ≥Á≥ª„ÄÇpdfTeX warning (ext4): destination with the same identifier (name{figure.38}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1817 ËÅî
-          ÈÇ¶Â≠¶‰π†ÂíåÂàÜÂ∏ÉÂºèÊú∫Âô®Â≠¶‰π†ÁöÑÂÖ≥Á≥ª„ÄÇ <./figures/cyclelr.png> <./figures/fate1.jpg> <./figures/fate_success.jpg>]
-<figures/paralle.png, id=1266, 707.64375pt x 361.35pt>
+l.2094 ËÅî
+          ÈÇ¶Â≠¶‰π†ÂíåÂàÜÂ∏ÉÂºèÊú∫Âô®Â≠¶‰π†ÁöÑÂÖ≥Á≥ª. <./figures/lrselect.png> <./figures/cyclelr.png>]
+<figures/paralle.png, id=1451, 707.64375pt x 361.35pt>
 File: figures/paralle.png Graphic file (type png)
 <use figures/paralle.png>
-Package pdftex.def Info: figures/paralle.png  used on input line 1827.
+Package pdftex.def Info: figures/paralle.png  used on input line 2104.
 (pdftex.def)             Requested size: 193.47577pt x 98.79536pt.
- (./FL_Note.bbl [51pdfTeX warning (ext4): destination with the same identifier (name{figure.39}) has been already used, duplicate ignored
+ [57pdfTeX warning (ext4): destination with the same identifier (name{figure.8.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1 \begin{thebibliography}{21}
-                                <./figures/paralle.png>] [52])
+l.2113 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.8.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2113 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure.9.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2113 
+        <./figures/fate1.jpg> <./figures/fate_success.jpg> <./figures/paralle.png>] (./FL_Note.bbl [58])
 
 Package natbib Warning: There were undefined citations.
 
-[53]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1862.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1862.
+[59]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2139.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2139.
  (./FL_Note.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1862.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1862.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2139.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2139.
 Package rerunfilecheck Info: File `FL_Note.out' has not changed.
-(rerunfilecheck)             Checksum: 11134B82097A96A0B1F2AB64856CB678;10095.
+(rerunfilecheck)             Checksum: 181FF9EDBD3A867AF091DC12E3CD4768;12219.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1862.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2139.
  ) 
 Here is how much of TeX's memory you used:
- 41960 strings out of 492623
- 755459 string characters out of 6130939
- 1008560 words of memory out of 5000000
- 44087 multiletter control sequences out of 15000+600000
- 676067 words of font info for 558 fonts, out of 8000000 for 9000
+ 42278 strings out of 492623
+ 760871 string characters out of 6130939
+ 1024998 words of memory out of 5000000
+ 44239 multiletter control sequences out of 15000+600000
+ 677147 words of font info for 562 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,16n,82p,997b,2345s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,16n,82p,995b,1595s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong2e: wrong mapping: character 159 --> 0x2E9F --> .notdef
@@ -1815,14 +1885,14 @@ pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong
 
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong2f: wrong mapping: character 131 --> 0x2F83 --> .notdef
-><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc
+><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong20: wrong mapping: character 11 --> 0x200B --> .notdef
-><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on FL_Note.pdf (53 pages, 2742769 bytes).
+><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><f:/Erik/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on FL_Note.pdf (59 pages, 3079819 bytes).
 PDF statistics:
- 2007 PDF objects out of 2073 (max. 8388607)
- 1560 compressed objects within 16 object streams
- 354 named destinations out of 1000 (max. 500000)
- 1242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2221 PDF objects out of 2487 (max. 8388607)
+ 1754 compressed objects within 18 object streams
+ 437 named destinations out of 1000 (max. 500000)
+ 1417 words of extra memory for PDF output out of 10000 (max. 10000000)
 

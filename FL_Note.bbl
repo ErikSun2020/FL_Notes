@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -69,6 +69,12 @@ Sepp Hochreiter and Jürgen Schmidhuber.
 Kevin Hsieh, Amar Phanishayee, Onur Mutlu, and Phillip~B Gibbons.
 \newblock The non-iid data quagmire of decentralized machine learning.
 \newblock \emph{arXiv preprint arXiv:1910.00189}, 2019.
+
+\bibitem[Hu et~al.(2020)Hu, Gong, and Guo]{hu2020cpfed}
+Rui Hu, Yanmin Gong, and Yuanxiong Guo.
+\newblock Cpfed: Communication-efficient and privacy-preserving federated
+  learning.
+\newblock \emph{arXiv preprint arXiv:2003.13761}, 2020.
 
 \bibitem[Kairouz et~al.(2019)Kairouz, Mcmahan, Bonawitz, Charles, Oliveira,
   Garrett, Gibbons, Ozg, Song, Stich, and Yu]{arxiv-Kairouz-Mcmahan-etc2019}

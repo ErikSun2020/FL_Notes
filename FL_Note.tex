@@ -24,7 +24,16 @@
 \newcommand{\lbs}{\ensuremath{B}}     
 \newcommand{\lepochs}{\ensuremath{E}}
 \newcommand{\mycaptionof}[2]{\captionof{#1}{#2}}
+% \renewcommand\labelenumi{(\theenumi)}
 
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{assumption}{Assumption}[section]
+% \newtheorem{lemma}[Theorem]{Lemma}
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{theorem}{Theorem}[section]
+\counterwithin{figure}{section}
+\numberwithin{equation}{section}
 \usepackage{tikz-cd}
 \usepackage{url}
 \usepackage{pythonhighlight}  % python code
@@ -403,7 +412,7 @@
 
 
 
-联邦学习的核心是谷歌在其论文\cite{mcmahan2016communication}中引入的联邦平均算法\cite{alg:fedavg}。
+联邦学习的核心是谷歌在其论文\cite{mcmahan2016communication}中引入的联邦平均算法\cite{alg:fedavg}. 
  
 
    \begin{algorithm}[t]
@@ -432,13 +441,13 @@
     \end{algorithm}
      
     \begin{description}
-        \item[Step1:] 选择成员的一个随机子集(称为客户机)以同步方式从服务器接收全局模型。
-        \item[Step2:] 每个选择的客户端使用其本地数据计算一个更新的模型。
-        \item[Step3:] 模型更新从选择的客户端发送到服务器。 
-        \item[Step4:] 服务器聚合这些模型(通常通过平均)来构建一个改进的全局模型。 
+        \item[Step1:] 选择成员的一个随机子集(称为客户机)以同步方式从服务器接收全局模型. 
+        \item[Step2:] 每个选择的客户端使用其本地数据计算一个更新的模型. 
+        \item[Step3:] 模型更新从选择的客户端发送到服务器.  
+        \item[Step4:] 服务器聚合这些模型(通常通过平均)来构建一个改进的全局模型.  
     \end{description}
 
-子集选择步骤是谷歌最初应用联邦学习的环境所必需的:\textbf{基于在其Android生态系统中通过数百万部手机收集的数据}。这种学习序列的一种变体出现在之后的论文中, 包括发送梯度更新到服务器, 而不是实际的模型权重本身。通常, 在各方之间不传输任何原始数据, 只传输与模型相关的更新。\textbf{边缘计算}在这里体现出作用。
+子集选择步骤是谷歌最初应用联邦学习的环境所必需的:\textbf{基于在其Android生态系统中通过数百万部手机收集的数据}. 这种学习序列的一种变体出现在之后的论文中, 包括发送梯度更新到服务器, 而不是实际的模型权重本身. 通常, 在各方之间不传输任何原始数据, 只传输与模型相关的更新. \textbf{边缘计算}在这里体现出作用. 
  
 在机器学习分散方案的现实可用性问题上, 许多重要的算法问题仍然没有解决.有些问题类似于使用中央服务器进行联合学习的特殊情况, 而其他挑战则是完全分散或不信任的额外副作用.如
 \begin{itemize}
@@ -460,16 +469,16 @@
 
 为了防止任何客户机试图重建另一个客户的私人数据利用全球模型, 客户级差分隐私[290]已被提议用于FL.客户级差分隐私是通过在聚合的全局模型上添加随机高斯噪声来实现的, 该噪声足以隐藏任何单个客户端的更新.
 
-\paragraph{推理攻击} 联邦学习的动机是保护客户拥有的数据的隐私。即使没有公开实际数据, 也可以利用重复的模型权重更新来揭示对数据而言不是全局的而是特定于各个贡献者的属性。可以在服务器端以及（其他）客户端端执行此推断。通常引用的对策是使用差异隐私来减轻这种风险。
+\paragraph{推理攻击} 联邦学习的动机是保护客户拥有的数据的隐私. 即使没有公开实际数据, 也可以利用重复的模型权重更新来揭示对数据而言不是全局的而是特定于各个贡献者的属性. 可以在服务器端以及（其他）客户端端执行此推断. 通常引用的对策是使用差异隐私来减轻这种风险. 
 
-\paragraph{模型中毒Model Poisoning}。一些研究人员研究了使客户误导后门功能或进行Sybil攻击以毒害全局模型的可能性。
- \textbf{Sybil} 攻击:允许客户端加入和离开的系统容易受到sybil攻击, 在这种攻击中, 对手通过使用多个串通的别名加入一个系统来获得影响力。
+\paragraph{模型中毒Model Poisoning}. 一些研究人员研究了使客户误导后门功能或进行Sybil攻击以毒害全局模型的可能性. 
+ \textbf{Sybil} 攻击:允许客户端加入和离开的系统容易受到sybil攻击, 在这种攻击中, 对手通过使用多个串通的别名加入一个系统来获得影响力. 
 \begin{figure}[t]
     \centering    
     \includegraphics[width=0.6\textwidth]{poisoninginSGD.png}
-    \caption{Targeted poisoning attack in SGD. 红色点的矢量是Sybil的贡献, 推动模型走向一个中毒的目标。坚实的绿色载体是由诚实的客户贡献的, 推动到达真正的目标。    }
+    \caption{Targeted poisoning attack in SGD. 红色点的矢量是Sybil的贡献, 推动模型走向一个中毒的目标. 坚实的绿色载体是由诚实的客户贡献的, 推动到达真正的目标.     }
 \end{figure}
-为了有效应对此类攻击, 必须考虑Sybil检测的额外开销。
+为了有效应对此类攻击, 必须考虑Sybil检测的额外开销. 
 \section{提高效率和效果}
 
 提高联邦学习的效率和效果
@@ -546,35 +555,35 @@ FL设置中, 设备的总数是巨大的(例如跨移动设备), 这就要求算
 % \citep{zhao2018federated}
 
 \section{保护用户数据的隐私}
- 面向隐私保护的机器学习(Privacy-Preserve Machine Learnin, PPML), 指的是使用了保护用户隐私和数据安全的防御技术的机器学习。其中有以下几种著名方法。\citep{ppmlmancuso}
+ 面向隐私保护的机器学习(Privacy-Preserve Machine Learnin, PPML), 指的是使用了保护用户隐私和数据安全的防御技术的机器学习. 其中有以下几种著名方法. \citep{ppmlmancuso}
  \begin{itemize}
      \item 
  安全多方计算(Secure Multiparty Computation,  MPC)
  \item 
  供隐私保护模型训练和预测使用的 同态加密方法(Homomorphic Eneryption,  HE )
  \item 
- 用于防止数据泄器的差分隐私 iferntial Piaey, DP) 方法。
+ 用于防止数据泄器的差分隐私 iferntial Piaey, DP) 方法. 
  \end{itemize}
  
  \subsection{隐私保护技术}
  \subsubsection{安全多方计算}
- 安全多方计算起初是应对安全两方问题（百万富翁问题）。 
+ 安全多方计算起初是应对安全两方问题（百万富翁问题）.  
   
 2.4隐私保护技术
 包括三种方法, 分别是安全多方计算、同态加密和差分
 本节讨论隐私保护技术, 
-隐私。
+隐私. 
 2.4.1安全多方计算
 安全多方计算最初是针对一个安全两方计算问题, 即所谓的“百万富翁问题”:两个争强好胜的富翁 Alice 和 Bob 在街头相遇, 如何在不暴露各自财富的前提下比较出谁更富有？\citep{scyao1982}
 
-被提出的, 并于1982年由姚期智提出和推广。在安全多方计算中, 目的是协同地从每一方的隐私输人中计算函数的结果, 而不用将这些输入展示给其他方。
+被提出的, 并于1982年由姚期智提出和推广. 在安全多方计算中, 目的是协同地从每一方的隐私输人中计算函数的结果, 而不用将这些输入展示给其他方. 
 \paragraph{数学描述}
-有 $n $个参与者 $P_1, P_2, ...P_n$, 要以一种安全的方式共同计算一个函数, 这里的安全是指输出结果的正确性和输入信息、输出信息的保密性。具体地讲, 每个参与者 $P_1$, 有一个自己的保密输入信息 $X_i$, $n $个参与者要共同计算一个函数 $f(X_1, X_2, ... , X_n)=(Y_1, Y_2,  ... , Y_n)$,  计算结束时, 每个参与者 $P_i $只能了解 $Y_i$,  不能了解其他方的任何信息。
+有 $n $个参与者 $P_1, P_2, ...P_n$, 要以一种安全的方式共同计算一个函数, 这里的安全是指输出结果的正确性和输入信息、输出信息的保密性. 具体地讲, 每个参与者 $P_1$, 有一个自己的保密输入信息 $X_i$, $n $个参与者要共同计算一个函数 $f(X_1, X_2, ... , X_n)=(Y_1, Y_2,  ... , Y_n)$,  计算结束时, 每个参与者 $P_i $只能了解 $Y_i$,  不能了解其他方的任何信息. 
 
 \begin{itemize}
-    \item  输入隐私性：安全多方计算研究的是各参与方在协作计算时如何对各方隐私数据进行保护, 重点关注各参与方之间的隐私安全性问题, 即在安全多方计算过程中必须保证各方私密输入独立, 计算时不泄露任何本地数据。
-\item    计算正确性：多方计算参与各方就某一约定计算任务, 通过约定MPC协议进行协同计算, 计算结束后, 各方得到正确的数据反馈。
-    \item     去中心化：传统的分布式计算由中心节点协调各用户的计算进程, 收集各用户的输入信息, 而安全多方计算中, 各参与方地位平等, 不存在任何有特权的参与方或第三方, 提供一种去中心化的计算模式。
+    \item  输入隐私性：安全多方计算研究的是各参与方在协作计算时如何对各方隐私数据进行保护, 重点关注各参与方之间的隐私安全性问题, 即在安全多方计算过程中必须保证各方私密输入独立, 计算时不泄露任何本地数据. 
+\item    计算正确性：多方计算参与各方就某一约定计算任务, 通过约定MPC协议进行协同计算, 计算结束后, 各方得到正确的数据反馈. 
+    \item     去中心化：传统的分布式计算由中心节点协调各用户的计算进程, 收集各用户的输入信息, 而安全多方计算中, 各参与方地位平等, 不存在任何有特权的参与方或第三方, 提供一种去中心化的计算模式. 
 \end{itemize}
 
 \begin{enumerate}
@@ -583,42 +592,310 @@ FL设置中, 设备的总数是巨大的(例如跨移动设备), 这就要求算
 \end{enumerate}
 
 主流的两方计算框架的核心是用了混淆电路（Garbled Circuit, 简称GC）和不经意传输（Oblivious Transfer）这两种密码学技术
-通用的多方安全计算框架可以让多方安全地计算任何函数或某类函数的结果。自1986年姚期智提出第一个通用的多方安全计算框架（常被称为Yao’s GC, 即姚氏加密电路）以来, 30多年间已经有BMR、GMW、BGW、SPDZ等多个多方安全计算框架陆续提出。
+通用的多方安全计算框架可以让多方安全地计算任何函数或某类函数的结果. 自1986年姚期智提出第一个通用的多方安全计算框架（常被称为Yao’s GC, 即姚氏加密电路）以来, 30多年间已经有BMR、GMW、BGW、SPDZ等多个多方安全计算框架陆续提出. 
 \citep{GenExchsecretyao1986}
 \paragraph{不经意传输:}
-发送方将潜在的许多信息中的一个传递给接收方, 但是对于已传输的信息（如果有的话）则保持忽略。
+发送方将潜在的许多信息中的一个传递给接收方, 但是对于已传输的信息（如果有的话）则保持忽略. 
 
 
 \paragraph{n取1 的不经意传输:}设A方有一个输入表 $(x_1..., x_n)$作为输入, 
-B方有$i \in 1,  \dots , n$作为输入。n取1的不经意传输是一种安全多方计算协议, 其中
+B方有$i \in 1,  \dots , n$作为输入. n取1的不经意传输是一种安全多方计算协议, 其中
 A不能学习到关于$i$的信息, B只能学习到$x_i$
 \subsubsection{同态加密}
-同态加密指, 对明文进行环上的加法和乘法运算再加密, 与加密后对密文进行相应的运算, 结果是等价的。
-全同态加密是指同时满足加同态和乘同态性质, 可以进行任意多次加和乘运算的加密函数。用数学公式来表达, 即$Dec(f(En(m_1), En(m_2), …, En(m_k)))=f(m_1, m_2, …, m_k)$, 或写成：$f(En(m_1), En(m_2), …, En(m_k))=En(f(m_1, m_2, …, m_k))$, 如果f是任意函数, 称为全同态加密。
+同态加密指, 对明文进行环上的加法和乘法运算再加密, 与加密后对密文进行相应的运算, 结果是等价的. 
+全同态加密是指同时满足加同态和乘同态性质, 可以进行任意多次加和乘运算的加密函数. 用数学公式来表达, 即$Dec(f(En(m_1), En(m_2), …, En(m_k)))=f(m_1, m_2, …, m_k)$, 或写成：$f(En(m_1), En(m_2), …, En(m_k))=En(f(m_1, m_2, …, m_k))$, 如果f是任意函数, 称为全同态加密. 
 % \cite{encrygoldwass1982}
-\paragraph{加法同态}, 如果存在有效算法$\odot$$, E(x+y)=E(x)\odot E(y)$或者$ x+y=D(E(x)\odot E(y))$成立, 并且不泄漏 x 和 y。
-\paragraph{乘法同态}, 如果存在有效算法, $E(x \times y)=E(x) \dot E(y)$或者$ xy=D(E(x) E(y))$成立, 并且不泄漏 x 和 y。
+\paragraph{加法同态}, 如果存在有效算法$\odot$$, E(x+y)=E(x)\odot E(y)$或者$ x+y=D(E(x)\odot E(y))$成立, 并且不泄漏 x 和 y. 
+\paragraph{乘法同态}, 如果存在有效算法, $E(x \times y)=E(x) \dot E(y)$或者$ xy=D(E(x) E(y))$成立, 并且不泄漏 x 和 y. 
 
 
 
 \subsubsection{差分隐私} 
-差分隐私是为了允许研究者在不泄露个体信息（用户隐私）的前提下对一个数据集的整体进行分析而研究出的加密手段。\cite{DPDwork2008}
-设想一个受信任的机构持有涉及众多人的敏感个人信息（例如医疗记录、观看记录或电子邮件统计）的数据集, 但想提供一个全局性的统计数据。这样的系统被称为统计数据库。但是, 提供有关数据的综合性统计也可能揭示一些涉及个人的信息。事实上, 当研究人员链接两个或多个分别无害化处理的数据库来识别个人信息时, 各种公共记录匿名化的特殊方法都失效了。而差分隐私就是为防护这类统计数据库脱匿名技术而形成的一个隐私框架。
+差分隐私是为了允许研究者在不泄露个体信息（用户隐私）的前提下对一个数据集的整体进行分析而研究出的加密手段. \cite{DPDwork2008}
+设想一个受信任的机构持有涉及众多人的敏感个人信息（例如医疗记录、观看记录或电子邮件统计）的数据集, 但想提供一个全局性的统计数据. 这样的系统被称为统计数据库. 但是, 提供有关数据的综合性统计也可能揭示一些涉及个人的信息. 事实上, 当研究人员链接两个或多个分别无害化处理的数据库来识别个人信息时, 各种公共记录匿名化的特殊方法都失效了. 而差分隐私就是为防护这类统计数据库脱匿名技术而形成的一个隐私框架. 
 
-令 $\varepsilon$ 为正实数, $\mathcal{A}$是将数据集作为输入的随机算法(代表持有数据的受信方的行为)。让 $\textrm{im}\mathcal{A}$表示图像的$\mathcal {A}$。对于所有数据集$D_{1}, D_{2}$, 
+令 $\varepsilon$ 为正实数, $\mathcal{A}$是将数据集作为输入的随机算法(代表持有数据的受信方的行为). 让 $\textrm{im}\mathcal{A}$表示图像的$\mathcal {A}$. 对于所有数据集$D_{1}, D_{2}$, 
 算法$\mathcal{A}$ 提供 $\epsilon-$差分隐私, 在单个元素（即一个人的数据）以及$\mathcal{A}$的所有子集上有所不同 $S$. 
 $$ Pr [ \mathcal{A}(D_1) \in S ] \leqslant \exp(\epsilon c) \cdot Pr [ \mathcal{A(D_2)} ] \in S  $$
-其中用概率代替算法的随机性。 
+其中用概率代替算法的随机性.  
   
-\paragraph{劣势:}由于对于背景知识的假设过于强(在加噪音的时候需要使用与原数据分布比较类似的噪音函数, 而这一条件就限制了大多数数据其实不满足插分隐私的使用条件), 需要在查询结果中加入大量的随机化, 导致数据的可用性急剧下降。特别对于那些复杂的查询, 有时候随机化结果几乎掩盖了真实结果。
+\paragraph{劣势:}由于对于背景知识的假设过于强(在加噪音的时候需要使用与原数据分布比较类似的噪音函数, 而这一条件就限制了大多数数据其实不满足插分隐私的使用条件), 需要在查询结果中加入大量的随机化, 导致数据的可用性急剧下降. 特别对于那些复杂的查询, 有时候随机化结果几乎掩盖了真实结果. 
 \paragraph{应用}
 \begin{itemize}
     \item Google的RAPPOR, 用于遥测, 例如了解统计劫持用户设置的恶意软件（RAPPOR's \item open-source implementation）
-    \item Google, 分享历史流量统计信息。
+    \item Google, 分享历史流量统计信息. 
     \item 2016年6月13日, 苹果公司宣布其在iOS 10中使用差异隐私, 以改进其虚拟助理和建议技术,  
-    \item 在数据挖掘模型中使用差异隐私的实际表现已有一些初步研究。\citep{FLETCHER201716}
+    \item 在数据挖掘模型中使用差异隐私的实际表现已有一些初步研究. \citep{FLETCHER201716}
     \item 2020年LinkedIn, 用于广告客户查询
 \end{itemize}
+
+\section{论文阅读-CPFed: Communication-Efficient and Privacy-Preserving Federated Learning}
+
+\subsection{摘要}
+\paragraph{挑战:} 在联邦学习的迭代过程中, 边缘设备需要计算结果后上传到服务器进行更新. 在这个过程中, 会导致隐私泄露和\textbf{通信开销}上升. 
+\paragraph{应对:} 本文提出\textbf{CPFed}, 一种通信高效和保护隐私的联邦学习方法.
+\paragraph{CPFed组件:} 
+\begin{enumerate}[label=(\arabic*)]  
+    \item 周期性平均, 即仅在服务器上周期性平均边缘设备的本地计算结果;
+    \item 高斯机制, 边缘器件在将计算结果发送到服务器之前随机扰动其本地计算结果;
+    \item 安全聚合, 其中扰动的本地计算结果在发送到服务器之前同态加密. 
+\end{enumerate}
+\paragraph{本文工作:} 给出了CPFed的\textbf{端到端隐私保证}, 并分析了其在凸模型和非凸模型上的理论收敛速度. 通过在真实数据集上的大量数值实验, 证明了方法的有效性和效率. 
+\paragraph{结果:}CPFed可以解决联邦学习中的通信效率和隐私泄露问题, 同时获得较高的模型精度.  \cite{hu2020cpfed}
+
+\paragraph{贡献}
+\begin{enumerate}
+    \item 提出CPFed新型联邦学习方案CPFed, 在没有完全可信的服务器的情况下, 通过分布式数据进行高效的、差异化的私有学习. 
+    \item CPFed通过允许部分设备在每次迭代时参加培训并定期与服务器通信来减少通信数量. 
+    \item 在不降低模型精度的情况下, CPFed通过集成安全聚合和不同隐私技术, 严格保护每个设备的数据隐私. 
+    \item 零集中的差异隐私密切考虑CPFed的端到端隐私损失. 
+    \item  对强凸和非凸损失函数进行CPFed的收敛分析, 并基于真实数据集进行广泛的评估. 
+\end{enumerate}
+
+\subsection{背景介绍}
+
+\subsubsection{挑战}
+
+\paragraph{通信开销}
+虽然联邦学习中边缘设备和服务器只传递模型更新, 但是可能包含(深度神经网络的)数亿个参数, 而且需要多次迭代才能获得较高精度模型. 边缘设备大多资源受限(带宽有限,特别是上行传输时).
+\paragraph{隐私泄露}
+只传输模型更新不足以保证隐私安全. 例如难以抵御重构攻击和成员推理攻击.
+
+
+\subsubsection{差异隐私DP}
+\paragraph{$(\varepsilon,\delta)-DP$} 
+随机算法$\mathcal{M:D \to R}$, 其中定义域$\mathcal{D}$, 值域$\mathcal{R}$
+\begin{equation}
+    Pr [ \mathcal{M}(D) \in S ] \leqslant \exp(\epsilon c) \cdot Pr [ \mathcal{A(D_2)} ] \in S  + \delta 
+\end{equation}
+
+其中,$D, D^{'} \in \mathcal{D}$为两个两个数据集, 输出 $S \in \mathcal{O}$, $\varepsilon$称为预定隐私.
+可以在输出加上高斯噪声.
+
+\paragraph{$\rho$零集中DP($\rho-\text{zCDP}$)}
+$\rho-\textbf{zCDP}$具有紧密的组合约束, 更适合分析迭代算法的端到端隐私损失. 
+$\rho-\textbf{zCDP}$满足
+\begin{equation}
+    \mathbb{E}[e^{(\alpha-1)Z}] \leqslant e^{(\alpha -1)\rho}
+\end{equation} 
+其中\subparagraph{隐私损失} 
+\begin{equation}
+    Z := \log \frac{Pr[\mathcal{M}(D)]=o}{Pr[\mathcal{M}(D^{'})]=o} 
+\end{equation}
+
+其中$o \in \mathcal{R}$
+$\rho-\textbf{zCDP}$的性质
+
+\begin{figure}[ht]
+    \setlength{\abovecaptionskip}{0.1cm}
+    \centering    
+    \includegraphics[width=0.7\textwidth]{CPFed/zCDPLemma.jpg}
+    \caption{$\rho-\textbf{zCDP}$性质}
+\end{figure}
+
+\subsection{系统建模}
+\subsubsection{联邦学习系统}
+联邦学习吸引包含n个客户机, 每个有$m$条数据, 表示为$D_i = {\xi^i_1, \ddot,\xi^i_m}$
+\textbf{客户机目标}是训练一个共同模型 $\theta \in \mathbb{R}^d$, 即最小化所有本地数据的联合最小经验损失.
+
+\begin{equation}
+    \min_\theta f(\theta) := \frac{1}{n} \sum^n_{i=1}f_i(\theta) \ \  \text{其中},f_i(x) := \frac{1}{m}\sum_{\xi\in D_i} l(\theta , \xi ) 
+\end{equation}
+其中$f_i$是客户机$i$的局部目标函数,$l(\theta; \xi)$是模型$\theta $在点$\xi\in D_i $处的损失.
+
+\subsubsection{威胁}
+本文假设对手有两类:
+\begin{enumerate}
+    \item “诚实但好奇”的中央服务器或客户机. 中央服务器将忠实地遵循设计的培训协议, 但会对客户机的私有数据感到好奇, 并可能从共享的消息中推断真实信息. 
+    \item 被动的攻击者:在训练中窃听共享消息,但不主动攻击.
+\end{enumerate}
+
+
+\subsubsection{目标}
+设计一个方案使客户机以低成本通信成本训练模型并保证隐私.
+
+\subsection{CPFed}
+
+\subsubsection{提高通信效率--周期平均}
+\paragraph{问题} 起初方法--分布式SGD,由于通信速度比本地慢数个数量级,且联邦学习通常设备过多,导致总体效率低下.
+
+\paragraph{改进方法}
+同时减少通信轮的数量和每轮涉及的客户端, 如图2所示. 在我们的方法中, 服务器首先均匀随机地选择一组客户端, 然后让选中的客户端执行多次迭代以最小化本地目标, 然后再将其本地计算结果发送给服务器. 
+简单来说,就是分组分级策略,相当于联邦的每个州继续往下分为各县. 各县先统计好本地数据再提交. 这和小批量随机梯度下降的思想相似.
+在第$t$轮迭代是,一组$r$个客户机$\Omega_t$通过$\tau$次局部训练预先训练模型$\theta^t$,
+用$\theta_i^{t,s}$表示第$t$轮迭代的第$s$轮局部迭代的客户机$i$的局部模型.
+
+\begin{equation}
+    \theta^{t,s+1}_i= \theta_i^{t,s}- \eta g(\theta_i^{t,s})
+\end{equation}
+其中 $g(\theta_i^{t,s}) := \frac{1}{B} \sum_{X_i} \nabla l(\theta_i^{t,s,\xi)}$表示基于一批B条数据$X_i$的小批量随机梯度下降计算. 
+
+$\tau$轮迭代后,服务器共享模型更新为 
+\begin{equation}
+    \theta^{t+1}=\frac{1}{r} \sum_{i\in \Omega_t} \theta_i^{t,\tau} 
+\end{equation}
+ 
+
+\begin{figure}[ht]
+    \
+    \setlength{\abovecaptionskip}{0.1cm}
+    \centering    
+    \includegraphics[width=0.7\textwidth]{CPFed/communication-reduction.jpg}
+    \label{communication-reduction-strategies}
+    \caption{$\tau=4,r=3 $时的通信减少策略}
+\end{figure}
+ 
+\subsubsection{防止隐私泄露--DP}
+
+\paragraph{问题} 通信减少策略不能阻止更高级的攻击(推断)
+\paragraph{设计目标} $\theta_t$和${\theta_i^{t, \tau}}_{i\in\Omega_t}$包含隐私数据,通过DP防止两种隐私泄露
+\paragraph{设计}
+
+\begin{equation}
+    \theta_i^{t,s+1}= \theta_i^{t,s}- \eta (g(\theta_i^{t,s})) + b_i{t,s} 
+    \label{local_iter}
+\end{equation}
+其中 $b_i{t,s}$是第$t$轮迭代的第$s$次局部迭代时取样自分布$N(0,\sigma^2 \mathbf{1}_d)$的高斯噪声
+
+\paragraph{结果} 由于DP的后处理特性, 局部模型的和$\theta^{t+1}$ 为客户端保留和本地模型{\color{red}相同级别的DP保证 }
+
+\subsubsection{提升模型精确度--安全集聚}
+
+\paragraph{问题} 由于使用高斯机制的差分隐私,模型精确度将会下降
+\paragraph{分析} 服务器只需知道本地模型的平均值,可以隐藏单个本地模型,减少客户端隐私损失
+\paragraph{设计目标} 设计基于秘密共享的协议,安全聚合应能够达到以下目标
+\begin{enumerate}[label=(\arabic*)]  
+    \item 隐藏客户端的单个消息
+    \item 恢复每一轮随机客户端的单个消息总和, 
+    \item 使参与的客户端的通信成本较低. 
+\end{enumerate}
+
+
+\paragraph{设计}
+提出的安全协议包括以下两个步骤:
+\begin{enumerate}[label=(\arabic*)]  
+    \item 加密上传:$\Omega_t$中的客户机上传自己的加密本地模型$\{ c_i^t\} I{i\in \Omega_t}$到服务器
+\item 解密:服务器解密来自客户机组$\Omega_t$的消息和. 
+
+\end{enumerate}
+
+ 
+安全协议的基本思想是在明文中添加随机数$r_i^t$来保护客户机$i$的信息$p_i^t$.即$c^t_i = p^t_i +r^t_i$,难点在于使所有客户机的$r^t_i$和为0, 消除随机数的影响. 但是这要求客户机相互通信,这会导致低效通信.
+
+解决方案是引入伪随机函数(PRF)$G$
+
+PRF $G$要求在初始化和第$t$轮迭代时客户机$i$和$j$统一随机数种子$seed_{i,j}$,,并且每轮循环输出不同的伪随机数$G(seed_{i,j},t)$. 这样每次客户机无需经过和其他客户机交互便可计算出$r_i^t$, 便可降低通信开销.
+
+\begin{figure}[ht]
+    \
+    \setlength{\abovecaptionskip}{0.1cm}
+    \centering    
+    \includegraphics[width=0.7\textwidth]{CPFed/secure-aggregation.jpg}
+    \caption{CPFed中的高效安全聚合协议}
+\end{figure}
+ 
+\paragraph{加密过程}
+在客户机组$\Omega$中,客户机$i \in \Omega_t$计算密钥
+\begin{equation}
+    r_i^t= \sum_{j \in \Omega_t \backslash \{i\}}(r_ij^t-r_ji^t)
+\end{equation}
+
+其中 $r_ij^t=G(seed_{i,j})$客户机$i,j$共知. 客户机$i$的密文为
+
+\begin{equation}
+    c_i^t=p_i^t+ r_i^t 
+\end{equation}
+
+\paragraph{解密过程}
+
+\begin{equation}
+    \sum_{i \in \Omega_t} c_i^t=   \sum_{i \in \Omega_t} p_i^t +   \sum_{i \in \Omega_t}   \sum_{j \in \Omega_t \backslash\{i\}} (r_ij^t-r_ji^t) = \sum_{i \in \Omega_t} p_i^t 
+\end{equation}
+
+\subsubsection{CPFed总体方案}
+\begin{figure}[ht]
+    \setlength{\abovecaptionskip}{0.1cm}
+    \centering    
+    \includegraphics[width=0.7\textwidth]{CPFed/CPFed_Algorithm.jpg}
+    \label{CPFed_algorithm}
+\end{figure}
+
+CPFed由$T$轮通信迭代组成,每一轮迭代选择一组客户机$\Omega_t$, 其数据集为$\mathcal{D}_i$使用\ref{local_iter}进行$\tau$次局部迭代, 其中每组客户机每轮进行初始化共同的模型. $\tau$轮局部迭代后, 客户机组$\Omega_t$上传加密模型$E(\theta_i^{t,\tau})$,服务器对这些加密信息进行聚合.
+
+\subsection{隐私分析}
+
+\paragraph{Corollary推论1} 第$t-th $轮的第$s$次局部迭代时, 客户$i$的随机梯度$g(\theta_i^{t,s})$的灵敏度以$2L/B$为界. 
+
+\paragraph{Lemma 4 } 
+上传的本地模型总和的敏感度$\sum_i \in \Omega_t \theta^{t, \tau}_i$
+以$2 \eta \tau L/B$为界. 
+
+通过Lemma 1和4, 可得每轮的zCDP保证
+
+\begin{theorem}
+如果算法1中的高斯噪声$b_i^{t,s}$取样与$N(0, \sigma^2 \mathbb{1}_d)$
+, 那么算法1经过T轮可以为每个客户机达到$(\epsilon,\delta)-DP$, 其中 
+\begin{equation}
+    \epsilon = \frac{2T\tau L^2}{n B^2 \sigma^2}+ 2 \sqrt{\frac{2T\tau L^2 }{nB^2\sigma^2} \log\frac{1}{\delta}} 
+\end{equation}
+\end{theorem}
+
+\subsubsection{收敛性分析}
+
+\begin{figure*}[ht]
+    \setlength{\abovecaptionskip}{0.1cm}
+    \centering    
+    \includegraphics[width=0.7\textwidth]{CPFed/Assumption123.jpg}
+    \label{assumption123}
+\end{figure*}
+
+
+\begin{figure*}[ht]
+    \setlength{\abovecaptionskip}{0.1cm}
+    \centering    
+    \includegraphics[width=0.7\textwidth]{CPFed/Lemma5.png}
+    \label{Lemma5}
+\end{figure*}
+\begin{figure*}[ht]
+    \setlength{\abovecaptionskip}{0.1cm}
+    \centering    
+    \includegraphics[width=0.7\textwidth]{CPFed/Lemma6.jpg}
+    \label{Lemma6}
+\end{figure*}
+
+\begin{theorem}
+(凸损失的CPFed收敛性)
+对于CPFed算法, 假设迭代总次数为$K= T\tau$的次数, 其中$T$为通信轮数, 而n为轮长. 在假设1-4的条件下, 如果学习率满足$5\eta L +20 \tau ^2\eta^2 L^2 \leqslant 1$, 并且所有的客户端初始化在同一个点 $\theta ^0 \in \mathbb{R}^d$, 那么经过K次迭代后, 期望最优性间隙有界如下:
+\begin{equation}
+  \mathbb{E} \left[  \frac{1}{K} \sum_{k=0}^{K-1}f(\theta^k)-f^\star \right]\leqslant
+  \frac{(1-n\lambda)}{K \eta \lambda}  (f(\theta^0)-f^\star (1-n)
+  +H(\tau,\sigma^2)
+\end{equation}
+,其中$H(\tau,\sigma^2) := \eta L /2 \lambda (4 \eta L(\eta L(\tau -1)(2 \tau-1)+1) (d \sigma^2+\beta - \beta /m ))$, $\xi^2$为小批量随机梯度的方差界, 其中, $\sigma^2$为高斯噪声的方差, L为梯度的Lipschitz常数, $\lambda$ 是为强凸性常数, m为局部数据集的大小
+
+\end{theorem}
+
+\begin{theorem}
+(CPFed对非凸损失的收敛性)。
+对于CPFed算法，设总送代次数$K=T\tau$, 其中$T$为通信轮数，而$d$为轮长。
+在假设1-3的条件下，如果学习率满足$5\eta L +20 \tau ^2\eta^2 L^2 \leqslant 1$, 并且所有的客户端初始化在同一个点 $\theta ^0 \in \mathbb{R}^d$, 那么经过K次迭代后, 期望最优性间隙有界如下:
+\begin{equation}
+  \mathbb{E} \left[  \frac{1}{K} \sum_{k=0}^{K-1}f( \| \hat{\theta}^k) \|^2  \right]\leqslant 
+  \frac{2(f(\theta^0)- f^\star)}{ \eta K} + P(\tau, \sigma^2) 
+\end{equation}
+, 其中$P(\tau,\sigma^2) := \eta L /2 \lambda (4 \eta L(\eta L(\tau -1)(2 \tau-1)+1) (d \sigma^2+\beta - \beta /m ))$, $\xi^2$为小批量随机梯度的方差界. 其中, $\sigma^2$为高斯噪声的方差, L为梯度的Lipschitz常数, m为局部数据集的大小.
+\end{theorem}   
+
+
+%具体证明另外手写.
+
+\subsection{实验}
+待阅读
+
+
+
+
+
 \section{预备知识}
 
 %% 这儿总结一些比较重要的数学概念、定理等.
@@ -893,9 +1170,9 @@ ELU有ReLU的所有优点, 并且解决了 Dead ReLU问题, 输出的均值接�
 
 
 \subsubsection{数据集}
-如果已经有了一个比较大的标注数据集, 想要完成一个有监督模型的测试, 那么通常使用均匀随机抽样的方式, 将数据集划分为训练集、验证集、测试集, 这三个集合不能有交集, 常见的比例是8:1:1。三个集合都是同分布的。
-训练集就是用来训练参数的。而验证集基本是在每次epoch完成后, 测试当前模型的准确率。
-对于一个模型来说, 其参数可以分为普通参数和超参数。 除强化学习外, 普通参数是可以被训练所更新。超参数不在梯度下降的更新范围内, 需要人工根据验证集调节.所以在广义上, 验证集参与了人工调参的过程, 需要一个没有经过的训练的集合, 就是测试集来测试最终准确率. \citep{training_validation_test_Su}
+如果已经有了一个比较大的标注数据集, 想要完成一个有监督模型的测试, 那么通常使用均匀随机抽样的方式, 将数据集划分为训练集、验证集、测试集, 这三个集合不能有交集, 常见的比例是8:1:1. 三个集合都是同分布的. 
+训练集就是用来训练参数的. 而验证集基本是在每次epoch完成后, 测试当前模型的准确率. 
+对于一个模型来说, 其参数可以分为普通参数和超参数. 除强化学习外, 普通参数是可以被训练所更新. 超参数不在梯度下降的更新范围内, 需要人工根据验证集调节.所以在广义上, 验证集参与了人工调参的过程, 需要一个没有经过的训练的集合, 就是测试集来测试最终准确率. \citep{training_validation_test_Su}
 
 
 \subsection{前馈神经网络}
@@ -1060,10 +1337,10 @@ $o(\cdot)$ 是连续输出函数, 并且对状态空间的紧致性没有限制�
 
 
  \paragraph{长期依赖（Long-Term Dependencies）问题}
-如果相关信息和当前预测位置之间的间隔就相当的大, 在这个间隔不断增大时,  RNN会难以学习到连接如此远的信息。(梯度消失和梯度爆炸)
+如果相关信息和当前预测位置之间的间隔就相当的大, 在这个间隔不断增大时,  RNN会难以学习到连接如此远的信息. (梯度消失和梯度爆炸)
 
-在序列中, 依赖现象较为明显, 如主谓依赖、名词与动词单复数的依赖。在较短范围内, 这种依赖能够被传统的语言模型（如n-gram, 神经语言模型）刻画, 但是长距离依赖则是传统语言模型难以刻画的。长距离依赖是序列建模的重要刻画内容之一.
-循环神经网络在进行梯度反向传播时也面临着梯度消失和梯度爆炸问题, 只是表现在时间轴上, 即如果输入序列很长,  梯度难以更新。
+在序列中, 依赖现象较为明显, 如主谓依赖、名词与动词单复数的依赖. 在较短范围内, 这种依赖能够被传统的语言模型（如n-gram, 神经语言模型）刻画, 但是长距离依赖则是传统语言模型难以刻画的. 长距离依赖是序列建模的重要刻画内容之一.
+循环神经网络在进行梯度反向传播时也面临着梯度消失和梯度爆炸问题, 只是表现在时间轴上, 即如果输入序列很长,  梯度难以更新. 
 
 
 
@@ -1136,8 +1413,8 @@ $$\hat{y}= g(h_t),  \  \forall t \in [1, T]$$
 \subsubsection{简介实现}
 
 \begin{enumerate}
-    \item  使用困惑度评价模型。
-    \item  在迭代模型参数前裁剪梯度。
+    \item  使用困惑度评价模型. 
+    \item  在迭代模型参数前裁剪梯度. 
     \item  对时序数据采用不同采样方法将导致隐藏状态初始化的不同
 \end{enumerate}
 
@@ -1168,7 +1445,7 @@ t 时刻损失 $\ell(\boldsymbol{o}_t,  y_t)$
 时间步数为T的损失函数$$L = \frac{1}{T} \sum_{t=1}^T \ell (\boldsymbol{o}_t,  y_t).$$
 \end{itemize}
   
-prod运算符将根据两个输⼊矩阵的形状, 在必要的操作（如转置和互换输⼊位置）后对两个输⼊做乘法。
+prod运算符将根据两个输⼊矩阵的形状, 在必要的操作（如转置和互换输⼊位置）后对两个输⼊做乘法. 
 
 
 计算
@@ -1205,7 +1482,7 @@ $$
 = \sum_{i=t}^T {\left(\boldsymbol{W}_{hh}^\top\right)}^{T-i} \boldsymbol{W}_{qh}^\top \frac{\partial L}{\partial \boldsymbol{o}_{T+t-i}}.
 $$
  
-隐藏层中模型参数的梯度$\partial L / \partial \boldsymbol{W}_{hx} \in \mathbb{R}^{h \times d}$和$\partial L / \partial \boldsymbol{W}_{hh} \in \mathbb{R}^{h \times h}$。
+隐藏层中模型参数的梯度$\partial L / \partial \boldsymbol{W}_{hx} \in \mathbb{R}^{h \times d}$和$\partial L / \partial \boldsymbol{W}_{hh} \in \mathbb{R}^{h \times h}$. 
 $$
 \begin{aligned}
 \frac{\partial L}{\partial \boldsymbol{W}_{hx}} 
@@ -1232,7 +1509,7 @@ $$P(w_1, w_2, \cdots , w_T) \approx \Pi_{t=1}^T P(w_t|w_t-(n-1), \cdots, w_{t-1}
 以上也叫 n 元语法（n-grams）. 它是基于 n-1 阶马尔可夫链的概率语言模型.当 n 分别为1、2和3时, 我们将其分别称作一元语法（unigram）、二元语法（bigram）和三元语法（trigram）.
 
 \subsection{深度循环神经网络}
-含有多个隐藏层的循环神经网络, 也称作深度循环神经网络。下图演示了一个, \textbf{每个隐藏状态不断传递至当前层的下一时间步和当前时间步的下一层}。
+含有多个隐藏层的循环神经网络, 也称作深度循环神经网络. 下图演示了一个, \textbf{每个隐藏状态不断传递至当前层的下一时间步和当前时间步的下一层}. 
 
  \begin{figure}[!htb]
     \center
@@ -1241,20 +1518,20 @@ $$P(w_1, w_2, \cdots , w_T) \approx \Pi_{t=1}^T P(w_t|w_t-(n-1), \cdots, w_{t-1}
 \end{figure}
  
 
-具体来说, 在时间步$t$里, 设小批量输入$\mathbf{X}_t \in \mathbb{R}^{n \times d}$（样本数为$n$, 输入个数为$d$）, 第$l$隐藏层（$l=1, \ldots, L$）的隐藏状态为$\mathbf{H}_t^{(l)}  \in \mathbb{R}^{n \times h}$（隐藏单元个数为$h$）, 输出层变量为$\mathbf{O}_t \in \mathbb{R}^{n \times q}$（输出个数为$q$）, 且隐藏层的激活函数为$\phi$。第1隐藏层的隐藏状态和之前的计算一样：
+具体来说, 在时间步$t$里, 设小批量输入$\mathbf{X}_t \in \mathbb{R}^{n \times d}$（样本数为$n$, 输入个数为$d$）, 第$l$隐藏层（$l=1, \ldots, L$）的隐藏状态为$\mathbf{H}_t^{(l)}  \in \mathbb{R}^{n \times h}$（隐藏单元个数为$h$）, 输出层变量为$\mathbf{O}_t \in \mathbb{R}^{n \times q}$（输出个数为$q$）, 且隐藏层的激活函数为$\phi$. 第1隐藏层的隐藏状态和之前的计算一样：
 $$\mathbf{H}_t^{(1)} = \phi(\mathbf{X}_t \mathbf{W}_{xh}^{(1)} + \mathbf{H}_{t-1}^{(1)} \mathbf{W}_{hh}^{(1)}  + \mathbf{b}_h^{(1)}), $$
-其中权重$\mathbf{W}_{xh}^{(1)} \in \mathbb{R}^{d \times h}$、$\mathbf{W}_{hh}^{(1)} \in \mathbb{R}^{h \times h}$和偏差 $\mathbf{b}_h^{(1)} \in \mathbb{R}^{1 \times h}$分别为第1隐藏层的模型参数。
+其中权重$\mathbf{W}_{xh}^{(1)} \in \mathbb{R}^{d \times h}$、$\mathbf{W}_{hh}^{(1)} \in \mathbb{R}^{h \times h}$和偏差 $\mathbf{b}_h^{(1)} \in \mathbb{R}^{1 \times h}$分别为第1隐藏层的模型参数. 
 
 当$1 < l \leq L$时, 第$l$隐藏层的隐藏状态的表达式为
 $$\mathbf{H}_t^{(l)} = \phi(\mathbf{H}_t^{(l-1)} \mathbf{W}_{xh}^{(l)} + \mathbf{H}_{t-1}^{(l)} \mathbf{W}_{hh}^{(l)}  + \mathbf{b}_h^{(l)}), $$
-其中权重$\mathbf{W}_{xh}^{(l)} \in \mathbb{R}^{h \times h}$、$\mathbf{W}_{hh}^{(l)} \in \mathbb{R}^{h \times h}$和偏差 $\mathbf{b}_h^{(l)} \in \mathbb{R}^{1 \times h}$分别为第$l$隐藏层的模型参数。
+其中权重$\mathbf{W}_{xh}^{(l)} \in \mathbb{R}^{h \times h}$、$\mathbf{W}_{hh}^{(l)} \in \mathbb{R}^{h \times h}$和偏差 $\mathbf{b}_h^{(l)} \in \mathbb{R}^{1 \times h}$分别为第$l$隐藏层的模型参数. 
 最终, 输出层的输出只需基于第$L$隐藏层的隐藏状态：
 $$\mathbf{O}_t = \mathbf{H}_t^{(L)} \mathbf{W}_{hq} + \mathbf{b}_q, $$
-其中权重$\mathbf{W}_{hq} \in \mathbb{R}^{h \times q}$和偏差$\mathbf{b}_q \in \mathbb{R}^{1 \times q}$为输出层的模型参数。
+其中权重$\mathbf{W}_{hq} \in \mathbb{R}^{h \times q}$和偏差$\mathbf{b}_q \in \mathbb{R}^{1 \times q}$为输出层的模型参数. 
 
 \subsubsection{LSTM}
-Long short time memory(LSTM),  由Hochreiter 和Schmidhuber提出。\citep{HochreiterLong}。
-LSTM传递两部分信息状态信息$h_{t-1}$, 记忆信息$c_{t-1}$.两者相互作用。LSTM通过门单元来动态地选择遗忘多少以前的信息和记忆多少当前的信息。包括遗忘门, 输入门和输出门。
+Long short time memory(LSTM),  由Hochreiter 和Schmidhuber提出. \citep{HochreiterLong}. 
+LSTM传递两部分信息状态信息$h_{t-1}$, 记忆信息$c_{t-1}$.两者相互作用. LSTM通过门单元来动态地选择遗忘多少以前的信息和记忆多少当前的信息. 包括遗忘门, 输入门和输出门. 
 $x_t$ 表示时刻t 的输入向量, $h_{t−1}$ 是时刻t−1 的循环单元的输出, 
 \begin{figure}[!htb]
     \center
@@ -1263,7 +1540,7 @@ $x_t$ 表示时刻t 的输入向量, $h_{t−1}$ 是时刻t−1 的循环单元�
 \end{figure}
 LSTM结构的三部分:
 \paragraph{遗忘} 通过遗忘门实现.
-$f_t=\sigma (W_f h_{t-1, x_t}+b_f)$$ W_f $权值, $b_f$偏置, 该公式是对$[h_{t−1}, x_t]$ 进行变换, 并得到一个实数向量$f_t$。$f_t$ 的每一维都可以被理解为一个“门”, 它决定可以有多少信息被留下（或遗忘）。
+$f_t=\sigma (W_f h_{t-1, x_t}+b_f)$$ W_f $权值, $b_f$偏置, 该公式是对$[h_{t−1}, x_t]$ 进行变换, 并得到一个实数向量$f_t$. $f_t$ 的每一维都可以被理解为一个“门”, 它决定可以有多少信息被留下（或遗忘）. 
 
 \paragraph{记忆更新}
 门控参数$\mathbf{i}_t$
@@ -1289,7 +1566,7 @@ $f_t=\sigma (W_f h_{t-1, x_t}+b_f)$$ W_f $权值, $b_f$偏置, 该公式是对$[
 用循环神经网络(Recurrent NN)来建模的话就是假设句子后面的词的信息和前面的词有关, 而用递归神经网络(Recursive NN)来建模的话, 就是假设句子是一个树状结构, 如由几个部分(主语, 谓语, 宾语）组成.
 
 \subsubsection{LSTM实现}
-使用周杰伦歌词, 训练模型并根据前缀“油画”创作⻓度为50个字符的⼀段歌词。每过40个迭代周期便根据当前训练的模型创作⼀段歌词。
+使用周杰伦歌词, 训练模型并根据前缀“油画”创作⻓度为50个字符的⼀段歌词. 每过40个迭代周期便根据当前训练的模型创作⼀段歌词. 
 \begin{figure}[!ht]
     \center
     \includegraphics[width=0.8\textwidth]{lyrics.png}
@@ -1305,7 +1582,7 @@ Gated Recurrent Unit (GRU) 门循环单元
 \end{figure}
 
 GRU对LSTM进行了简化, 把循环单元状态$h_t$和记忆$c_t$合并为状态$h_t$, 
-LSTM传递的两部分信息状态信息$h_{t−1}$和记忆信息$c_{t−1}$。
+LSTM传递的两部分信息状态信息$h_{t−1}$和记忆信息$c_{t−1}$. 
 GRU有两个门, 
 \begin{itemize}
     \item 重置门$r_t$:用来控制前一时刻隐藏状态的记忆程度.
@@ -1351,7 +1628,7 @@ $$h_t=(1-u_t) \cdot h_{t-1} + u_t\cdot \hat{h}_t$$
     \item 
     整个句子编码到一个向量里可能会有信息丢失
     \item 
-    缺少源语单词与目标语单词之间的对应。某种意义上讲, 一个目标语单词的生成无法区分不同源语单词的贡献
+    缺少源语单词与目标语单词之间的对应. 某种意义上讲, 一个目标语单词的生成无法区分不同源语单词的贡献
 \end{itemize}
 翻译是具有很强的局部性的, 有些词之间会有更紧密的关系
 源语词和目标语词的对应并不是均匀的, 甚至非常稀疏, 比如, 一些短语的生成仅依赖于源文中的少数词, 这些关系可以在表示模型中考虑
@@ -1366,7 +1643,7 @@ $$h_t=(1-u_t) \cdot h_{t-1} + u_t\cdot \hat{h}_t$$
     \begin{eqnarray}
     \mathbf{C}_j=\sum_{i} \alpha_{i, j} \mathbf{h}_i
     \end{eqnarray}
-其中, $\alpha_{i, j}$是{\small\sffamily\bfseries{注意力权重}}\index{注意力权重}（Attention Weight）\index{Attention Weight}, 它表示目标语第$j$个位置与源语第$i$个位置之间的相关性大小。
+其中, $\alpha_{i, j}$是{\small\sffamily\bfseries{注意力权重}}\index{注意力权重}（Attention Weight）\index{Attention Weight}, 它表示目标语第$j$个位置与源语第$i$个位置之间的相关性大小. 
 
 \begin{figure}[htp]
     \centering
@@ -1375,7 +1652,7 @@ $$h_t=(1-u_t) \cdot h_{t-1} + u_t\cdot \hat{h}_t$$
     \end{figure}
 
 \subsection{Transformer}
-使用循环神经网络对源语、目标语建模进行信息提取效果很好, 但是当序列过长时, 词汇之间信息传递距离过长, 导致模型的信息提取能力变差。
+使用循环神经网络对源语、目标语建模进行信息提取效果很好, 但是当序列过长时, 词汇之间信息传递距离过长, 导致模型的信息提取能力变差. 
 \begin{figure}[htp]
     \centering
     \includegraphics[width=0.9\textwidth]{self-attention1.png}
@@ -1391,7 +1668,7 @@ $$h_t=(1-u_t) \cdot h_{t-1} + u_t\cdot \hat{h}_t$$
 
 \textbf{自注意力机制(Self-Attention)}可以很好的解决长距离依赖问题, 增强信息抽取能力, 在长距离语言建模任务取得了很好的效果
  自注意力机制则是将源语言每个位置的表示$h_i$看做query, 同时将所有位置的表示看做key和value
- Transformer是Google在2017年提出的一个新型网络结构, 完全基于注意力机制, 取得了很好成绩！通过自注意机制能够直接获取全局信息, 不像RNN需要逐步进行信息提取, 也不像CNN只能获取局部信息, 可以并行化操作, 提高训练效率, Transformer不仅仅被用于神经机器翻译任务, 还广泛用于其他NLP任务、甚至图像处理任务。
+ Transformer是Google在2017年提出的一个新型网络结构, 完全基于注意力机制, 取得了很好成绩！通过自注意机制能够直接获取全局信息, 不像RNN需要逐步进行信息提取, 也不像CNN只能获取局部信息, 可以并行化操作, 提高训练效率, Transformer不仅仅被用于神经机器翻译任务, 还广泛用于其他NLP任务、甚至图像处理任务. 
  %----------------------------------------------
 \begin{figure}[htp]
     \centering
@@ -1399,26 +1676,26 @@ $$h_t=(1-u_t) \cdot h_{t-1} + u_t\cdot \hat{h}_t$$
     \caption{Transformer结构}
     \label{Transformer}
     \end{figure}
-    \parinterval 图\ref{Transformer} 展示了经典的Transformer结构。解码器由若干层组成（绿色虚线框就代表一层）。每一层（layer）的输入都是一个向量序列, 输出是同样大小的向量序列, 而Transformer层的作用是对输入进行进一步的抽象, 得到新的表示结果。不过这里的层并不是指单一的神经网络结构, 它里面由若干不同的模块组成, 包括：
+    \parinterval 图\ref{Transformer} 展示了经典的Transformer结构. 解码器由若干层组成（绿色虚线框就代表一层）. 每一层（layer）的输入都是一个向量序列, 输出是同样大小的向量序列, 而Transformer层的作用是对输入进行进一步的抽象, 得到新的表示结果. 不过这里的层并不是指单一的神经网络结构, 它里面由若干不同的模块组成, 包括：
     \begin{itemize}
         \vspace{0.5em}
         \item {\small\sffamily\bfseries{自注意力子层}}\index{自注意力子层}（Self-attention Sub-layer）\index{Self-attention Sub-layer}：使用自注意力机制对输入的序列进行新的表示；
         \vspace{0.5em}
         \item {\small\sffamily\bfseries{前馈神经网络子层}}\index{前馈神经网络子层}（Feed-forward Sub-layer）\index{Feed-forward Sub-layer}：使用全连接的前馈神经网络对输入向量序列进行进一步变换；
         \vspace{0.5em}
-        \item {\small\sffamily\bfseries{残差连接}}\index{残差连接}（Residual Connection, 标记为``Add''）\index{Residual Connection}：对于自注意力子层和前馈神经网络子层, 都有一个从输入直接到输出的额外连接, 也就是一个跨子层的直连。残差连接可以使深层网络的信息传递更为有效；
+        \item {\small\sffamily\bfseries{残差连接}}\index{残差连接}（Residual Connection, 标记为``Add''）\index{Residual Connection}：对于自注意力子层和前馈神经网络子层, 都有一个从输入直接到输出的额外连接, 也就是一个跨子层的直连. 残差连接可以使深层网络的信息传递更为有效；
         \vspace{0.5em}
-        \item {\small\sffamily\bfseries{层正则化}}\index{层正则化}（Layer Normalization）\index{Layer Normalization}：自注意力子层和前馈神经网络子层进行最终输出之前, 会对输出的向量进行层正则化, 规范结果向量取值范围, 这样易于后面进一步的处理。
+        \item {\small\sffamily\bfseries{层正则化}}\index{层正则化}（Layer Normalization）\index{Layer Normalization}：自注意力子层和前馈神经网络子层进行最终输出之前, 会对输出的向量进行层正则化, 规范结果向量取值范围, 这样易于后面进一步的处理. 
         \vspace{0.5em}
         \end{itemize}
 
 \subsubsection{残差连接}
-在Transformer中, 编码器、解码器分别由6层网络组成, 每层网络又包含多个子层（自注意力网络、前馈神经网络）。Transformer实际上是一个很深的网络结构, 在训练过程中容易出现梯度消失的情况在这里引入了在图像领域用来训练深层网络的技术, 残差网络来避免上述问题.
+在Transformer中, 编码器、解码器分别由6层网络组成, 每层网络又包含多个子层（自注意力网络、前馈神经网络）. Transformer实际上是一个很深的网络结构, 在训练过程中容易出现梯度消失的情况在这里引入了在图像领域用来训练深层网络的技术, 残差网络来避免上述问题.
 \begin{eqnarray}
     x_{l+1} = x_l + \mathcal{F} (x_l)
     \end{eqnarray}
 
-    在Transformer的训练过程中, 由于引入了残差操作, 将前面所有层的输出加到一起。这样会导致高层的参数分布不断变大, 造成训练过程不稳定、训练时间较长。为了避免这种情况, 在每层中加入了层正则化操作I 使用均值和方差对样本进行平移缩放, 将数据规范化为均值为0, 方差为1的标准分布
+    在Transformer的训练过程中, 由于引入了残差操作, 将前面所有层的输出加到一起. 这样会导致高层的参数分布不断变大, 造成训练过程不稳定、训练时间较长. 为了避免这种情况, 在每层中加入了层正则化操作I 使用均值和方差对样本进行平移缩放, 将数据规范化为均值为0, 方差为1的标准分布
     \begin{eqnarray}
         \textrm{LN}(x) = g \cdot \frac{x- \mu} {\sigma} + b
         \end{eqnarray}  
@@ -1428,14 +1705,14 @@ $$h_t=(1-u_t) \cdot h_{t-1} + u_t\cdot \hat{h}_t$$
 \citep{xiao2020}
 
 基于规则、基于统计、基于实例、 神经网络方法
-不同机器翻译方法有不同的特点。 
-• 规则系统需要人工书写规则并维护, 人工代价较高。统计和神经网络方法仅需
-要设计特征或者神经网络结构, 对人工依赖较少（语言相关的）。
+不同机器翻译方法有不同的特点.  
+• 规则系统需要人工书写规则并维护, 人工代价较高. 统计和神经网络方法仅需
+要设计特征或者神经网络结构, 对人工依赖较少（语言相关的）. 
 • 基于实例、统计和神经网络的方法都需要依赖语料库（数据）, 其中统计和神
 经网络方法具有一定的抗噪能力, 因此也更适合大规模数据情况下的机器翻译
-系统研发。
+系统研发. 
 • 基于规则和基于实例的方法在受限场景下有较好的精度, 但是在开放领域的翻
-译上统计和神经网络方法更具优势。
+译上统计和神经网络方法更具优势. 
 \begin{table}  [!htb]
     \Large  
     \caption{不同机器翻译方法的对比}  
@@ -1457,9 +1734,9 @@ $$h_t=(1-u_t) \cdot h_{t-1} + u_t\cdot \hat{h}_t$$
 
 \subsection{基于梯度的方法的改进}
  \subsubsection{动量法Momentum}
- 对于普通的梯度下降法 $\theta \leftarrow \theta - \eta \nabla f(x)$,  当接近最优值时梯度会比较小, 由于学习率固定, 普通的梯度下降法的收敛速度会变慢, 有时甚至陷入局部最优。  
-设时间步$t$的自变量为${x}_t$, 学习率为$\eta_t$。
-在时间步$0$, 动量法创建速度变量$\boldsymbol{v}_0$, 并将其元素初始化成0。在时间步$t>0$, 动量法对每次迭代的步骤做如下修改：
+ 对于普通的梯度下降法 $\theta \leftarrow \theta - \eta \nabla f(x)$,  当接近最优值时梯度会比较小, 由于学习率固定, 普通的梯度下降法的收敛速度会变慢, 有时甚至陷入局部最优.   
+设时间步$t$的自变量为${x}_t$, 学习率为$\eta_t$. 
+在时间步$0$, 动量法创建速度变量$\boldsymbol{v}_0$, 并将其元素初始化成0. 在时间步$t>0$, 动量法对每次迭代的步骤做如下修改：
  $$
  \begin{aligned}
  \boldsymbol{v}_t &\leftarrow \gamma \boldsymbol{v}_{t-1} + \eta_t \boldsymbol{g}_t,  \\
@@ -1483,35 +1760,35 @@ $$h_t=(1-u_t) \cdot h_{t-1} + u_t\cdot \hat{h}_t$$
  \end{aligned}
  $$
  
- 令$n = 1/(1-\gamma)$, 那么 $\left(1-1/n\right)^n = \gamma^{1/(1-\gamma)}$。
+ 令$n = 1/(1-\gamma)$, 那么 $\left(1-1/n\right)^n = \gamma^{1/(1-\gamma)}$. 
  
  $$ \lim_{n \rightarrow \infty}  \left(1-\frac{1}{n}\right)^n = \exp(-1) \approx 0.3679, $$
- 当$\gamma \rightarrow 1$时, $\gamma^{1/(1-\gamma)}=\exp(-1)$, 如$0.95^{20} \approx \exp(-1)$。如果把$\exp(-1)$当作一个比较小的数, 我们可以在近似中忽略所有含$\gamma^{1/(1-\gamma)}$以及更高阶的系数的项。 
- $y_t$可看作是对最近$1/(1-\gamma)$个时间步的$x_t$值的加权平均。
+ 当$\gamma \rightarrow 1$时, $\gamma^{1/(1-\gamma)}=\exp(-1)$, 如$0.95^{20} \approx \exp(-1)$. 如果把$\exp(-1)$当作一个比较小的数, 我们可以在近似中忽略所有含$\gamma^{1/(1-\gamma)}$以及更高阶的系数的项.  
+ $y_t$可看作是对最近$1/(1-\gamma)$个时间步的$x_t$值的加权平均. 
 
 
 对动量法的速度变量做变形：
 
  $$\boldsymbol{v}_t \leftarrow \gamma \boldsymbol{v}_{t-1} + (1 - \gamma) \left(\frac{\eta_t}{1 - \gamma} \boldsymbol{g}_t\right). $$
-$\boldsymbol{v}_t$实际上对序列$\{\eta_{t-i}\boldsymbol{g}_{t-i} /(1-\gamma):i=0, \ldots, 1/(1-\gamma)-1\}$做了指数加权移动平均。在动量法中, 自变量在各个方向上的移动幅度同时取决于当前梯度和过去的各个梯度在各个方向上是否一致。
+$\boldsymbol{v}_t$实际上对序列$\{\eta_{t-i}\boldsymbol{g}_{t-i} /(1-\gamma):i=0, \ldots, 1/(1-\gamma)-1\}$做了指数加权移动平均. 在动量法中, 自变量在各个方向上的移动幅度同时取决于当前梯度和过去的各个梯度在各个方向上是否一致. 
 
-若用 $G_t$表示第t轮迭代的动量,  $g_t$表示第t轮迭代的更新量, 当 $t \to \infty $,  $G_t= \frac{g_0}{1-\gamma} $, 如果梯度保持不变, 最终的更新速度会是梯度项乘以学习率的 $\frac{1}{1-r}$ 倍。
+若用 $G_t$表示第t轮迭代的动量,  $g_t$表示第t轮迭代的更新量, 当 $t \to \infty $,  $G_t= \frac{g_0}{1-\gamma} $, 如果梯度保持不变, 最终的更新速度会是梯度项乘以学习率的 $\frac{1}{1-r}$ 倍. 
 
 \subsubsection{AdaGrad}
-\textbf{问题}: 假设目标函数为f, ⾃变量为一个二维向量$[x_1,  x_2]^\top$, $x_1, x_2$在迭代时都使用相同的学习率。若两者梯度值差别较大, 选择一个小学习率会使在梯度值较小的维度迭代过慢. \\
+\textbf{问题}: 假设目标函数为f, ⾃变量为一个二维向量$[x_1,  x_2]^\top$, $x_1, x_2$在迭代时都使用相同的学习率. 若两者梯度值差别较大, 选择一个小学习率会使在梯度值较小的维度迭代过慢. \\
 \par \textbf{解决方法}: 不同维度设置不同学习率. 
 
-AdaGrad算法使用一个小批量随机梯度$\boldsymbol{g}_t$按元素平方的累加变量$\boldsymbol{s}_t$。 $\boldsymbol{s}_0$中每个元素初始化为0。在$t$时刻, 累积平方梯度:
+AdaGrad算法使用一个小批量随机梯度$\boldsymbol{g}_t$按元素平方的累加变量$\boldsymbol{s}_t$.  $\boldsymbol{s}_0$中每个元素初始化为0. 在$t$时刻, 累积平方梯度:
 $$\boldsymbol{s}_t \leftarrow \boldsymbol{s}_{t-1} + \boldsymbol{g}_t \odot \boldsymbol{g}_t, $$
-其中$\odot$是按元素相乘。
+其中$\odot$是按元素相乘. 
 之后, 将自变量中每个元素的学习率通过按元素运算重新调整：
 $$\boldsymbol{x}_t \leftarrow \boldsymbol{x}_{t-1} - \frac{\eta}{\sqrt{\boldsymbol{s}_t + \epsilon}} \odot \boldsymbol{g}_t, $$
-其中$\epsilon$是为了维持数值稳定性而添加的常数。 
+其中$\epsilon$是为了维持数值稳定性而添加的常数.  
 
 \subsubsection{RMSProp}
-\textbf{问题}: 因为调整学习率时分⺟上的变量$s_t$⼀直在累加按元素平方的小批量随机梯度, 所以⽬标函数⾃变量每个元素的学习率在迭代过程中⼀直在降低（或不变）。因此, 当学习率在迭代早期降得较快且当前解依然不佳时, AdaGrad算法在迭代后期由于学习率过小, 可能较难找到一个有用的解。
+\textbf{问题}: 因为调整学习率时分⺟上的变量$s_t$⼀直在累加按元素平方的小批量随机梯度, 所以⽬标函数⾃变量每个元素的学习率在迭代过程中⼀直在降低（或不变）. 因此, 当学习率在迭代早期降得较快且当前解依然不佳时, AdaGrad算法在迭代后期由于学习率过小, 可能较难找到一个有用的解. 
 
- \textbf{解决方法:} 改变Adagrad梯度积累为指数加权的移动平均。
+ \textbf{解决方法:} 改变Adagrad梯度积累为指数加权的移动平均. 
  
 给定超参数$0 \leq \gamma < 1$, RMSProp算法在时间步$t>0$计算
 
@@ -1521,21 +1798,21 @@ $$\boldsymbol{s}_t \leftarrow \gamma \boldsymbol{s}_{t-1} + (1 - \gamma) \boldsy
 
 $$\boldsymbol{x}_t \leftarrow \boldsymbol{x}_{t-1} - \frac{\eta}{\sqrt{\boldsymbol{s}_t + \epsilon}} \odot \boldsymbol{g}_t,  $$
 
-其中$\epsilon$是为了维持数值稳定性而添加的常数。自变量每个元素的学习率在迭代过程中就不再一直降低（或不变）。
+其中$\epsilon$是为了维持数值稳定性而添加的常数. 自变量每个元素的学习率在迭代过程中就不再一直降低（或不变）. 
 \subsubsection{AdaDelta}
 \paragraph{问题:}同RMSProp待解决问题相同 \\
-\textbf{解决方法:}不设置学习率, 用一阶的方法, 近似模拟二阶牛顿法。使用了小批量随机梯度$\boldsymbol{g}_t$按元素平方的指数加权移动平均变量$\boldsymbol{s}_t$。
+\textbf{解决方法:}不设置学习率, 用一阶的方法, 近似模拟二阶牛顿法. 使用了小批量随机梯度$\boldsymbol{g}_t$按元素平方的指数加权移动平均变量$\boldsymbol{s}_t$. 
 
-在时间步0, 它的所有元素被初始化为0。给定超参数$0 \leq \rho < 1$], 
+在时间步0, 它的所有元素被初始化为0. 给定超参数$0 \leq \rho < 1$], 
 
 在时间步$t>0$
 $$\boldsymbol{s}_t \leftarrow \rho \boldsymbol{s}_{t-1} + (1 - \rho) \boldsymbol{g}_t \odot \boldsymbol{g}_t. $$
 
-状态变量$\Delta\boldsymbol{x}_t$, 在时间步0时被初始化为0。$\Delta\boldsymbol{x}_{t-1}$是来计算自变量的变化量：
+状态变量$\Delta\boldsymbol{x}_t$, 在时间步0时被初始化为0. $\Delta\boldsymbol{x}_{t-1}$是来计算自变量的变化量：
 
 $$ \boldsymbol{g}_t' \leftarrow \sqrt{\frac{\Delta\boldsymbol{x}_{t-1} + \epsilon}{\boldsymbol{s}_t + \epsilon}}   \odot \boldsymbol{g}_t,  $$
 
-其中$\epsilon$是为了维持数值稳定性而添加的常数, 如$10^{-5}$。
+其中$\epsilon$是为了维持数值稳定性而添加的常数, 如$10^{-5}$. 
 
 更新自变量：
 $$\boldsymbol{x}_t \leftarrow \boldsymbol{x}_{t-1} - \boldsymbol{g}'_t. $$
@@ -1543,7 +1820,7 @@ $$\boldsymbol{x}_t \leftarrow \boldsymbol{x}_{t-1} - \boldsymbol{g}'_t. $$
 最后, $\boldsymbol{g}'_t$按元素平方的指数加权移动平均：
 $$\Delta\boldsymbol{x}_t \leftarrow \rho \Delta\boldsymbol{x}_{t-1} + (1 - \rho) \boldsymbol{g}'_t \odot \boldsymbol{g}'_t. $$
 
-可以看到, 如不考虑$\epsilon$的影响, AdaDelta算法与RMSProp算法的不同之处在于使用$\sqrt{\Delta\boldsymbol{x}_{t-1}}$来替代超参数$\eta$。
+可以看到, 如不考虑$\epsilon$的影响, AdaDelta算法与RMSProp算法的不同之处在于使用$\sqrt{\Delta\boldsymbol{x}_{t-1}}$来替代超参数$\eta$. 
 
 \subsubsection{Adam} \citep{Kingma2014Adam}
 Adam可以理解为加了Momentum 的 RMSprop, 然后修正偏差.
@@ -1561,18 +1838,18 @@ Adam可以理解为加了Momentum 的 RMSprop, 然后修正偏差.
 \hat{\mathbf{y}} = \argmax_{\mathbf{y}} \textrm{P} (\mathbf{y} | \mathbf{x})
 \end{eqnarray}
 
-\noindent 这里, 用$\mathbf{x}=\{ x_1, x_2, ...,  x_m \}$表示输入的源语言单词序列, $\mathbf{y}=\{ y_1, y_2, ...,  y_n \}$ 表示生成的目标语单词序列。由于神经机器自左向右逐词翻译, 并且考虑之前的结果, 因此对$\textrm{P} (\mathbf{y} | \mathbf{x})$的求解可以转换为：
+\noindent 这里, 用$\mathbf{x}=\{ x_1, x_2, ...,  x_m \}$表示输入的源语言单词序列, $\mathbf{y}=\{ y_1, y_2, ...,  y_n \}$ 表示生成的目标语单词序列. 由于神经机器自左向右逐词翻译, 并且考虑之前的结果, 因此对$\textrm{P} (\mathbf{y} | \mathbf{x})$的求解可以转换为：
 \begin{eqnarray}
 \textrm{P} (\mathbf{y} | \mathbf{x}) = \prod_{j=1}^{n} \textrm{P} ( y_j | \mathbf{y}_{<j },  \mathbf{x}  )
 \end{eqnarray}
-$ \mathbf{y}_{<j }$表示目标语第$j$个位置之前已经生成的译文单词序列。
+$ \mathbf{y}_{<j }$表示目标语第$j$个位置之前已经生成的译文单词序列. 
 
 \parinterval 求解$\textrm{P}(y_j | \mathbf{y}_{<j}, \mathbf{x})$有三个关键问题（图\ref{fig:probquestion}）：
 
 \begin{itemize}
-\item	{\small\sffamily\bfseries{词嵌入}}（Word Embedding）:$\mathbf{x}$和$\mathbf{y}_{<j }$的分布式表示。将源语言单词转化为实数向量。可以把这个过程记为$\textrm{e}_x (\cdot)$。类似的, $\mathbf{y}_{<j }$记为$\textrm{e}_y (\cdot)$。
-\item	在词嵌入的基础上获取整个序列的表示, 即句子的{\small\sffamily\bfseries{表示学习}}（Representation Learning）。如图\ref{fig:probquestion}中, 编码器最后一个循环单元的输出$\mathbf{h}_m$被看作是一种包含了源语句子信息的表示结果, 记为$\mathbf{C}$。
-\item	得到每个目标语单词的概率, 即译文单词的{\small\sffamily\bfseries{生成}}Generation）。可以用一个Softmax输出层来获取当前时刻所有单词的分布.令目标语序列$j$时刻的循环神经网络的输出向量（或状态）为$\mathbf{s}_j$。$ y_j$的生成只依赖前一个状态$\mathbf{s}_{j-1}$和当前时刻的输入。同时考虑源语言信息$\mathbf{C}$, $\textrm{P}(y_j  | \mathbf{y}_{<j}, \mathbf{x})$可以被重新定义为：
+\item	{\small\sffamily\bfseries{词嵌入}}（Word Embedding）:$\mathbf{x}$和$\mathbf{y}_{<j }$的分布式表示. 将源语言单词转化为实数向量. 可以把这个过程记为$\textrm{e}_x (\cdot)$. 类似的, $\mathbf{y}_{<j }$记为$\textrm{e}_y (\cdot)$. 
+\item	在词嵌入的基础上获取整个序列的表示, 即句子的{\small\sffamily\bfseries{表示学习}}（Representation Learning）. 如图\ref{fig:probquestion}中, 编码器最后一个循环单元的输出$\mathbf{h}_m$被看作是一种包含了源语句子信息的表示结果, 记为$\mathbf{C}$. 
+\item	得到每个目标语单词的概率, 即译文单词的{\small\sffamily\bfseries{生成}}Generation）. 可以用一个Softmax输出层来获取当前时刻所有单词的分布.令目标语序列$j$时刻的循环神经网络的输出向量（或状态）为$\mathbf{s}_j$. $ y_j$的生成只依赖前一个状态$\mathbf{s}_{j-1}$和当前时刻的输入. 同时考虑源语言信息$\mathbf{C}$, $\textrm{P}(y_j  | \mathbf{y}_{<j}, \mathbf{x})$可以被重新定义为：
 \begin{eqnarray}
 \textrm{P} (y_j | \mathbf{y}_{<j}, \mathbf{x}) \equiv \textrm{P} ( {y_j | \mathbf{s}_{j-1} , y_{j-1}, \mathbf{C}} )
 \end{eqnarray}
@@ -1593,12 +1870,12 @@ $ \mathbf{y}_{<j }$表示目标语第$j$个位置之前已经生成的译文单�
     \label{fig:probquestion}
     \end{figure}
 
-    \parinterval 那么怎么在神经机器翻译系统中获得单词的词嵌入表示呢？这里引入一个词嵌入层对输入的单词进行词嵌入表示, 即图\ref{fig:6-12}中的绿色方框部分。假设输入的单词$y_j$已经被表示为One-hot形式（行向量）。词嵌入层的工作就是把One-hot向量右乘一个实数矩阵$\mathbf{E}$, 得到的结果（行向量）就是这个单词所对应的词嵌入结果。
+    \parinterval 那么怎么在神经机器翻译系统中获得单词的词嵌入表示呢？这里引入一个词嵌入层对输入的单词进行词嵌入表示, 即图\ref{fig:6-12}中的绿色方框部分. 假设输入的单词$y_j$已经被表示为One-hot形式（行向量）. 词嵌入层的工作就是把One-hot向量右乘一个实数矩阵$\mathbf{E}$, 得到的结果（行向量）就是这个单词所对应的词嵌入结果. 
     \begin{eqnarray}
     \textrm{e}_y (y_j) = y_j \mathbf{E} 
     \end{eqnarray} 
 
-    \noindent 这里, $\mathbf{E}$也被称作词嵌入矩阵, 它可以作为模型的一部分参数共同参与机器翻译系统的训练, 也可以由外部其他模块训练得到（如预训练模型）。$\mathbf{E}$的大小为$|V| \times d$, 这里$|V|$表示词表$V$的大小, $d$表示循环神经网络输入和输出向量的维度。
+    \noindent 这里, $\mathbf{E}$也被称作词嵌入矩阵, 它可以作为模型的一部分参数共同参与机器翻译系统的训练, 也可以由外部其他模块训练得到（如预训练模型）. $\mathbf{E}$的大小为$|V| \times d$, 这里$|V|$表示词表$V$的大小, $d$表示循环神经网络输入和输出向量的维度. 
     
 
     词嵌入的作用是把离散化的单词表示转换为连续空间上的分布式表示
@@ -1617,7 +1894,7 @@ $ \mathbf{y}_{<j }$表示目标语第$j$个位置之前已经生成的译文单�
  
     \end{figure}
 
-输出层需要得到每个目标语单词的生成概率, 进而选取概率最高的词作为输出。但RNN中的隐藏层并不会输出单词概率, 而是输出s, 其每一行对应一个单词表示.
+输出层需要得到每个目标语单词的生成概率, 进而选取概率最高的词作为输出. 但RNN中的隐藏层并不会输出单词概率, 而是输出s, 其每一行对应一个单词表示.
 s经过权重矩阵W变成$\hat{s}$, 其隐藏层维度变换成词表的大小
 $\hat{s}$经过Softmax变换得到不同词作为输出的概率, 即单词i的概率
 $$p_i= Softmax(i) = \frac{{e^{\hat{s}_i}}}{{\sum_j e^{\hat{s}_j}}}$$
@@ -1631,10 +1908,10 @@ $$p_i= Softmax(i) = \frac{{e^{\hat{s}_i}}}{{\sum_j e^{\hat{s}_j}}}$$
         \end{figure}
 
 \subsubsection{RNN训练}
-训练RNN我们通常会使用Adam或者SGD两种优化器, 它们各有优劣。Adam 通用, 性能不是最好, SGD  一个任务一个配置, 效果更好。
-因此需要快速得到模型看一下初步效果, 选择Adam。
-若是需要在一个任务上得到最优的结果, 选择SGD。
-需要注意的是, 训练RNN的时候, 我们通常会遇到梯度爆炸的问题, 也就是梯度突然变得很大, 这种情况下需要使用梯度裁剪来防止梯度超过阈值。
+训练RNN我们通常会使用Adam或者SGD两种优化器, 它们各有优劣. Adam 通用, 性能不是最好, SGD  一个任务一个配置, 效果更好. 
+因此需要快速得到模型看一下初步效果, 选择Adam. 
+若是需要在一个任务上得到最优的结果, 选择SGD. 
+需要注意的是, 训练RNN的时候, 我们通常会遇到梯度爆炸的问题, 也就是梯度突然变得很大, 这种情况下需要使用梯度裁剪来防止梯度超过阈值. 
 
 \section{图像处理实践---ALexNet网络}
 %AlexNet：ImageNet Classification with Deep Convolutional Neural Networks
@@ -1645,7 +1922,7 @@ $$p_i= Softmax(i) = \frac{{e^{\hat{s}_i}}}{{\sum_j e^{\hat{s}_j}}}$$
 
 \subsubsection{局部响应归一化}
 
-局部响应归一化(Local Response Normalization, LRN)有助于泛化.LRN的思想来源于神经生物学“侧抑制”的概念, 指的是被激活的神经元抑制周围的神经元。
+局部响应归一化(Local Response Normalization, LRN)有助于泛化.LRN的思想来源于神经生物学“侧抑制”的概念, 指的是被激活的神经元抑制周围的神经元. 
 定义$a_{x, y}^i$为使用核i在位置 $(x, y)$计算得到的神经元的激活值, 并应用ReLU, 响应归一化的活跃值$b_{x, y}^i $. 形如
 $$b_{x, y}^i = a_{x, y}^i/(k + \alpha\sum_{j = max(0,  i-n/2)}^{min(N-1,  i + n/2)}(a_{x, y}^j))^\beta$$
 其中求和在相同的空间位置遍历nnn像素邻近的核映射, NNN是该层的总核数.核映射的顺序是任意且在训练之前确定的, 该种响应归一化执行了单侧抑制, 其由真实神经元发现的该类启发, 产生了与不同核计算的神经元输出的大的激活值的对抗. 
@@ -1678,15 +1955,15 @@ $$b_{x, y}^i = a_{x, y}^i/(k + \alpha\sum_{j = max(0,  i-n/2)}^{min(N-1,  i + n/
 
 （1）取平均的作用： 标准的模型即没有dropout, 我们用相同的训练数据去训练5个不同的神经网络, 一般会得到5个不同的结果, 此时我们可以采用 “5个结果取均值”或者“多数取胜的投票策略”去决定最终结果.例如3个网络判断结果为数字9, 那么很有可能真正的结果就是数字9, 其它两个网络给出了错误结果.这种“综合起来取平均”的策略通常可以有效防止过拟合问题.因为不同的网络可能产生不同的过拟合, 取平均则有可能让一些“相反的”拟合互相抵消.dropout掉不同的隐藏神经元就类似在训练不同的网络, 随机删掉一半隐藏神经元导致网络结构已经不同, 整个dropout过程就相当于对很多个不同的神经网络取平均.而不同的网络产生不同的过拟合, 一些互为“反向”的拟合相互抵消就可以达到整体上减少过拟合.
 
-（2）减少神经元之间复杂的共适应关系：为dropout程序导致两个神经元不一定每次都在一个dropout网络中出现。这样权值的更新不再依赖于有固定关系的隐含节点的共同作用, 阻止了某些特征仅仅在其它特定特征下才有效果的情况。迫使网络去学习更加鲁棒的特征, 这些特征在其它的神经元的随机子集中也存在。换句话说假如我们的神经网络是在做出某种预测, 它不应该对一些特定的线索片段太过敏感, 即使丢失特定的线索, 它也应该可以从众多其它线索中学习一些共同的特征。从这个角度看dropout就有点像L1, L2正则, 减少权重使得网络对丢失特定神经元连接的鲁棒性提高。
+（2）减少神经元之间复杂的共适应关系：为dropout程序导致两个神经元不一定每次都在一个dropout网络中出现. 这样权值的更新不再依赖于有固定关系的隐含节点的共同作用, 阻止了某些特征仅仅在其它特定特征下才有效果的情况. 迫使网络去学习更加鲁棒的特征, 这些特征在其它的神经元的随机子集中也存在. 换句话说假如我们的神经网络是在做出某种预测, 它不应该对一些特定的线索片段太过敏感, 即使丢失特定的线索, 它也应该可以从众多其它线索中学习一些共同的特征. 从这个角度看dropout就有点像L1, L2正则, 减少权重使得网络对丢失特定神经元连接的鲁棒性提高. 
 
-（3）Dropout类似于性别在生物进化中的角色：物种为了生存往往会倾向于适应这种环境, 环境突变则会导致物种难以做出及时反应, 性别的出现可以繁衍出适应新环境的变种, 有效的阻止过拟合, 即避免环境改变时物种可能面临的灭绝。 
+（3）Dropout类似于性别在生物进化中的角色：物种为了生存往往会倾向于适应这种环境, 环境突变则会导致物种难以做出及时反应, 性别的出现可以繁衍出适应新环境的变种, 有效的阻止过拟合, 即避免环境改变时物种可能面临的灭绝.  
 
 \textbf{$keep_prob$的选择}
-对于不同的层, 应该设置不同的$keep_prob$, 那些神经元数量较少的层, $keep_prob$可以设置为1, 这样会保留该层所有神经元, 而那些神经元比较多的层, 可以将$keep_prob$设置为较小的值。
-dropout正则化广泛运用于计算机视觉领域, 因为计算机视觉领域输入的特征一般特别多, 而且用于训练的数据较少。需要注意的是, dropout是一种正则化的方法, 在实践过程中, 除非算法出现过拟合, 否则我们不使用dropout正则化。
+对于不同的层, 应该设置不同的$keep_prob$, 那些神经元数量较少的层, $keep_prob$可以设置为1, 这样会保留该层所有神经元, 而那些神经元比较多的层, 可以将$keep_prob$设置为较小的值. 
+dropout正则化广泛运用于计算机视觉领域, 因为计算机视觉领域输入的特征一般特别多, 而且用于训练的数据较少. 需要注意的是, dropout是一种正则化的方法, 在实践过程中, 除非算法出现过拟合, 否则我们不使用dropout正则化. 
 
-dropout缺点:代价函数不再被明确定义, 每次迭代, 都会随机移除一些节点, 因此无法确保成本函数单调递减。所以在使用 dropout 时, 先将$keep_prob$全部设置为 1后运行代码, 确保$J(w, b)$函数单调递减, 再打开 dropout。
+dropout缺点:代价函数不再被明确定义, 每次迭代, 都会随机移除一些节点, 因此无法确保成本函数单调递减. 所以在使用 dropout 时, 先将$keep_prob$全部设置为 1后运行代码, 确保$J(w, b)$函数单调递减, 再打开 dropout. 
 
 
 \begin{figure}[!ht]
@@ -1755,9 +2032,9 @@ net.add(nn.Conv2D(96,  kernel_size=11,  strides=4,  activation='relu'),
 
 \subsubsection{学习率的选择}
 
-学习率越大, 输出误差对参数的影响就越大, 参数更新的就越快, 但同时受到异常数据的影响也就越大, 很容易发散。
+学习率越大, 输出误差对参数的影响就越大, 参数更新的就越快, 但同时受到异常数据的影响也就越大, 很容易发散. 
 
-如图\ref{lrselect}, 可以以非常低的学习率开始训练模型, 在每一次迭代过程中逐渐提高学习率（线性提高或指数提高, 估计出最佳学习率。 
+如图\ref{lrselect}, 可以以非常低的学习率开始训练模型, 在每一次迭代过程中逐渐提高学习率（线性提高或指数提高, 估计出最佳学习率.  
 
 \begin{figure}[!ht]
     \center
@@ -1768,7 +2045,7 @@ net.add(nn.Conv2D(96,  kernel_size=11,  strides=4,  activation='relu'),
 \end{figure}
 
 
-如图\ref{cyclelr}, 如果卡在鞍点上, 提高学习速率可以更快地穿越\textbf{鞍点}。可以使用周期学习率.
+如图\ref{cyclelr}, 如果卡在鞍点上, 提高学习速率可以更快地穿越\textbf{鞍点}. 可以使用周期学习率.
 \begin{figure}[!ht]
     \center
 \includegraphics[width=0.4\textwidth]{cyclelr.png}
@@ -1779,9 +2056,9 @@ net.add(nn.Conv2D(96,  kernel_size=11,  strides=4,  activation='relu'),
 
 
 \section{联邦学习实践--FATE}
-本实验使用两台虚拟机搭建联邦学习架构KubeFATE。
+本实验使用两台虚拟机搭建联邦学习架构KubeFATE. 
 
-FATE架构如\ref{fate_architecture}所示。
+FATE架构如\ref{fate_architecture}所示. 
 \subsection{FATE架构及安装}
 \begin{figure}[htb]
     \center
@@ -1798,7 +2075,7 @@ FATE架构如\ref{fate_architecture}所示。
     \item 主机相互之间可以网络互通；
     \item ssh免密登录
 \end{enumerate}
-部署成功后使用 docker ps 命令显示如下组件, 分别对应于架构各部分。
+部署成功后使用 docker ps 命令显示如下组件, 分别对应于架构各部分. 
 \begin{figure}[!ht]
     \center
 \includegraphics[width=0.8\textwidth]{fate_success.jpg}
@@ -1809,18 +2086,18 @@ FATE架构如\ref{fate_architecture}所示。
 
 \paragraph{初步计划}
 
-将MINST数据集的6万调数据分为两个3万的数据集,在两台机器分别训练后再提交合并。
+将MINST数据集的6万调数据分为两个3万的数据集,在两台机器分别训练后再提交合并. 
  
 \section{个人思考}
-联邦平均算法是否存在用户权重不同的情况。
+联邦平均算法是否存在用户权重不同的情况. 
 
-联邦学习和分布式机器学习的关系。
+联邦学习和分布式机器学习的关系. 
 
 
 \subsection{并行模型}
 
-数据并行（data parallelism）：不同的机器有同一个模型的多个副本, 每个机器分配到不同的数据, 然后将所有机器的计算结果按照某种方式合并。
-数据并行化式的分布式训练在每个工作节点上都存储一个模型的备份, 在各台机器上处理数据集的不同部分。数据并行化式训练方法需要组合各个工作节点的结果, 并且在节点之间同步模型参数。
+数据并行（data parallelism）：不同的机器有同一个模型的多个副本, 每个机器分配到不同的数据, 然后将所有机器的计算结果按照某种方式合并. 
+数据并行化式的分布式训练在每个工作节点上都存储一个模型的备份, 在各台机器上处理数据集的不同部分. 数据并行化式训练方法需要组合各个工作节点的结果, 并且在节点之间同步模型参数. 
 模型并行（model parallelism）:分布式系统中的不同机器（GPU/CPU等）负责网络模型的不同部分 —— 例如, 神经网络模型的不同网络层被分配到不同的机器, 或者同一层内部的不同参数被分配到不同机器；
 \begin{figure}[!ht]
     \center
@@ -1831,8 +2108,8 @@ FATE架构如\ref{fate_architecture}所示。
 
 
 \subsubsection{AlexNet模型并行}
-AleaNe的训练需要由两个GPU卡井行完成。在AexNet中, 卷积核被划分为两组, 分别在两块GPU上做模型并行训练。不过, AlexNet对模型进行了一定的修改。依照常规的模型并行逻辑, 每层神经网络的计算过程中都会发生通信, 然而在AlexNet中, 第一个卷积层到第二个卷积层、第三个卷积层到第四个卷积层以及第四个卷积层到第五个卷积层的两路计算之间没有依赖, 因而无须交互和通信。这样做主要是为了减少通信的数据量, 提高并行的效率。
-基于模型井行的算法从直观上可以理解成把多个工作节点虚拟化为一个巨大的计算节点。在计算过程中模型划分越多, 交互和通信也将越多, 并且任何一个工作节点出现问题整个计算都会受到影响, 因此鲁棒性欠佳。AlexNet 在提高效率方面进行了有益的尝试, 通过在模型设计中放弃些交互, 换来整体效率的提升。
+AleaNe的训练需要由两个GPU卡井行完成. 在AexNet中, 卷积核被划分为两组, 分别在两块GPU上做模型并行训练. 不过, AlexNet对模型进行了一定的修改. 依照常规的模型并行逻辑, 每层神经网络的计算过程中都会发生通信, 然而在AlexNet中, 第一个卷积层到第二个卷积层、第三个卷积层到第四个卷积层以及第四个卷积层到第五个卷积层的两路计算之间没有依赖, 因而无须交互和通信. 这样做主要是为了减少通信的数据量, 提高并行的效率. 
+基于模型井行的算法从直观上可以理解成把多个工作节点虚拟化为一个巨大的计算节点. 在计算过程中模型划分越多, 交互和通信也将越多, 并且任何一个工作节点出现问题整个计算都会受到影响, 因此鲁棒性欠佳. AlexNet 在提高效率方面进行了有益的尝试, 通过在模型设计中放弃些交互, 换来整体效率的提升. 
 
 模型并行与联邦学习中模型的合并
 
