@@ -1,0 +1,214 @@
+\section{Deep learning with differential privacy}
+
+面对问题: 大型数据集可能是众包且包含敏感信息, 可能会泄露隐私
+之前的工作的局限性： 在参数较少的凸模型表现较好, 但处理较复杂神经网络时, 隐私成本较大
+主要创新点：在差分隐私的框架内学习和对隐私成本进行了准确的分析
+
+\begin{enumerate}
+    \item 
+通过跟踪隐私损失的详细信息（高阶矩）, 我们可以获得对整体隐私损失的更严格的估计, 无论是渐近的还是经验的. 
+\item 
+通过引入新的技术, 提高了差分隐私训练的计算效率. 这些技术包括为单个训练示例计算梯度的有效算法. 
+\item 
+在机器学习框架TensorFlow的基础上, 建立用于训练具有差隐分私的模型. 我们在两个标准图像分类任务MNIST和CIFAR-10上评估了我们的方法. 经验表明, 深度神经网络的隐私保护可以在软件复杂性、训练效率和模型质量方面以适当的成本实现. 
+\end{enumerate}
+ 
+
+\subsection{差分隐私}
+
+\subsubsection{组合理论 Composition Theorems} 
+
+根据组合理论\cite{Dwork2010boosting}可以计算总体隐私 
+
+计算拥有差分隐私的复合f
+1. 限定f的分量的灵敏度
+2. 对每个分量应用高斯机制
+3.利用组合定理计算总体隐私 
+ 
+
+
+\begin{theorem}
+
+For every $\varepsilon, \delta\geq 0$ and $k\in \mathbb{N}$,
+
+\begin{enumerate}
+    \item The family of $\varepsilon-$differentiatiy private mechanisms satisfies $k\varepsilon$-differential privacy under k-fold adaptive composition.
+
+    \item  The family of  $(\varepsilon, \delta)-$differentially private mechanisms satisfies $(k \varepsilon, k \delta)-$differential privacy under $k-$fold adaptive composition.
+\end{enumerate}
+
+
+\end{theorem}
+
+\begin{theorem}
+    Suppose that random variables Y and Z Satisfy $D_{\infty}(Y\Vert Z)\leq\varepsilon$ and $D_{\infty}(Z\Vert Y)\leq\varepsilon$. Then$ D(Y \Vert Z)\leq\varepsilon\cdot(e^{\varepsilon}-1)$.
+\end{theorem}
+
+
+\begin{theorem}
+    For every $\varepsilon > 0, \delta, \delta^{\prime} > 0$, and $k \in N$, the class of $(\varepsilon, \delta)$-differentially private mechanisms is $(\varepsilon^{\prime}, k\delta+\delta^{\prime})$-differentially private under k-fold adaptive composition, for
+\begin{equation}
+\begin{aligned}
+     \varepsilon^{\prime} &=\sqrt{2k\ln(1}/\delta^{\prime})\cdot\varepsilon+k\cdot\varepsilon\varepsilon 0,
+      \\ & { where} \varepsilon_{0}=e^{\varepsilon}-1.
+\end{aligned}
+\end{equation}
+
+\end{theorem}
+
+  
+\paragraph{差分隐私的属性}
+\begin{enumerate}
+
+\item  可组合性：如果一个机制的所有组件都是满足差分隐私的, 那么它们的组合也是满足差分隐私. 
+\item 群体隐私性：如果数据集包含相关的输入（如同一个人提供的输入), 则组隐私意味着隐私保证的适当降级. 
+\item  辅助信息的健壮性：对辅助信息的健壮性是指隐私保证不受对手可用的任何辅助信息的影响
+\end{enumerate}
+
+
+
+\paragraph{实现差分隐私的两种方法}
+\begin{enumerate}
+    \item 根据函数的灵敏度增加噪声Global Sensitivity Method
+    \item 根据离散值的指数分布选择噪声 Exponential Mechanism
+\end{enumerate}
+
+
+\paragraph{设计差分隐私加噪机制的步骤：}
+\begin{enumerate}
+\item approximating the functionality by a sequential composition of bounded-sensitivity functions  通过有界灵敏度的顺序组成来逼近函数
+\item choosing parameters of additive noise
+选择加噪参数
+\item 
+performing privacy analysis of the resulting mechanism.
+对生成机制进行隐私分析
+\end{enumerate}
+
+
+该论文的核心思想为神经网络与差分隐私的相结合, 提出了差分隐私SGD算法：
+\begin{enumerate}
+    \item 随机样本为${x_1, x_2, \dots,  x_n}$, lot为随机样本的子集, 概率$p=L/N$, batch为子集中的每个单独样本, epoch包含N/L个lot, 也就是需要执行T步
+    \item 根据隐私损失函数来计算每个样本的梯度
+    
+    \item 对梯度进行规范处理
+    \item 对子集中所有样本的梯度求和, 加噪音, 求得的平均值为该步的梯度
+    \item 对梯度进行学习后得到新的参数, 此参数可以使该步隐私损失最小
+    \item 重复执行T步
+\end{enumerate} 
+
+本文实验
+\begin{description}
+    \item[loss function ] softmax
+    \item[training/test data ] MNIST and CIFAR-10
+    \item[Topology ] PCA+ neural network
+    \item[training algorithm ] SGD
+    \item[Hyper-parameters] tune experimentallly
+
+\end{description}
+
+
+本文用到 lot参数, 和常规SGD类似, 所提差分隐私SGD算法同样计算每次迭代过程中损失函数的梯度均值来估计L的梯度。该均值提供了一个无偏估计量, 且方差随着样本规模的扩大而迅速减小。为区别于常被称之为批处理的样本, 称符合上述条件的样本为一个lot。为限制样本数量占用内存的消耗, 将批处理的样本规模设置得比lot 的规模小得多, 其中同样为所提差分隐私SGD的一个重要参数。随后, 将批处理的样本组合成为一个lot 进行噪声添加。 
+由于差分隐私保护要求限制每个样本对最终梯度$\tilde{g}_t$的影响。鉴于梯度的取值范围无先验
+限定, 故采用$L_2$范数首先对每个梯度进行裁剪, 
+裁剪后结果为：若$\|g\|_2 \leq C$, 则保留g, 若$\|g \|_2 > C$, 则将其缩小为常量C。进行隐私损失累积操作的主要目的在于跟踪计算每次训练迭代过程中的隐私损失成本。可以根据所加噪声的分布参数进而确定每次叠加过程的隐私损失$α(\delta)$。
+
+
+
+\paragraph{总结}
+
+moments accountant允许对复杂复合机制的隐私损失进行严格的自动分析, 未来的研究点. 
+
+该算法在神经网络训练中可以可以拥有适度的总隐私损失. 
+
+该方法可以直接应用于梯度计算, 适用于许多其他经典的和一阶优化方法, 如NAG, Momentum, AdaGrad, 或SVRG, 
+
+
+ 
+
+\subsubsection{后记}
+ 
+apply differentially private principal projection at the input layer 差分隐私主投影？
+每层设置不同的阈值, 如何取值？
+
+主成分分析(PCA)是捕获输入数据主要特征的有效方法。对于用于训练神经网络的随机样本, 将其视为向量并进行$L_2$范数归一化处理, 形成对称矩阵（记为A）, 其中每个向量是矩阵$A$ 中的一行, 并基于所提附加高斯噪声的方法添加到协方差矩阵$A^T A$, 并计算噪声协方差矩阵的主方向。最终将每个输入的训练样本投影到主方向上作为神经网络最终的输入数据。
+
+
+\subsection{algorithmic foundations of DP笔记} 
+
+
+The Algorithmic Foundations of Differential Privacy\cite{Dwork2014Foundations}
+\leader{差分隐私保证的}
+差分隐私承诺保护个人免受任何额外的伤害, 因为他们的数据在私人数据库x中, 如果他们的数据不是x的一部分, 他们就不会面对任何额外的伤害. 
+尽管一旦差分隐私机制M的结果M(x)被公布, 个人确实可能会面临伤害, 但差分隐私承诺, 伤害的概率不会因为他们选择参与而显著增加. 
+
+\leader{差分隐私不能承诺的}
+
+尽管差分隐私是一个非常强有力的保证, 但它并不能保证非传统的免受伤害. 它也不能在以前不存在的地方创造隐私. 更普遍地说, 差别隐私不能保证一个人认为自己的秘密将永远保密. 它只是确保一个人参与的调查本身不会被披露, 也不会导致任何细节的披露, 一个人的参与对调查的贡献. 从调查中得出的结论很可能反映了有关个人的统计信息. 一项旨在发现某种特定疾病的早期指标的健康调查可能会产生强有力的、甚至是结论性的结果;这些结论对一个特定的个人来说并不是区别侵犯隐私的证据;该个人甚至可能没有参与调查(再次强调, 差分隐私确保了无论该个人是否参与调查, 这些结论性的结果都会以非常相似的概率获得). 特别是, 如果调查告诉我们, 特定的私人属性与公开可见的属性密切相关, 这就不是对差分隐私的侵犯, 因为这种相同的相关性将以几乎相同的概率被观察到, 而不依赖于任何被调查者的存在或不存在.  
+
+\leader{差异隐私的定性属性}  
+\begin{enumerate}
+    \item 对任意风险的保护, 超越对重识别的保护. 
+    \item  自动抵御连接攻击, 包括所有那些试图与所有过去, 现在, 和未来的数据集和其他形式和来源的辅助信息. 
+    \item  隐私损失的量化. 差分隐私不是一个二元概念, 它有一个隐私损失的度量. 这允许在不同的技术之间进行比较:对于隐私损失的固定界限, 哪种技术提供了更好的准确性?对于一个固定的准确性, 哪种技术提供更好的隐私?
+    \item  组成. 也许最重要的是, 对损失的量化还允许分析和控制在多个计算上的累积隐私损失. 通过理解不同私有机制在组合下的行为, 可以从简单的不同私有构建块设计和分析复杂的不同私有算法. 
+\item  群体隐私. 差分隐私允许分析和控制群体(如家庭)造成的隐私损失. 
+\item  \textbf{后处理不变性Post-processing invariance}处理后差分隐私下的\textbf{闭包}不受后处理的影响: 一个数据分析师如果没有关于私有数据库的额外知识, 就无法计算差异私有算法M的输出函数, 并使其不那么差异私有. 
+\end{enumerate}
+ 
+ 
+ 
+\subsubsection{Final remarks on the definition}
+
+\leader{The Granularity of Privacy.隐私的粒度} Claims of differential privacy should be carefully scrutinized to ascertain the level of granularity at which privacy is being promised. Differential privacy promises that the behavior of an algorithm will be roughly unchanged even if a single entry in the database is modified. But what constitutes a single entry in the database? Consider for example a database that takes the form of a graph. Such a database might encode a social network: each individual i 2 [n] is represented by a vertex in the graph, and friendships between individuals are represented by edges. We could consider differential privacy at a level of granularity corresponding to individuals: that is, we could require that differentially tex from the graph. This gives a strong privacy guarantee, but might in fact be stronger than we need. the addition or removal of a single vertex could after all add or remove up to n edges in the graph. Depending on what it is we hope to learn from the graph, insensitivity to n edge removals might be an impossible constraint to meet. We could on the other hand consider differential privacy at a level of granularity corresponding to edges, and ask our algorithms to be insensitive only to the addition or removal of single, or small numbers of, edges from the graph. This is of course a weaker guarantee, but might still be sufficient for some purposes.
+ 
+Informally speaking, if we promise $\eps$-differential privacy at the level of a single edge, then no data analyst should be able to conclude anything about the existence of any subset of $1/\eps $edges in the graph. In some circumstances, large groups of social contacts might not be considered sensitive information: for example, an individual might not feel the need to hide the fact that the majority of his contacts are with individuals in his city or workplace, because where he lives and where he works are public information. On the other hand, there might be a small number of social contacts whose existence is highly sensitive (for example a prospective new employer, or an intimate friend). In this case, edge privacy should be sufficient to protect sensitive information, while still allowing a fuller analysis of the data than vertex privacy. Edge privacy will protect such an individual’s sensitive information provided that he has fewer than $1/\eps$ such friends. As another example, a differentially private movie recommendation system can be designed to protect the data in the training set at the “event” level of single movies, hiding the viewing/rating of any single movie but not, say, hiding an individual’s enthusiasm for cowboy westerns or gore, or at the “user” level of an individual’s entire viewing and rating history.
+
+应仔细审查不同隐私的声明, 以确定隐私被承诺的粒度级别. 差分隐私保证, 即使数据库中的单个条目被修改, 算法的行为也基本不会改变. 但是, 数据库中的单个条目是由什么构成的呢?例如, 考虑一个采用图形形式的数据库. 这样的数据库可以编码一个社会网络:每个个体$i \in [n]$由图中的一个顶点表示, 个体之间的关系由边表示. 我们可以在对应于个人的粒度级别上考虑差分隐私:也就是说, 我们可以从图中要求不同的顶点. 这提供了一个强大的隐私保障, 但实际上可能比我们需要的更强大. 添加或删除单个顶点, 最终可以在图中添加或删除至多n条边. 取决于我们希望从图中学到什么, 对n条边去除的不灵敏度可能是一个不可能满足的约束. 
+另一方面, 我们可以考虑与边对应的粒度级别上的不同隐私性, 并要求我们的算法只对添加或删除图中单个或少量的边不敏感. 当然, 这是一种较弱的担保, 但对于某些目的而言, 可能仍然足够. 
+
+非正式地说, 如果我们承诺在单个边的水平上存在$\eps$-差分隐私, 那么没有数据分析师能够得出关于图中$1/\eps $边的任何子集存在的任何结论. 在某些情况下,大批社会接触不可能被视为敏感信息:例如,一个人可能不觉得有必要掩盖这样一个事实,他的大部分联系人与个人在他的城市或工作场所,因为他住在哪里和他工作的地方是公共信息. 另一方面, 可能有一小部分社会关系的存在是高度敏感的(例如一个潜在的新雇主, 或一个亲密的朋友). 
+在这种情况下, 边隐私应该足以保护敏感信息, 同时仍然允许对数据进行比顶点隐私更全面的分析. 只要一个人有少于$1/\eps$这样的朋友, 边隐私将保护这样一个个人的敏感信息, . 作为另一个例子,一个不同的私人电影推荐系统可以用来保护数据训练集的“事件”的单一的电影,观看隐藏/评级任何单一的电影而不是说,隐藏一个人的西部牛仔的热情——白尾海雕或戈尔,或在“用户”的个体水平的整个浏览历史和评级. 
+
+
+\textbf{记:隐私的颗粒度? 从社会关系图(图数据库)方向考虑差分隐私保证标准, 边隐私,顶点隐私,删除高度敏感的边}
+
+
+\leader{All Small Epsilons Are Alike.}
+
+When$ \eps $is small, $(\eps, 0)$-differential privacy asserts that for all pairs of adjacent databases x, y and all outputs o, an adversary cannot distinguish which is the true database on the basis of observing o. When $\eps$ is small, failing to be ~$(\eps, 0)$-differentially private is not necessarily alarming for example, the mechanism may be$ (2\eps, 0)$-differentially private. The nature of the privacy guarantees with differing but small epsilons are quite similar. 
+
+But what of large values for ϵ? 
+
+Failure to be (15, 0)-differentially private merely says there exist neighboring databases and an output o for which the ratio of probabilities of observing o conditioned on the database being, respectively, x or y, is large. An output of o might be very unlikely (this is addressed by $(\eps, \delta)$-differential privacy); databases x and y might be terribly contrived and ulikely to occur in the “real world”; 
+the adversary may not have the right auxiliary information to recognize that a revealing output has occurred; 
+or may not know enough about the database(s) to determine the value of their symmetric difference. 
+Thus, much as a weak cryptosystem may leak anything from only the least significant bit of a message to the complete decryption key, the failure to be $(\eps, 0)$or$(\eps,\delta)$-differentially private may range from effectively meaningless privacy breaches to complete revelation of the entire database.
+ A large epsilon is large after its own fashion. 
+ 
+不同但小的$\eps$的隐私保证的性质是非常相似的. 
+\textbf{大$\eps$的情况}
+ 
+输出是不太可能(这是通过$(\eps, \delta)$-差异隐私解决的);数据库x和y可能被精心设计, 不太可能出现在“现实世界”中;对手可能没有正确的辅助信息来识别已发生的显示输出;或者可能对数据库了解不够, 无法确定其对称差异的值. 
+
+就像一个弱密码系统可能会泄漏任何东西, 从消息最不重要的位置到完整的解密密钥, $(\eps, 0)$或$(\eps, \delta)$-差异私有的失败可能从实际上毫无意义的隐私泄露到整个数据库的完全泄露. 
+\textbf{大的$\eps$是以它自己的方式大的. }
+\textbf{记: 在某些情况下可能会设置比较大的$\eps$,但是隐私泄露可能由弱隐私的地方传导强隐私的地方}
+
+input perturbation: add noise to the input before running algorithm
+output perturbation: run algorithm, then add noise (sensitivity)
+internal perturbation: randomize the internals of the algorithm
+
+输入扰动:在运行算法之前增加对输入的噪声
+输出扰动:运行算法,然后添加噪声(灵敏度)
+内部扰动:随机化算法的内部
+
+\leader{Counting Queries} 
+
+在统计数据库的背景下, 发布收集到的数据的准确统计信息往往会使参与者个人的隐私面临风险. 
+差异隐私的目标是在保护数据库中的单个记录的同时最大化查询的效用. 实现差异隐私的一种自然方法是在查询结果中添加统计干扰. 在这种情况下, 发布统计信息的机制是效用和隐私之间的权衡. 为了平衡这两种“冲突的”需求, 隐私保护机制将添加的噪声校准到所谓的查询灵敏度上, 因此需要对查询的灵敏度进行精确估计, 以确定要添加的噪声的幅度. \cite{Arapinis2016query}系统地研究了关系数据库中计数查询的灵敏度问题. 
+首先, 带计数的关系代数查询的灵敏度一般是不可计算的, 而带计数的连接查询的灵敏度是可计算的, 但一旦查询包含了连接, 它就变得无限. 
+然后, 我们将考虑受限制的数据库类(具有约束的数据库), 并研究给定这些约束时计算查询灵敏度的问题. 
+我们能够为约束数据库上的连接查询计数灵敏度建立界限.  
+
+
+

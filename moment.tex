@@ -1,0 +1,64 @@
+ 
+% \usepackage[paperwidth=21.6cm,paperheight=27.94cm,centering]{geometry}
+% \geometry{left=0.5in,right=0.5in,top=2.5cm,bottom=2.5cm}
+\documentclass[a4paper]{article}
+
+\usepackage{note}
+
+\title{联邦学习算法研究}
+\pagestyle{plain}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\section{矩}
+
+设X为随机变量，$I$是一个包含$0$的(有限或无限的)开区间，对任意$t\in I$，期望$Ee^{tx}$存在  
+则称函数$M_{X}(t)=E(e^{tX})=\int_{-\infty}^{+\infty}e^{tx}dF(x),t \in I$为X的矩母函数 
+设X为任意随机变量，称函数$\varphi_{X}(t)=E(e^{itX})=\int_{-\infty}^{+\infty}e^{itx}dF(x)$为X的特征函数 
+一个随机变量的矩母函数不一定存在，但是特征函数一定存在。
+随机变量与特征函数存在一一对应的关系 随机变量与特征函数存在一一对应的关系
+
+矩生成函数（moment-generating function）又称矩生成函数.
+
+随机变量X的矩生成函数定义为：
+$M_X(t)=E(e^{tX}) , t \in \mathbb{R}$
+前提是这个期望值存在。
+
+\begin{equation}
+    \begin{aligned}
+        M_X(t)& = \int_{-\infty}^{+\infty} e^{tx} f(x)dx \\
+       & = \int_{-\infty}^{+\infty} (1+tx+\frac{t^2 x^2}{2!}+\dots) \\  
+       & =1+tm_1 +\frac{t^2m_2}{2!}+ \dots 
+    \end{aligned}
+\end{equation}
+其中$m_i$是第$i$个矩, $M_X(-t)$是$f(x)$的双边拉普拉斯变化.
+ 
+正态分布$N \sim (\mu,\sigma^2)$的矩母函数
+
+$f_X(x)= \frac{1}{\sqrt{2\pi \sigma}}  e^{-{(x-\mu)}^2}/2\sigma^2 , M_X(s)=e^{(\sigma^2s^2/2)+\mu s}$
+
+\paragraph{马尔可夫不等式}
+
+马尔可夫不等式把概率关联到数学期望，给出了随机变量的分布函数一个宽泛但仍有用的界。 
+
+令 $X$ 为非负随机变量，且假设$ E(X)$ 存在，则对任意的 $a>0 $有
+$P\left \{ X \geq a \right \} \leq \frac{E(X)}{a}$
+
+马尔可夫不等式是用来估计尾部事件的概率上界，一个直观的例子是： 
+
+\paragraph{证明:}
+$E(X) = \int_{0}^{+\infty}f(x)dx = \int_{0}^{a}xf(x)dx + \int_{a}^{+\infty}xf(x)dx \geq \int_{a}^{+\infty} xf(x)dx \geq a\int_{a}^{+\infty}f(x)dx = aP\left \{ X > a \right \}$
+
+切比雪夫不等式是马尔科夫不等式的特殊情况。
+若随机变量 $X$ 的数学期望和方差都存在，分别设为 $E(X)$ 和 $D(X)$，则对任意的 $\varepsilon>0$，有
+
+$P\left \{| X-E(X) | \geq \varepsilon  \right \} \leq \frac{D(X)}{\varepsilon ^{2}}$
+
+通过马尔可夫不等式可证明
+$P\left \{| X-E(X) | \geq \varepsilon \right \} = P\left \{[X-E(X)]^{2} \geq \varepsilon^{2}\right \} \leq \frac{E\left \{ [X-E(X)]^{2} \right \}}{\varepsilon ^{2}} = \frac{D(X)}{\varepsilon^{2}}$
+
+切比雪夫不等式没有限定分布的形式，所以应用广泛，但这个界很松。
+
+$\varepsilon$ 代表 X 和期望 $E(X)$ 之间的距离，相差越大，则概率越小，它描述了这样一个事实：事件大多会集中在平均值附近。
+
+\end{document}

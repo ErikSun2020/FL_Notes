@@ -1,0 +1,161 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{note}
+
+\usepackage[text={170mm, 245mm}, centering]{geometry} %页面设置
+\usepackage[UTF8]{ctex}
+\usepackage{amsmath, amsthm, amssymb,amstext} %数学公式、数学符号
+\usepackage{xcolor}
+\usepackage{graphicx} % 插图
+\usepackage{epstopdf} 
+\usepackage{fancyhdr} % 页眉页脚设置
+\usepackage{enumerate, enumitem}%项目列表 
+\usepackage{xcolor}
+\usepackage{xspace}
+\usepackage{tcolorbox}
+\usepackage{booktabs}
+\usepackage{multirow} %多行
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{setspace}%行间距
+\usepackage[pdftex, colorlinks, linkcolor=blue, anchorcolor=blue, citecolor=blue]{hyperref} %超链接
+\usepackage{graphicx}
+% \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{placeins}
+\usepackage{float}
+\usepackage{bookmark}
+% \usepackage[capitalise, noabbrev]{cleveref} %自动识别引用对象的类型, 并打印出对应的引用p
+\usepackage[square,  comma,  sort&compress, numbers]{natbib}
+% \renewcommand\citep[1]{[\citeauthor{#1},  \citeyear{#1}]}
+\newcommand{\SUB}[1]{\ENSURE \hspace{-0.15in} \textbf{#1}}
+\newcommand{\lbs}{\ensuremath{B}}     
+\newcommand{\lepochs}{\ensuremath{E}}
+
+
+
+% \newcommand{\mycaptionof}[2]{\captionof{#1}{#2}}
+% \renewcommand\labelenumi{(\theenumi)}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{assumption}{Assumption}[section]
+\newtheorem{lemma}[section]{Lemma}
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{remark}{\hspace{0pt}\bf Remark}
+
+% \numberwithin{figure}{section}
+% \numberwithin{equation}{section}
+\renewcommand {\thefigure} {\thesection{}.\arabic{figure}}
+\usepackage{tikz-cd}
+\usepackage{url}
+\usepackage{pythonhighlight}  % python code
+
+\graphicspath{{figures/}} %设定存放图片的路径
+% \bibliographystyle{plainnat} %参考文献格式定义
+\setlength{\headheight}{14pt} 
+%%=====页眉页脚设置=========================================
+\pagestyle{fancy}
+\lhead{\small \it 更新于：\today}
+\chead{\small \emph{学习笔记}}
+\rhead{\small \thepage}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand\headrulewidth{0.5pt} % Size of the header rule
+% \renewcommand {\thefigure} {\thechapter{}.\arabic{figure}}
+
+%%=======================================================
+%% problem number
+\def\nnil{\nil}
+\newcounter{prob}
+\newenvironment{prob}[1][\nil]{%
+	\def\tmp{#1}
+	\equation
+	\ifx\tmp\nnil
+		\refstepcounter{prob}
+		\tag{P\Roman{prob}}
+	\else
+		\tag{\tmp}
+	\fi
+	\aligned%
+}{%
+	\endaligned\endequation%
+}
+
+\DeclareMathOperator{\indicator}{\mathbb{I}}
+ 
+
+\newcommand{\st}{\operatornamewithlimits{s.t.}}
+\newcommand{\leader}[1]{\medskip\noindent\textbf{#1}}
+
+%%===================item列表行距======================= 
+\setenumerate[1]{leftmargin=1.5em, labelsep=0.5em, itemindent=1em, itemsep=0pt, partopsep=0pt, parsep=\parskip, topsep=0pt}
+\setitemize[1]{itemindent=1em, itemsep=0pt, partopsep=0pt, parsep=\parskip, topsep=0pt}
+\setdescription[1]{itemindent=0.5em, itemsep=0pt, partopsep=0pt, parsep=\parskip, topsep=0pt} 
+\setitemize[2]{itemsep=0pt, partopsep=0pt, parsep=\parskip, topsep=0pt}
+ 
+%%===================================================
+
+%%=======自定义命令======================================
+%% 请把自定义的命令放在这一部分中==========================
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}  
+     
+
+\usepackage[noend]{algorithmic}
+% \usepackage{algpseudocode}
+\usepackage{algorithm}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}  
+\renewcommand{\algorithmicensure}{\textbf{Output:}}  
+\newcommand{\parinterval}{\noindent\hspace{2em}}%定义变量替代原来开头的控制缩进
+\DeclareMathOperator*{\argmax}{arg\, max}
+\DeclareMathOperator*{\argmin}{arg\, min}
+% Use smallcaps (\textsc) or \texttt for algorithms?
+% \newcommand{\algfont}[1]{\texttt{#1}}
+% \renewcommand{\algorithmicensure}{}
+
+
+%%======================================================
+
+\newcommand{\dr}[3]{\mathrm{D}_{#1}\left(#2\middle\|#3\right)}
+
+\newcommand{\ex}[2]{\underset{#1}{\mathbb{E}}\left[#2\right]}
+\newcommand{\privloss}[2]{\mathsf{PrivLoss}\left(#1\middle\|#2\right)}
+\newcommand{\calL}{\ensuremath{\mathcal L}}
+\newcommand{\calN}{\ensuremath{\mathcal N}}
+\newcommand{\calM}{\mathcal{M}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\x}{\ensuremath{\mathbf x}}
+\DeclareMathOperator{\logmgf}{logmgf}
+\newcommand{\aux}{\textsf{aux}}
+\newcommand{\Domain}{\mathcal{D}}
+\newcommand{\Range}{\mathcal{R}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\btheta}{{\mathbb \theta}}
+\newcommand{\bfg}{\ensuremath{\mathbf g}}
+\newcommand{\Id}{\ensuremath{\mathbf I}} 
+\newcommand{\eqdef}{\stackrel{\Delta}{=}}
+\newcommand{\eqr}[1]{Eq.~\eqref{#1}}
+\newcommand{\mycomment}[1]{}
+\def\logmgfa{moments\xspace}
+\def\Logmgfa{Moments\xspace}
+
+
+\usepackage{cleveref}
+\crefname{equation}{式}{式}
+\crefname{figure}{图}{图}
+\crefname{table}{表}{表}
+\crefname{page}{页}{页}
+% \crefname{chapter}{章}{章}
+\crefname{section}{章}{章}
+\crefname{subsection}{节}{节}
+\crefname{subsubsection}{节}{节}
+\crefname{appendix}{附录}{附录}
+\crefname{theorem}{定理}{定理}
+\crefname{lemma}{引理}{引理}
+\crefname{corollary}{推论}{推论}
+\crefname{proposition}{命题}{命题}
+\crefname{definition}{定义}{定义}
+\crefname{example}{例}{例}
+\crefname{algorithm}{算法}{算法}
+\crefname{listing}{列表}{列表}
+\crefname{line}{行}{行}

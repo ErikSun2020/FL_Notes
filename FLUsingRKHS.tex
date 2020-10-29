@@ -1,0 +1,113 @@
+\section{论文阅读：Federated Classification using Parsimonious Functions in Reproducing Kernel Hilbert Spaces}
+
+\subsection{摘要与相关工作}
+
+\paragraph{两个主要挑战}
+
+统计挑战 代理和用户相关联, 来自不同用户的数据是non-iid的
+
+
+系统挑战 有时系统存储数据和通过网络有效传输数据的能力有限
+
+
+\subsubsection{相关工作}
+\begin{itemize}
+    \item Federated learning: Collaborative machine learning without centralized training data\cite{mcmahan2016communication}  在每个更新步骤中, 根据训练样本的数量计算每个代理的模型的加权平均值.
+    \item Communication-efficient learning of deep networks from decentralized data\cite{mcmahan2016communication}
+          使用梯度的加权平均来更新全局参数
+    \item Adaptive Federated Learning in Resource Constrained Edge Computing Systems \cite{wang2019adaptive, yu2019parallel}使用基于梯度下降的方法训练的一类通用机器学习模型. 分析了分布梯度下降算法的收敛界, 并在此基础上提出了在给定资源预算条件下, 在局部更新和全局参数聚合之间寻找最佳平衡点以使损失函数最小化的控制算法.
+    \item Privacy-preserving deep learning \cite{shokri2015privacy}为了进一步减少通信负载和增加隐私性, 使用了随机梯度下降变化, 它可以选择向服务器传输梯度的子集.
+\end{itemize}
+
+\subsubsection{本文贡献}
+
+提出一种使用低复杂度再生核希尔伯特空间(RKHS)表示的算法, 每个代理在本地学习一个低复杂度的模型, 只将关键样本发送给中央服务器.
+
+
+\subsection{学习低复杂度RKHS表示}
+分类问题
+$N$ feature-class 对
+$(\mathbf{x}_n,y_n) \in \mathcal{T}$.
+特征 $\mathbf{X}_n \in \mathcal{X} \subset \mathbf{R}^p$
+类 $y_n\in\{-1, +1\}$是二元的.
+目标 学习近似函数$f(x)$ 满足 $f(x_n)$ 与 $y_n$的误差在一定的范围内, 即损失函数 $\ell(f(x), y) = 1-\epsilon - y f(x)$, 函数类 $\mathcal{C}$ 和函数复杂度度量 $\rho(f)$  定义为如下优化问题
+
+\begin{prob}\label{eqn_og}
+    P=  &\min_{f\in \mathcal{C}}
+    && \rho(f) \\
+    &\st
+    &&  \frac{1}{N}\ell\Big(f(\mathbf{X}_n)), y_n\Big) \leq 0, \quad
+    (\mathbf{X}_n),y_n) \in \mathcal{T} .
+\end{prob}
+
+$k(\mathbf{x}, \mathbf{s}; w)$ 是核函数族, 其中 $\mathbf{x}\in\mathbb{R}^p$, $\mathbf{s}\in\mathbb{R}^p$ 是核中心,  $w\in\mathbb{R}$ 是核参数.且 $\mathcal{W}\subset\mathbb{R}$,   $\mathcal{S}\subseteq\mathbb{R}^p$. 类函数为
+\begin{equation}\label{eqn_integral_rep}
+    \mathcal{C}
+    = \left\{f \,:\,
+    f(\mathbf{x}) = \int_{\mathcal{S} \times \mathcal{W}}
+    \alpha(\mathbf{s,w})
+    k(\mathbf{x},\mathbf{w} \,;\, w) \, d\mathbf{s} dw
+    \right\},
+\end{equation}
+其中 $\alpha: \mathcal{S} \times \mathcal{W} \rightarrow \mathbb{R}$ 是$L_2(\mathcal{S}\times\mathcal{W})$的系数函数(待求).
+
+系数函数的稀疏度
+\begin{equation}\label{eqn_L0}
+    \Vert \alpha \Vert_{L_0} = \int_{\mathcal{s} \times \mathcal{W}}
+    \indicator \left[ \alpha(\mathbf{s}, w) \neq 0 \right] d\mathbf{s} dw.
+\end{equation}
+
+
+ElasticNet在用Lasso回归太过(太多特征被稀疏为0), 而岭回归也正则化的不够(回归系数衰减太慢)的时候, 可以考虑使用ElasticNet回归来结合两者, 得到比较好的结果.
+
+%
+\begin{align}\label{eqn_elastic_net}
+    \rho(f)
+     & = \frac{1}{2} \Vert \alpha \Vert_{L_2}  +
+    \gamma \Vert \alpha \Vert_{L_0}              \\ \nonumber
+     & = \int_{\mathcal{S} \times \mathcal{W}}
+    \frac{1}{2} \alpha^2(\mathbf{S}, w) +
+    \gamma \indicator \left[ \alpha(\mathbf{S}, w) \neq 0 \right] \,d\mathbf{S} dw.
+\end{align}
+原则上, 我们希望尽可能的大来支持稀疏性.然而在实践中,我们要减少价值受益于正则化的效果(见注3).
+
+再生核希尔伯特空间理论的低复杂度分类问题由类函数$C$和函数复杂度定义.
+\begin{prob}[PC]\label{eqn_the_central_problem}
+    P = &\min_{\alpha}
+    &\int_{ \mathcal{S} \times \mathcal{W}}
+    \frac{1}{2} \alpha^2(\mathbf{s}, w) +
+    \gamma \indicator\left[ \alpha(\mathbf{s}, w) \neq 0 \right] \,d\mathbf{s} dw \\
+    &\st &  \frac{1}{N}\ell\Big(f(\mathbf{x}_n), y_n\Big) \leq 0, \quad
+    (\mathbf{x}_n,y_n) \in \mathcal{T}  \\
+    &    &  f(\mathbf{x}) = \int_{\mathcal{S} \times \mathcal{W}}
+    \alpha(\mathbf{s},w)
+    k(\mathbf{x},\mathbf{s} \,;\, w) \, d\mathbf{s} dw, \\
+\end{prob}
+问题\eqref{eqn_the_central_problem}把\eqref{eqn_og}的函数f的搜索换为系数$\alpha$的搜索. 两者是\textbf{otherwise}等价的.
+
+\begin{theorem}\label{th:zero_duality}
+    如果满足以下条件, 则问题\eqref{eqn_the_central_problem}具有强对偶性:
+    (i)核$k(\cdot,\mathbf{s};w)$不具有点质量, 且
+    (ii)满足Slater条件.
+\end{theorem}
+
+
+\begin{remark}\normalfont
+    问题\eqref{eqn_the_central_problem}适合使用约束的分类函数, 而不是正则化最小化问题. 使用约束问题的好处有两点:它允许在对偶域解决问题, 对偶域的解决为我们的学习问题提供了关键样本的信息.
+\end{remark}
+
+\begin{remark}\normalfont
+    函数类$\mathcal{C}$与RKHS密切相关. 对于\eqref{eqn_integral_rep}中的固定核参数$w$， $f(\mathbf{x}) = \int_{\mathcal{S}} \alpha(\mathbf{s},w) k(\mathbf{x},\mathbf{s}; w) d\mathbf{s}$是内核$k$生成的RKHS的整数表示. \cite{peifer2018locally, peifer2019sparse, peifer2020sparse}。
+    与更传统的级数表示相比，这种积分表示实际上是一种简化。如果由级数表示，很难找到核的稀疏集。但\eqref{eqn_the_central_problem}中的问题在对偶域中是可以处理的。然后，我们还可以将核心参数$w$纳入搜索空间。这样不仅优化了内核的位置和宽度，甚至可以在RKHS的联合中表示，即表示混合了不同宽度的核\cite{peifer2020sparse}。
+
+
+\end{remark}
+
+\subsection{Federated Learning}
+\label{sec:prob_form}
+
+\subsection{Algorithm}
+\label{sec:Algorithm}
+
+\subsection{Convergence of federated problem}
+\label{sec:optimality}
